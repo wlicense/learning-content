@@ -1,0 +1,54 @@
+{
+  "book_name": "健康長寿ハック",
+  "theme": "骨密度を高める実践ガイド：骨粗鬆症予防と骨強化戦略",
+  "created_at": "2025-12-19",
+  "tags": {
+    "category": ["健康", "予防医学", "生活習慣"],
+    "target_audience": ["40代以上", "中高年", "女性"],
+    "difficulty": "中級",
+    "reading_time": "15分",
+    "keywords": ["骨粗鬆症", "骨密度", "カルシウム", "ビタミンD", "運動", "予防"]
+  },
+  "content_structure": {
+    "total_chapters": 6,
+    "total_words": 12698,
+    "diagrams_count": 6,
+    "manga_panels": 4
+  },
+  "learning_objectives": [
+    "骨粗鬆症の脅威と骨密度低下のメカニズムを理解する",
+    "骨密度の自己評価法とリスクチェック方法を習得する",
+    "骨を強くするカルシウム・ビタミンD戦略を実践できる",
+    "骨密度を高める最強の運動プログラムを開始できる",
+    "骨を守る生活習慣と避けるべき落とし穴を把握する",
+    "骨粗鬆症予防の総合チェックリストで自己管理できる"
+  ],
+  "key_takeaways": [
+    "日本では1,300万人が骨粗鬆症またはその予備軍。50歳以上女性の3人に1人が該当",
+    "カルシウム800〜1,000mg/日、ビタミンD 20〜25μg/日の摂取が必須",
+    "荷重運動（ウォーキング等）30分/日×週5日以上で骨密度向上",
+    "禁煙と適量飲酒（日本酒1合以下/日）は骨の健康に不可欠",
+    "50歳以上女性・65歳以上男性は骨密度検査を受けるべき"
+  ],
+  "related_topics": [
+    "メタボリックシンドローム対策",
+    "サルコペニア予防",
+    "転倒予防",
+    "更年期障害対策",
+    "ビタミン・ミネラル栄養学"
+  ],
+  "file_paths": {
+    "explanation": "explanation.md",
+    "manga": "manga_4koma.png",
+    "diagrams": [
+      "diagrams/subtitle_1_骨粗鬆症の脅威と骨密度低下のメカニズム.png",
+      "diagrams/subtitle_2_骨密度の自己評価法とリスクチェック.png",
+      "diagrams/subtitle_3_骨を強くするカルシウム・ビタミンD戦略.png",
+      "diagrams/subtitle_4_骨密度を高める最強の運動プログラム.png",
+      "diagrams/subtitle_5_骨を守る生活習慣と避けるべき落とし穴.png",
+      "diagrams/subtitle_6_骨粗鬆症予防の総合チェックリスト.png"
+    ],
+    "reading_page": "reading.html",
+    "gallery_page": "index.html"
+  }
+}

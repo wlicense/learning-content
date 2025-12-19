@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>画像ギャラリー - 骨密度を高める実践ガイド</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Hiragino Sans', 'Yu Gothic', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: white;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 32px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        .gallery-item {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+        .gallery-item:hover {
+            transform: translateY(-5px);
+        }
+        .gallery-item h2 {
+            font-size: 18px;
+            color: #667eea;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .nav-button {
+            display: inline-block;
+            padding: 15px 40px;
+            background: white;
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            margin: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: all 0.3s;
+        }
+        .nav-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+        .nav-buttons {
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📸 骨密度を高める実践ガイド - 画像ギャラリー</h1>
+        
+        <div class="gallery">
+            <div class="gallery-item">
+                <h2>📚 4コマ漫画</h2>
+                <img src="manga_4koma.png" alt="4コマ漫画" onclick="window.open(this.src)">
+            </div>
+            
+            <div class="gallery-item">
+                <h2>図1: 骨粗鬆症の脅威と骨密度低下のメカニズム</h2>
+                <img src="diagrams/subtitle_1_骨粗鬆症の脅威と骨密度低下のメカニズム.png" alt="図1" onclick="window.open(this.src)">
+            </div>
+            
+            <div class="gallery-item">
+                <h2>図2: 骨密度の自己評価法とリスクチェック</h2>
+                <img src="diagrams/subtitle_2_骨密度の自己評価法とリスクチェック.png" alt="図2" onclick="window.open(this.src)">
+            </div>
+            
+            <div class="gallery-item">
+                <h2>図3: 骨を強くするカルシウム・ビタミンD戦略</h2>
+                <img src="diagrams/subtitle_3_骨を強くするカルシウム・ビタミンD戦略.png" alt="図3" onclick="window.open(this.src)">
+            </div>
+            
+            <div class="gallery-item">
+                <h2>図4: 骨密度を高める最強の運動プログラム</h2>
+                <img src="diagrams/subtitle_4_骨密度を高める最強の運動プログラム.png" alt="図4" onclick="window.open(this.src)">
+            </div>
+            
+            <div class="gallery-item">
+                <h2>図5: 骨を守る生活習慣と避けるべき落とし穴</h2>
+                <img src="diagrams/subtitle_5_骨を守る生活習慣と避けるべき落とし穴.png" alt="図5" onclick="window.open(this.src)">
+            </div>
+            
+            <div class="gallery-item">
+                <h2>図6: 骨粗鬆症予防の総合チェックリスト</h2>
+                <img src="diagrams/subtitle_6_骨粗鬆症予防の総合チェックリスト.png" alt="図6" onclick="window.open(this.src)">
+            </div>
+        </div>
+        
+        <div class="nav-buttons">
+            <a href="reading.html" class="nav-button">📖 読書ページへ</a>
+            <a href="../../index.html" class="nav-button">🏠 トップページへ</a>
+        </div>
+    </div>
+</body>
+</html>
