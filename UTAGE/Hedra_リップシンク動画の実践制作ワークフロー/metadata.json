@@ -1,0 +1,144 @@
+{
+  "book_name": "UTAGE",
+  "theme": "Hedra_リップシンク動画の実践制作ワークフロー",
+  "created_at": "2025-12-19",
+  "content_type": "学習コンテンツ（解説文・図解・4コマ漫画）",
+  "tags": {
+    "tools": [
+      "Hedra",
+      "ChatGPT",
+      "VoicePeak",
+      "Flux",
+      "Adobe Audition",
+      "Canva",
+      "Adobe Premiere",
+      "Suno"
+    ],
+    "technologies": [
+      "リップシンク生成",
+      "AI動画生成",
+      "音声合成",
+      "ノイズ処理",
+      "画像生成AI",
+      "BGM生成",
+      "動画編集"
+    ],
+    "platforms": [
+      "YouTube Shorts",
+      "TikTok",
+      "SNS動画"
+    ],
+    "workflow_steps": [
+      "キャラクター画像生成",
+      "スクリプト作成",
+      "音声生成",
+      "リップシンク処理",
+      "動画結合"
+    ],
+    "use_cases": [
+      "アバター動画制作",
+      "教育コンテンツ",
+      "ショート動画",
+      "プレゼンテーション動画",
+      "自動化ワークフロー"
+    ],
+    "difficulty": "中級",
+    "target_audience": [
+      "動画クリエイター",
+      "コンテンツ制作者",
+      "YouTuber",
+      "マーケター"
+    ]
+  },
+  "search_index": {
+    "keywords": [
+      "リップシンク",
+      "Hedra",
+      "AI動画",
+      "アバター",
+      "音声合成",
+      "VoicePeak",
+      "ChatGPT",
+      "Flux",
+      "動画自動生成",
+      "ワークフロー",
+      "YouTube Shorts",
+      "TikTok",
+      "ノイズ除去",
+      "Adobe Audition",
+      "動画編集",
+      "BGM生成",
+      "Suno",
+      "効率化"
+    ],
+    "concepts": [
+      "5ステップワークフロー",
+      "Hedraの革新性",
+      "静止画から動画への変換",
+      "自動リップシンク",
+      "ノイズ処理の重要性",
+      "プロンプトエンジニアリング",
+      "音声品質最適化",
+      "動画結合テクニック",
+      "40種類の音声モデル",
+      "感情表現の調整"
+    ],
+    "benefits": [
+      "制作時間の大幅短縮",
+      "プロ品質の動画生成",
+      "低コストでの量産",
+      "クオリティの安定化",
+      "創作の自動化",
+      "複雑な編集作業の削減"
+    ]
+  },
+  "content_structure": {
+    "explanation_file": "explanation.md",
+    "explanation_length": "2548文字",
+    "chapters": 6,
+    "chapter_titles": [
+      "Hedraの概要と革新性",
+      "実践ワークフロー全体像",
+      "ChatGPTを使った効果的なスクリプト作成",
+      "VoicePeakでの音声生成とノイズ処理",
+      "Hedraでのリップシンク動画生成の実践",
+      "動画結合と最終仕上げのポイント"
+    ],
+    "diagrams": [
+      "diagrams/subtitle_1_Hedraの概要と革新性.png",
+      "diagrams/subtitle_2_実践ワークフロー全体像.png",
+      "diagrams/subtitle_3_ChatGPTを使った効果的なスクリプト作成.png",
+      "diagrams/subtitle_4_VoicePeakでの音声生成とノイズ処理.png",
+      "diagrams/subtitle_5_Hedraでのリップシンク動画生成の実践.png",
+      "diagrams/subtitle_6_動画結合と最終仕上げのポイント.png"
+    ],
+    "manga": "manga_4koma.png",
+    "manga_layout": "american_4panel"
+  },
+  "learning_objectives": [
+    "Hedraの基本機能と革新性を理解する",
+    "5ステップワークフローを習得する",
+    "ChatGPTで効果的なスクリプトを作成できる",
+    "VoicePeakで高品質な音声を生成できる",
+    "Adobe Auditionでノイズ処理ができる",
+    "Hedraでリップシンク動画を生成できる",
+    "動画編集ソフトで最終仕上げができる",
+    "YouTube Shortsに最適化した動画を制作できる"
+  ],
+  "prerequisites": [
+    "Hedraアカウント（無料プランで開始可能）",
+    "ChatGPT（GPT-4推奨）",
+    "VoicePeak（日本語音声合成ソフト）",
+    "Flux（画像生成AI）",
+    "Adobe Audition（または他の音声編集ソフト）",
+    "動画編集ソフト（Canva/Adobe Premiere等）"
+  ],
+  "estimated_completion_time": "2-3時間（ワークフロー習得まで）",
+  "related_topics": [
+    "AI動画生成",
+    "音声合成技術",
+    "動画編集ワークフロー",
+    "コンテンツマーケティング",
+    "YouTube Shorts戦略"
+  ]
+}

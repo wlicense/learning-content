@@ -1,0 +1,1125 @@
+{
+  "total_count": 6,
+  "last_updated": "2025-12-19",
+  "books": [
+    {
+      "book_name": "AI画像生成ツール解説",
+      "themes_count": 1,
+      "themes": [
+        {
+          "book_name": "AI画像生成ツール解説",
+          "theme": "Flux_次世代画像生成AIの実践活用",
+          "created_at": "2025-12-19",
+          "tags": {
+            "tools": [
+              "Flux",
+              "Flux Pro",
+              "Midjourney",
+              "Replicate.com",
+              "Fal.ai",
+              "Black Forest Labs",
+              "Stable Diffusion"
+            ],
+            "technologies": [
+              "AI画像生成",
+              "画像生成AI",
+              "商業利用AI",
+              "動画生成",
+              "写実的画像生成",
+              "プロンプト最適化"
+            ],
+            "use_cases": [
+              "商業コンテンツ制作",
+              "SNS投稿",
+              "マーケティング",
+              "デザイン制作",
+              "クリエイティブ制作",
+              "広告制作"
+            ],
+            "keywords": [
+              "写実的人物",
+              "正確な手の描写",
+              "商品テキスト描写",
+              "プラットフォーム選択",
+              "モデル選択",
+              "コスト最適化",
+              "ノーコード操作"
+            ],
+            "concepts": [
+              "用途別ツール選択",
+              "MidjourneyとFluxの補完関係",
+              "プラットフォームの使い分け",
+              "商業利用とSNS利用の違い",
+              "クオリティ重視vs手軽さ重視",
+              "従量課金制の活用"
+            ],
+            "business_impact": [
+              "商業レベルの画像生成",
+              "コスト削減（従量課金）",
+              "制作時間短縮",
+              "高品質コンテンツ制作",
+              "柔軟な運用"
+            ]
+          },
+          "url": "/AI画像生成ツール解説/Flux_次世代画像生成AIの実践活用/reading.html",
+          "thumbnail": "/AI画像生成ツール解説/Flux_次世代画像生成AIの実践活用/manga_4koma.png",
+          "metadata": {
+            "project_info": {
+              "project_name": "まん2000プロジェクト",
+              "book_name": "AI画像生成ツール解説",
+              "theme_name": "Flux_次世代画像生成AIの実践活用",
+              "creation_date": "2025-12-19",
+              "total_characters": 2047,
+              "subtitle_count": 6,
+              "diagram_count": 6,
+              "manga_count": 1
+            },
+            "tags": {
+              "tools": [
+                "Flux",
+                "Flux Pro",
+                "Midjourney",
+                "Replicate.com",
+                "Fal.ai",
+                "Black Forest Labs",
+                "Stable Diffusion"
+              ],
+              "technologies": [
+                "AI画像生成",
+                "画像生成AI",
+                "商業利用AI",
+                "動画生成",
+                "写実的画像生成",
+                "プロンプト最適化"
+              ],
+              "use_cases": [
+                "商業コンテンツ制作",
+                "SNS投稿",
+                "マーケティング",
+                "デザイン制作",
+                "クリエイティブ制作",
+                "広告制作"
+              ],
+              "keywords": [
+                "写実的人物",
+                "正確な手の描写",
+                "商品テキスト描写",
+                "プラットフォーム選択",
+                "モデル選択",
+                "コスト最適化",
+                "ノーコード操作"
+              ],
+              "concepts": [
+                "用途別ツール選択",
+                "MidjourneyとFluxの補完関係",
+                "プラットフォームの使い分け",
+                "商業利用とSNS利用の違い",
+                "クオリティ重視vs手軽さ重視",
+                "従量課金制の活用"
+              ],
+              "business_impact": [
+                "商業レベルの画像生成",
+                "コスト削減（従量課金）",
+                "制作時間短縮",
+                "高品質コンテンツ制作",
+                "柔軟な運用"
+              ]
+            },
+            "search_index": {
+              "primary_keywords": [
+                "Flux",
+                "画像生成AI",
+                "商業利用",
+                "Replicate",
+                "Fal.ai",
+                "Midjourney比較",
+                "プラットフォーム選択"
+              ],
+              "secondary_keywords": [
+                "Black Forest Labs",
+                "Flux Pro",
+                "写実的画像",
+                "動画生成",
+                "ノーコード",
+                "従量課金",
+                "SNS投稿",
+                "クリエイティブ制作"
+              ],
+              "related_themes": [
+                "Midjourney実践活用",
+                "AI画像生成ツール比較",
+                "商業利用AI選定",
+                "クリエイティブツール活用",
+                "コスト最適化戦略"
+              ]
+            },
+            "content_structure": {
+              "subtitles": [
+                {
+                  "order": 1,
+                  "title": "Fluxの誕生背景と開発哲学",
+                  "diagram_file": "subtitle_1_Fluxの誕生背景と開発哲学.png",
+                  "diagram_type": "flowchart",
+                  "key_concepts": [
+                    "Black Forest Labs設立",
+                    "元Stability AI開発者",
+                    "商業利用重視の開発方針"
+                  ]
+                },
+                {
+                  "order": 2,
+                  "title": "Midjourneyとの明確な使い分け",
+                  "diagram_file": "subtitle_2_Midjourneyとの明確な使い分け.png",
+                  "diagram_type": "comparison",
+                  "key_concepts": [
+                    "アート表現 vs 写実表現",
+                    "補完関係",
+                    "用途別選択"
+                  ]
+                },
+                {
+                  "order": 3,
+                  "title": "Fluxを使うための2つのプラットフォーム",
+                  "diagram_file": "subtitle_3_Fluxを使うための2つのプラットフォーム.png",
+                  "diagram_type": "comparison",
+                  "key_concepts": [
+                    "Replicate.com",
+                    "Fal.ai",
+                    "プラットフォーム選択基準"
+                  ]
+                },
+                {
+                  "order": 4,
+                  "title": "Replicate.com - 開発者向けプラットフォーム",
+                  "diagram_file": "subtitle_4_Replicate.com開発者向けプラットフォーム.png",
+                  "diagram_type": "concept_map",
+                  "key_concepts": [
+                    "数百万種類のモデル",
+                    "Flux Pro対応",
+                    "従量課金制",
+                    "商業利用"
+                  ]
+                },
+                {
+                  "order": 5,
+                  "title": "Fal.ai - 一般ユーザー向けプラットフォーム",
+                  "diagram_file": "subtitle_5_Fal.ai一般ユーザー向けプラットフォーム.png",
+                  "diagram_type": "concept_map",
+                  "key_concepts": [
+                    "ノーコード操作",
+                    "高速出力",
+                    "SNS向け",
+                    "低コスト"
+                  ]
+                },
+                {
+                  "order": 6,
+                  "title": "Flux Proモデル - 商業利用のベストチョイス",
+                  "diagram_file": "subtitle_6_Flux_Pro選択基準とまとめ.png",
+                  "diagram_type": "flowchart",
+                  "key_concepts": [
+                    "選択フローチャート",
+                    "商用 vs SNS",
+                    "最適化された運用"
+                  ]
+                }
+              ],
+              "manga": {
+                "file": "manga_4koma.png",
+                "layout": "american_4panel",
+                "story_structure": "起承転結",
+                "key_message": "用途に応じてFluxとMidjourney、Replicate.comとFal.aiを使い分けることで最高の結果を得られる"
+              }
+            },
+            "target_audience": "ビジネスパーソン、クリエイター、AI画像生成ツールの実務活用を検討している方",
+            "learning_objectives": [
+              "Fluxの特徴と開発背景を理解する",
+              "MidjourneyとFluxの使い分け基準を習得する",
+              "Replicate.comとFal.aiの違いを把握する",
+              "商業利用とSNS利用で最適なプラットフォームを選択できる",
+              "Flux Proモデルの活用方法を理解する"
+            ],
+            "practical_outcomes": [
+              "商業レベルの画像生成が可能になる",
+              "用途に応じた最適なツール選択ができる",
+              "コストを最適化した運用が実現できる",
+              "写実的で高品質な画像を生成できる",
+              "プロジェクトに応じた柔軟な対応が可能になる"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "book_name": "UTAGE",
+      "themes_count": 1,
+      "themes": [
+        {
+          "book_name": "UTAGE",
+          "theme": "Hedra_リップシンク動画の実践制作ワークフロー",
+          "created_at": "2025-12-19",
+          "tags": {
+            "tools": [
+              "Hedra",
+              "ChatGPT",
+              "VoicePeak",
+              "Flux",
+              "Adobe Audition",
+              "Canva",
+              "Adobe Premiere",
+              "Suno"
+            ],
+            "technologies": [
+              "リップシンク生成",
+              "AI動画生成",
+              "音声合成",
+              "ノイズ処理",
+              "画像生成AI",
+              "BGM生成",
+              "動画編集"
+            ],
+            "platforms": [
+              "YouTube Shorts",
+              "TikTok",
+              "SNS動画"
+            ],
+            "workflow_steps": [
+              "キャラクター画像生成",
+              "スクリプト作成",
+              "音声生成",
+              "リップシンク処理",
+              "動画結合"
+            ],
+            "use_cases": [
+              "アバター動画制作",
+              "教育コンテンツ",
+              "ショート動画",
+              "プレゼンテーション動画",
+              "自動化ワークフロー"
+            ],
+            "difficulty": "中級",
+            "target_audience": [
+              "動画クリエイター",
+              "コンテンツ制作者",
+              "YouTuber",
+              "マーケター"
+            ]
+          },
+          "url": "/UTAGE/Hedra_リップシンク動画の実践制作ワークフロー/reading.html",
+          "thumbnail": "/UTAGE/Hedra_リップシンク動画の実践制作ワークフロー/manga_4koma.png",
+          "metadata": {
+            "book_name": "UTAGE",
+            "theme": "Hedra_リップシンク動画の実践制作ワークフロー",
+            "created_at": "2025-12-19",
+            "content_type": "学習コンテンツ（解説文・図解・4コマ漫画）",
+            "tags": {
+              "tools": [
+                "Hedra",
+                "ChatGPT",
+                "VoicePeak",
+                "Flux",
+                "Adobe Audition",
+                "Canva",
+                "Adobe Premiere",
+                "Suno"
+              ],
+              "technologies": [
+                "リップシンク生成",
+                "AI動画生成",
+                "音声合成",
+                "ノイズ処理",
+                "画像生成AI",
+                "BGM生成",
+                "動画編集"
+              ],
+              "platforms": [
+                "YouTube Shorts",
+                "TikTok",
+                "SNS動画"
+              ],
+              "workflow_steps": [
+                "キャラクター画像生成",
+                "スクリプト作成",
+                "音声生成",
+                "リップシンク処理",
+                "動画結合"
+              ],
+              "use_cases": [
+                "アバター動画制作",
+                "教育コンテンツ",
+                "ショート動画",
+                "プレゼンテーション動画",
+                "自動化ワークフロー"
+              ],
+              "difficulty": "中級",
+              "target_audience": [
+                "動画クリエイター",
+                "コンテンツ制作者",
+                "YouTuber",
+                "マーケター"
+              ]
+            },
+            "search_index": {
+              "keywords": [
+                "リップシンク",
+                "Hedra",
+                "AI動画",
+                "アバター",
+                "音声合成",
+                "VoicePeak",
+                "ChatGPT",
+                "Flux",
+                "動画自動生成",
+                "ワークフロー",
+                "YouTube Shorts",
+                "TikTok",
+                "ノイズ除去",
+                "Adobe Audition",
+                "動画編集",
+                "BGM生成",
+                "Suno",
+                "効率化"
+              ],
+              "concepts": [
+                "5ステップワークフロー",
+                "Hedraの革新性",
+                "静止画から動画への変換",
+                "自動リップシンク",
+                "ノイズ処理の重要性",
+                "プロンプトエンジニアリング",
+                "音声品質最適化",
+                "動画結合テクニック",
+                "40種類の音声モデル",
+                "感情表現の調整"
+              ],
+              "benefits": [
+                "制作時間の大幅短縮",
+                "プロ品質の動画生成",
+                "低コストでの量産",
+                "クオリティの安定化",
+                "創作の自動化",
+                "複雑な編集作業の削減"
+              ]
+            },
+            "content_structure": {
+              "explanation_file": "explanation.md",
+              "explanation_length": "2548文字",
+              "chapters": 6,
+              "chapter_titles": [
+                "Hedraの概要と革新性",
+                "実践ワークフロー全体像",
+                "ChatGPTを使った効果的なスクリプト作成",
+                "VoicePeakでの音声生成とノイズ処理",
+                "Hedraでのリップシンク動画生成の実践",
+                "動画結合と最終仕上げのポイント"
+              ],
+              "diagrams": [
+                "diagrams/subtitle_1_Hedraの概要と革新性.png",
+                "diagrams/subtitle_2_実践ワークフロー全体像.png",
+                "diagrams/subtitle_3_ChatGPTを使った効果的なスクリプト作成.png",
+                "diagrams/subtitle_4_VoicePeakでの音声生成とノイズ処理.png",
+                "diagrams/subtitle_5_Hedraでのリップシンク動画生成の実践.png",
+                "diagrams/subtitle_6_動画結合と最終仕上げのポイント.png"
+              ],
+              "manga": "manga_4koma.png",
+              "manga_layout": "american_4panel"
+            },
+            "learning_objectives": [
+              "Hedraの基本機能と革新性を理解する",
+              "5ステップワークフローを習得する",
+              "ChatGPTで効果的なスクリプトを作成できる",
+              "VoicePeakで高品質な音声を生成できる",
+              "Adobe Auditionでノイズ処理ができる",
+              "Hedraでリップシンク動画を生成できる",
+              "動画編集ソフトで最終仕上げができる",
+              "YouTube Shortsに最適化した動画を制作できる"
+            ],
+            "prerequisites": [
+              "Hedraアカウント（無料プランで開始可能）",
+              "ChatGPT（GPT-4推奨）",
+              "VoicePeak（日本語音声合成ソフト）",
+              "Flux（画像生成AI）",
+              "Adobe Audition（または他の音声編集ソフト）",
+              "動画編集ソフト（Canva/Adobe Premiere等）"
+            ],
+            "estimated_completion_time": "2-3時間（ワークフロー習得まで）",
+            "related_topics": [
+              "AI動画生成",
+              "音声合成技術",
+              "動画編集ワークフロー",
+              "コンテンツマーケティング",
+              "YouTube Shorts戦略"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "book_name": "Voicepeak",
+      "themes_count": 1,
+      "themes": [
+        {
+          "book_name": "Voicepeak",
+          "theme": "VoicePeak商用利用完全ガイド",
+          "created_at": "2025-12-19",
+          "tags": {
+            "tools": [
+              "VoicePeak",
+              "Nanobanana PRO",
+              "Google Gemini 3 Pro Image",
+              "AI音声合成"
+            ],
+            "technologies": [
+              "音声合成",
+              "テキスト読み上げ",
+              "イントネーション調整",
+              "感情表現制御",
+              "日本語音声処理"
+            ],
+            "use_cases": [
+              "YouTube動画制作",
+              "企業研修動画",
+              "広告コンテンツ",
+              "eラーニング",
+              "製品プロモーション",
+              "ナレーション制作"
+            ],
+            "keywords": [
+              "商用利用",
+              "買い切り型ライセンス",
+              "日本語特化",
+              "感情パラメータ",
+              "セリフ分割保存",
+              "コスト削減",
+              "プロフェッショナル音声"
+            ],
+            "concepts": [
+              "買い切り型の経済性",
+              "日本語音声品質優位性",
+              "1文字単位の調整精度",
+              "海外ツールとの差別化",
+              "効率的なワークフロー"
+            ],
+            "business_impact": [
+              "継続コスト削減",
+              "制作時間短縮",
+              "品質向上",
+              "権利関係クリア",
+              "動画制作の民主化"
+            ]
+          },
+          "url": "/Voicepeak/VoicePeak商用利用完全ガイド/reading.html",
+          "thumbnail": "/Voicepeak/VoicePeak商用利用完全ガイド/manga_4koma.png",
+          "metadata": {
+            "project_info": {
+              "project_name": "まん2000プロジェクト",
+              "book_name": "Voicepeak",
+              "theme_name": "VoicePeak商用利用完全ガイド",
+              "creation_date": "2025-12-19",
+              "total_characters": 3500,
+              "subtitle_count": 4,
+              "diagram_count": 4,
+              "manga_count": 1,
+              "source_type": "transcript",
+              "source_file": "まさVoicepeak.txt"
+            },
+            "tags": {
+              "tools": [
+                "VoicePeak",
+                "Nanobanana PRO",
+                "Google Gemini 3 Pro Image",
+                "AI音声合成"
+              ],
+              "technologies": [
+                "音声合成",
+                "テキスト読み上げ",
+                "イントネーション調整",
+                "感情表現制御",
+                "日本語音声処理"
+              ],
+              "use_cases": [
+                "YouTube動画制作",
+                "企業研修動画",
+                "広告コンテンツ",
+                "eラーニング",
+                "製品プロモーション",
+                "ナレーション制作"
+              ],
+              "keywords": [
+                "商用利用",
+                "買い切り型ライセンス",
+                "日本語特化",
+                "感情パラメータ",
+                "セリフ分割保存",
+                "コスト削減",
+                "プロフェッショナル音声"
+              ],
+              "concepts": [
+                "買い切り型の経済性",
+                "日本語音声品質優位性",
+                "1文字単位の調整精度",
+                "海外ツールとの差別化",
+                "効率的なワークフロー"
+              ],
+              "business_impact": [
+                "継続コスト削減",
+                "制作時間短縮",
+                "品質向上",
+                "権利関係クリア",
+                "動画制作の民主化"
+              ]
+            },
+            "search_index": {
+              "primary_keywords": [
+                "VoicePeak",
+                "商用利用",
+                "日本語AI音声",
+                "動画ナレーション",
+                "買い切り型",
+                "イントネーション調整",
+                "YouTube制作"
+              ],
+              "secondary_keywords": [
+                "ElevenLabs比較",
+                "感情表現",
+                "研修動画",
+                "広告音声",
+                "eラーニング教材",
+                "セリフ分割",
+                "コスト効率"
+              ],
+              "related_themes": [
+                "AI音声ツール比較",
+                "動画制作効率化",
+                "YouTube運用最適化",
+                "企業研修デジタル化",
+                "マーケティング動画制作"
+              ]
+            },
+            "content_structure": {
+              "subtitles": [
+                {
+                  "order": 1,
+                  "title": "VoicePeakの基本特徴と商用利用の利点",
+                  "diagram_file": "subtitle_1_VoicePeakの基本特徴と商用利用の利点.png",
+                  "diagram_type": "comparison",
+                  "key_concepts": [
+                    "買い切り型ライセンス（29,000円）",
+                    "永続的商用利用可能",
+                    "月額課金との比較優位性",
+                    "幅広いビジネスシーン対応"
+                  ]
+                },
+                {
+                  "order": 2,
+                  "title": "日本語音声合成における圧倒的な品質優位性",
+                  "diagram_file": "subtitle_2_日本語音声合成における圧倒的な品質優位性.png",
+                  "diagram_type": "comparison",
+                  "key_concepts": [
+                    "海外ツールの日本語課題",
+                    "自然なイントネーション実現",
+                    "日本語特化の調整機能",
+                    "人間らしい音声品質"
+                  ]
+                },
+                {
+                  "order": 3,
+                  "title": "実践的な調整機能：完璧な音声を作り込む",
+                  "diagram_file": "subtitle_3_実践的な調整機能.png",
+                  "diagram_type": "concept_map",
+                  "key_concepts": [
+                    "感情パラメータ（喜怒哀楽）",
+                    "1文字単位のイントネーション編集",
+                    "音声パラメータ調整",
+                    "セリフごとの分割保存"
+                  ]
+                },
+                {
+                  "order": 4,
+                  "title": "実践活用シーン：ビジネスでの具体的な使い方",
+                  "diagram_file": "subtitle_4_実践活用シーン.png",
+                  "diagram_type": "matrix",
+                  "key_concepts": [
+                    "YouTube動画制作",
+                    "企業研修・教育コンテンツ",
+                    "広告動画活用",
+                    "効率的なワークフロー構築"
+                  ]
+                }
+              ],
+              "manga": {
+                "file": "manga_4koma.png",
+                "layout": "american_4panel",
+                "story_structure": "起承転結",
+                "key_message": "VoicePeakで日本語動画制作を加速させる",
+                "panels": [
+                  {
+                    "panel": 1,
+                    "type": "起",
+                    "description": "ナレーション音声の課題（コスト、品質）"
+                  },
+                  {
+                    "panel": 2,
+                    "type": "承",
+                    "description": "VoicePeak発見（買い切り、日本語特化）"
+                  },
+                  {
+                    "panel": 3,
+                    "type": "転",
+                    "description": "調整機能の実践（感情、イントネーション）"
+                  },
+                  {
+                    "panel": 4,
+                    "type": "結",
+                    "description": "成功と活用（YouTube、広告、研修）"
+                  }
+                ]
+              }
+            },
+            "target_audience": "動画クリエイター、マーケター、ビジネスパーソン、企業研修担当者",
+            "learning_objectives": [
+              "VoicePeakの商用利用可能な特徴を理解する",
+              "日本語音声合成における品質優位性を把握する",
+              "実践的な調整機能の使い方を学ぶ",
+              "ビジネスシーンでの活用方法を理解する",
+              "コスト効率の良い動画制作手法を習得する"
+            ],
+            "practical_outcomes": [
+              "買い切り型ライセンスによる長期的コスト削減",
+              "高品質な日本語ナレーション動画の制作",
+              "YouTube、広告、研修動画への即座の適用",
+              "制作時間の大幅短縮",
+              "権利関係をクリアにした商用コンテンツ制作"
+            ],
+            "copyright_compliance": {
+              "source_handling": "著作権法遵守",
+              "extraction_method": "アイデア・概念のみ抽出",
+              "originality": "完全に独自の言葉で再構成",
+              "legal_status": "オリジナル著作物として作成"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "book_name": "ヒグスNanobanana.txt",
+      "themes_count": 1,
+      "themes": [
+        {
+          "book_name": "ヒグスNanobanana.txt",
+          "theme": "AI画像合成によるECサイト向けビジュアル制作技術",
+          "created_at": "2025-12-19",
+          "tags": {
+            "tools": [
+              "Flux Pro",
+              "Flux Context",
+              "Nanobanana",
+              "Higgs Field Animate",
+              "Google Gemini 3 Pro Image",
+              "AI画像生成ツール"
+            ],
+            "technologies": [
+              "AI画像生成",
+              "画像合成",
+              "段階的合成",
+              "モデル一貫性維持",
+              "プロンプトエンジニアリング",
+              "動画化",
+              "アニメーション生成",
+              "コンテキスト保持技術"
+            ],
+            "use_cases": [
+              "ECサイト",
+              "アパレル事業",
+              "ファッションビジネス",
+              "ビジュアル制作",
+              "商品撮影代替",
+              "マーケティングコンテンツ",
+              "SNS広告",
+              "Instagram Reels"
+            ],
+            "keywords": [
+              "モデル写真生成",
+              "商品合成",
+              "白背景スタジオ",
+              "コスト削減",
+              "撮影費用削減",
+              "高解像度",
+              "透過背景",
+              "平置き撮影",
+              "バッチサイズ",
+              "クレジット管理"
+            ],
+            "concepts": [
+              "段階的合成の重要性",
+              "複数パターン事前生成",
+              "商品写真品質3条件",
+              "Multi-Defense精度課題",
+              "アジア人顔生成の課題",
+              "プロンプト最適化",
+              "ワークフロー4フェーズ"
+            ],
+            "business_impact": [
+              "50万円から6000円へコスト削減",
+              "撮影時間の大幅短縮",
+              "モデル不要",
+              "スタジオ不要",
+              "デジタルマーケティング競争優位性"
+            ]
+          },
+          "url": "/ヒグスNanobanana.txt/AI画像合成によるECサイト向けビジュアル制作技術/reading.html",
+          "thumbnail": "/ヒグスNanobanana.txt/AI画像合成によるECサイト向けビジュアル制作技術/manga_4koma.png",
+          "metadata": {
+            "project_info": {
+              "project_name": "まん2000プロジェクト",
+              "book_name": "ヒグスNanobanana.txt",
+              "theme_name": "AI画像合成によるECサイト向けビジュアル制作技術",
+              "creation_date": "2025-12-19",
+              "total_characters": 2800,
+              "subtitle_count": 6,
+              "diagram_count": 6,
+              "manga_count": 1
+            },
+            "tags": {
+              "tools": [
+                "Flux Pro",
+                "Flux Context",
+                "Nanobanana",
+                "Higgs Field Animate",
+                "Google Gemini 3 Pro Image",
+                "AI画像生成ツール"
+              ],
+              "technologies": [
+                "AI画像生成",
+                "画像合成",
+                "段階的合成",
+                "モデル一貫性維持",
+                "プロンプトエンジニアリング",
+                "動画化",
+                "アニメーション生成",
+                "コンテキスト保持技術"
+              ],
+              "use_cases": [
+                "ECサイト",
+                "アパレル事業",
+                "ファッションビジネス",
+                "ビジュアル制作",
+                "商品撮影代替",
+                "マーケティングコンテンツ",
+                "SNS広告",
+                "Instagram Reels"
+              ],
+              "keywords": [
+                "モデル写真生成",
+                "商品合成",
+                "白背景スタジオ",
+                "コスト削減",
+                "撮影費用削減",
+                "高解像度",
+                "透過背景",
+                "平置き撮影",
+                "バッチサイズ",
+                "クレジット管理"
+              ],
+              "concepts": [
+                "段階的合成の重要性",
+                "複数パターン事前生成",
+                "商品写真品質3条件",
+                "Multi-Defense精度課題",
+                "アジア人顔生成の課題",
+                "プロンプト最適化",
+                "ワークフロー4フェーズ"
+              ],
+              "business_impact": [
+                "50万円から6000円へコスト削減",
+                "撮影時間の大幅短縮",
+                "モデル不要",
+                "スタジオ不要",
+                "デジタルマーケティング競争優位性"
+              ]
+            },
+            "search_index": {
+              "primary_keywords": [
+                "AI画像合成",
+                "ECサイト",
+                "Nanobanana",
+                "Flux",
+                "画像生成",
+                "商品撮影",
+                "コスト削減"
+              ],
+              "secondary_keywords": [
+                "モデル写真",
+                "段階的合成",
+                "ビジュアル制作",
+                "アパレル",
+                "Instagram",
+                "動画化",
+                "プロンプト"
+              ],
+              "related_themes": [
+                "AIビジュアル制作",
+                "デジタルマーケティング",
+                "EC運営効率化",
+                "画像編集自動化",
+                "生成AI活用"
+              ]
+            },
+            "content_structure": {
+              "subtitles": [
+                {
+                  "order": 1,
+                  "title": "AI画像生成の基礎技術",
+                  "diagram_file": "subtitle_1_AI画像生成の基礎技術.png",
+                  "diagram_type": "flowchart",
+                  "key_concepts": [
+                    "Flux Pro",
+                    "Mid Journey",
+                    "プロンプトエンジニアリング",
+                    "著作権配慮"
+                  ]
+                },
+                {
+                  "order": 2,
+                  "title": "モデル一貫性の維持技術",
+                  "diagram_file": "subtitle_2_モデル一貫性の維持技術.png",
+                  "diagram_type": "flowchart",
+                  "key_concepts": [
+                    "Flux Context",
+                    "同一キャラクター生成",
+                    "複数角度",
+                    "コスト効率"
+                  ]
+                },
+                {
+                  "order": 3,
+                  "title": "Nanobanana高精度画像合成",
+                  "diagram_file": "subtitle_3_Nanobanana高精度画像合成.png",
+                  "diagram_type": "flowchart",
+                  "key_concepts": [
+                    "段階的合成",
+                    "商品写真品質",
+                    "高解像度",
+                    "透過背景",
+                    "平置き撮影"
+                  ]
+                },
+                {
+                  "order": 4,
+                  "title": "ECサイト向けビジュアル制作ワークフロー",
+                  "diagram_file": "subtitle_4_ECサイト向けビジュアル制作ワークフロー.png",
+                  "diagram_type": "timeline",
+                  "key_concepts": [
+                    "4フェーズワークフロー",
+                    "モデル生成",
+                    "商品合成",
+                    "動画化"
+                  ]
+                },
+                {
+                  "order": 5,
+                  "title": "動画化・アニメーション技術",
+                  "diagram_file": "subtitle_5_動画化アニメーション技術.png",
+                  "diagram_type": "comparison_matrix",
+                  "key_concepts": [
+                    "Higgs Field Animate",
+                    "スタイルプリセット",
+                    "Instagram Reels",
+                    "クレジット管理"
+                  ]
+                },
+                {
+                  "order": 6,
+                  "title": "実務での成功ポイント",
+                  "diagram_file": "subtitle_6_実務での成功ポイント.png",
+                  "diagram_type": "matrix",
+                  "key_concepts": [
+                    "ベストプラクティス",
+                    "失敗パターン",
+                    "品質管理"
+                  ]
+                }
+              ],
+              "manga": {
+                "file": "manga_4koma.png",
+                "layout": "american_4panel",
+                "story_structure": "起承転結",
+                "key_message": "従来50万円のモデル撮影を6000円で実現"
+              }
+            },
+            "target_audience": "ビジネスパーソン",
+            "learning_objectives": [
+              "AI画像生成ツールの選択と活用方法",
+              "モデル一貫性を保つ技術の習得",
+              "Nanobananaによる高精度画像合成のワークフロー",
+              "ECサイト向けビジュアル制作の4フェーズプロセス",
+              "動画化による付加価値創出",
+              "実務での失敗回避とコスト最適化"
+            ],
+            "practical_outcomes": [
+              "撮影コストを従来の1%に削減",
+              "モデル・スタジオ不要での商品ビジュアル制作",
+              "静止画から動画コンテンツへの展開",
+              "Instagram ReelsなどSNS広告への即活用"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "book_name": "健康長寿ハック",
+      "themes_count": 2,
+      "themes": [
+        {
+          "book_name": "健康長寿ハック",
+          "theme": "健康診断数値の読み解き実践ガイド",
+          "created_at": "2025-12-19",
+          "tags": {
+            "category": "予防医学",
+            "difficulty": "初級",
+            "target_audience": "ビジネスパーソン",
+            "learning_time": "15分",
+            "keywords": [
+              "健康診断",
+              "検査値",
+              "血糖値",
+              "HbA1c",
+              "コレステロール",
+              "LH比",
+              "基準値",
+              "予防医学"
+            ]
+          },
+          "url": "/健康長寿ハック/健康診断数値の読み解き実践ガイド/reading.html",
+          "thumbnail": "/健康長寿ハック/健康診断数値の読み解き実践ガイド/manga_4koma.png",
+          "metadata": {
+            "theme": "健康診断数値の読み解き実践ガイド",
+            "book_name": "健康長寿ハック",
+            "created_at": "2025-12-19",
+            "tags": {
+              "category": "予防医学",
+              "difficulty": "初級",
+              "target_audience": "ビジネスパーソン",
+              "learning_time": "15分",
+              "keywords": [
+                "健康診断",
+                "検査値",
+                "血糖値",
+                "HbA1c",
+                "コレステロール",
+                "LH比",
+                "基準値",
+                "予防医学"
+              ]
+            },
+            "learning_objectives": [
+              "健康診断の検査数値の意味を正しく理解する",
+              "血糖値とHbA1cの違いを説明できるようになる",
+              "LDL・HDLコレステロールとLH比を理解する",
+              "数値のトレンドから健康状態を把握する方法を学ぶ",
+              "異常値発見時の具体的なアクションプランを実践できる"
+            ],
+            "key_concepts": [
+              "基準値の意味と95%の範囲",
+              "数値を点ではなく線で捉える重要性",
+              "HbA1c: 過去1-2ヶ月の平均血糖値指標",
+              "LH比: LDL÷HDLで動脈硬化リスク評価",
+              "数値トレンドのグラフ化と継続的モニタリング"
+            ],
+            "diagrams": [
+              "subtitle_1_検査数値が示す健康のシグナル.png",
+              "subtitle_2_血糖値管理の新常識_HbA1cとは何か.png",
+              "subtitle_3_コレステロールの真実_善玉と悪玉のバランス.png",
+              "subtitle_4_数値を読み解く実践スキル.png",
+              "subtitle_5_異常値発見後のアクションプラン.png",
+              "subtitle_6_数値トレンドで見る健康の軌跡.png"
+            ],
+            "manga": "manga_4koma.png",
+            "word_count": 2547,
+            "chapters": 6,
+            "related_themes": [
+              "血圧管理",
+              "糖尿病予防",
+              "生活習慣病対策"
+            ]
+          }
+        },
+        {
+          "book_name": "健康長寿ハック",
+          "theme": "血圧130未満の真実と実践管理術",
+          "created_at": "2025-12-19",
+          "tags": {
+            "category": "予防医学",
+            "difficulty": "初級",
+            "target_audience": "ビジネスパーソン",
+            "learning_time": "15分",
+            "keywords": [
+              "血圧",
+              "高血圧",
+              "130未満",
+              "家庭血圧",
+              "DASH食",
+              "減塩",
+              "運動習慣",
+              "生活習慣病"
+            ]
+          },
+          "url": "/健康長寿ハック/血圧130未満の真実と実践管理術/reading.html",
+          "thumbnail": "/健康長寿ハック/血圧130未満の真実と実践管理術/manga_4koma.png",
+          "metadata": {
+            "theme": "血圧130未満の真実と実践管理術",
+            "book_name": "健康長寿ハック",
+            "created_at": "2025-12-19",
+            "tags": {
+              "category": "予防医学",
+              "difficulty": "初級",
+              "target_audience": "ビジネスパーソン",
+              "learning_time": "15分",
+              "keywords": [
+                "血圧",
+                "高血圧",
+                "130未満",
+                "家庭血圧",
+                "DASH食",
+                "減塩",
+                "運動習慣",
+                "生活習慣病"
+              ]
+            },
+            "learning_objectives": [
+              "2025年ガイドラインの新基準（130/80未満）を理解する",
+              "家庭血圧測定の正しい方法を習得する",
+              "DASH食と減塩の実践方法を学ぶ",
+              "血圧を下げる運動習慣を身につける",
+              "血圧管理を継続するための戦略を実践できる"
+            ],
+            "key_concepts": [
+              "全年齢で130/80未満が目標（家庭血圧125/75未満）",
+              "白衣高血圧と家庭血圧測定の重要性",
+              "DASH食+減塩（6g/日未満）の組み合わせ",
+              "有酸素運動で収縮期血圧5～8mmHg低下",
+              "記録とグラフ化による継続戦略"
+            ],
+            "diagrams": [
+              "subtitle_1_なぜ130未満なのか.png",
+              "subtitle_2_家庭血圧測定こそが最強の予防ツール.png",
+              "subtitle_3_DASH食+減塩.png",
+              "subtitle_4_運動習慣が血圧に与える驚きの効果.png",
+              "subtitle_5_見逃されがちな生活習慣の改善ポイント.png",
+              "subtitle_6_血圧130未満を維持するための継続戦略.png"
+            ],
+            "manga": "manga_4koma.png",
+            "word_count": 2489,
+            "chapters": 6,
+            "related_themes": [
+              "糖尿病予防",
+              "動脈硬化予防",
+              "脳卒中予防",
+              "心筋梗塞予防"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

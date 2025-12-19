@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>健康診断数値の読み解き実践ガイド | 健康長寿ハック</title>
+    <link rel="stylesheet" href="../../assets/css/global.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: var(--space-8) var(--space-4);
+        }
+
+        .reading-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--white);
+            border-radius: var(--border-radius-xl);
+            box-shadow: var(--shadow-xl);
+            overflow: hidden;
+        }
+
+        .header {
+            background: var(--gradient-primary);
+            color: var(--white);
+            padding: var(--space-12) var(--space-8);
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: var(--font-size-3xl);
+            margin-bottom: var(--space-4);
+            line-height: var(--line-height-tight);
+        }
+
+        .header .book-name {
+            font-size: var(--font-size-lg);
+            opacity: 0.9;
+            margin-bottom: var(--space-2);
+        }
+
+        .tags {
+            display: flex;
+            gap: var(--space-2);
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: var(--space-4);
+        }
+
+        .tag {
+            background: rgba(255, 255, 255, 0.2);
+            padding: var(--space-1) var(--space-3);
+            border-radius: var(--border-radius-full);
+            font-size: var(--font-size-sm);
+        }
+
+        .manga-section {
+            padding: var(--space-8);
+            background: var(--gray-50);
+            text-align: center;
+        }
+
+        .manga-section h2 {
+            font-size: var(--font-size-2xl);
+            color: var(--primary-color);
+            margin-bottom: var(--space-6);
+        }
+
+        .manga-image {
+            max-width: 100%;
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow-lg);
+            margin-bottom: var(--space-4);
+        }
+
+        .content {
+            padding: var(--space-8);
+        }
+
+        .content h2 {
+            font-size: var(--font-size-xl);
+            color: var(--primary-color);
+            margin-top: var(--space-8);
+            margin-bottom: var(--space-4);
+            padding-bottom: var(--space-2);
+            border-bottom: 3px solid var(--primary-color);
+        }
+
+        .content p {
+            line-height: var(--line-height-relaxed);
+            margin-bottom: var(--space-4);
+            color: var(--gray-800);
+        }
+
+        .diagram {
+            margin: var(--space-6) 0;
+            text-align: center;
+        }
+
+        .diagram img {
+            max-width: 100%;
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow-md);
+        }
+
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+            padding: var(--space-4) var(--space-8);
+            background: var(--gradient-primary);
+            color: var(--white);
+            text-decoration: none;
+            border-radius: var(--border-radius-full);
+            font-size: var(--font-size-lg);
+            font-weight: 600;
+            margin: var(--space-8) auto;
+            display: flex;
+            max-width: 300px;
+            justify-content: center;
+            transition: all var(--transition-base);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .back-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.5);
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: var(--font-size-2xl);
+            }
+
+            .content {
+                padding: var(--space-4);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="reading-container">
+        <div class="header">
+            <div class="book-name">📚 健康長寿ハック</div>
+            <h1>健康診断数値の読み解き実践ガイド</h1>
+            <div class="tags">
+                <span class="tag">🎯 初級</span>
+                <span class="tag">👨‍💼 ビジネスパーソン向け</span>
+                <span class="tag">⏱️ 15分</span>
+                <span class="tag">📊 予防医学</span>
+            </div>
+        </div>
+
+        <div class="manga-section">
+            <h2>📖 4コマ漫画で理解する</h2>
+            <img src="manga_4koma.png" alt="健康診断数値4コマ漫画" class="manga-image">
+        </div>
+
+        <div class="content">
+            <h2>第1章: 検査数値が示す健康のシグナル</h2>
+            <p>あなたは毎年受け取る健康診断の結果用紙を、どれくらい真剣に読んでいますか？多くの人は「A判定」「B判定」といった総合評価だけを見て、個々の数値の意味を深く理解していません。しかし、それらの数値一つひとつが、あなたの体が発している重要なメッセージなのです。</p>
+
+            <p>健康診断の検査数値には「基準値」というものが設定されています。これは健康な人の95%が該当する範囲として統計的に算出された数値です。つまり、基準値を外れているからといって必ずしも病気というわけではありませんが、何らかの異常が起きている可能性を示唆しています。</p>
+
+            <p>重要なのは、数値を「点」ではなく「線」で捉えることです。今年の数値だけを見るのではなく、去年、一昨年と比較して、どのように変化しているのか。その変化の傾向こそが、あなたの健康状態の真の姿を映し出します。数値が悪化しているなら生活習慣の見直しが必要ですし、改善しているならあなたの努力が実を結んでいる証拠です。</p>
+
+            <div class="diagram">
+                <img src="diagrams/subtitle_1_検査数値が示す健康のシグナル.png" alt="検査数値が示す健康のシグナル">
+            </div>
+
+            <h2>第2章: 血糖値管理の新常識 - HbA1cとは何か</h2>
+            <p>血糖値は糖尿病リスクを評価する最も基本的な指標です。空腹時血糖値が100mg/dL未満であれば正常範囲ですが、100～125mg/dLの「境界域」に入ると将来的に糖尿病を発症するリスクが高まります。126mg/dL以上になると糖尿病型と診断されます。</p>
+
+            <p>しかし、空腹時血糖値には欠点があります。それは、測定時の一時的な状態しか反映しないということ。前日の食事内容や測定前の絶食時間によって数値が変動してしまうのです。</p>
+
+            <p>そこで注目すべきなのがHbA1c（ヘモグロビンエーワンシー）です。これは血液中のヘモグロビンに糖が結合した割合を示す指標で、過去1～2ヶ月間の平均的な血糖状態を反映します。朝食を抜いても、前日に甘いものを控えても、HbA1cの数値は変わりません。つまり、より正確にあなたの血糖コントロール状態を評価できるのです。</p>
+
+            <p>HbA1cの基準値は5.6%未満。6.0～6.4%は境界型で糖尿病予備軍、6.5%以上になると糖尿病が強く疑われます。すでに糖尿病と診断されている人は、合併症予防のために7.0%未満を目標にしましょう。この数値一つで、あなたの糖代謝の状態が一目瞭然になるのです。</p>
+
+            <div class="diagram">
+                <img src="diagrams/subtitle_2_血糖値管理の新常識_HbA1cとは何か.png" alt="血糖値管理の新常識">
+            </div>
+
+            <h2>第3章: コレステロールの真実 - 善玉と悪玉のバランス</h2>
+            <p>コレステロールと聞くと「体に悪いもの」というイメージを持つかもしれません。しかし、コレステロールは細胞膜の材料やホルモンの原料として、私たちの体に不可欠な物質です。問題なのは、そのバランスなのです。</p>
+
+            <p>LDLコレステロールは「悪玉」と呼ばれます。肝臓で作られたコレステロールを全身に運ぶ役割がありますが、増えすぎると血管壁に蓄積して動脈硬化を引き起こします。140mg/dL以上になると脂質異常症と診断され、心筋梗塞や脳梗塞のリスクが高まります。</p>
+
+            <p>一方、HDLコレステロールは「善玉」です。血管壁に溜まった余分なコレステロールを回収して肝臓に運ぶ、いわば血管の掃除屋さん。40mg/dL以上を維持することが重要です。HDLが高いほど、血管は健康に保たれます。</p>
+
+            <p>最近注目されているのが「LH比」という新しい指標です。これはLDL値をHDL値で割った数値で、コレステロールバランスの良し悪しを一発で判断できます。LH比が2.0を超えると血管内にコレステロールが蓄積して動脈硬化が進行している可能性があり、2.5以上では血栓形成リスクが高まります。逆に1.5以下なら血管は健康な状態。LDLとHDL、両方の数値を見ることで、より正確なリスク評価ができるのです。</p>
+
+            <div class="diagram">
+                <img src="diagrams/subtitle_3_コレステロールの真実_善玉と悪玉のバランス.png" alt="コレステロールの真実">
+            </div>
+
+            <h2>第4章: 数値を読み解く実践スキル</h2>
+            <p>健康診断の結果用紙には、様々な項目が並んでいます。すべてを完璧に理解する必要はありませんが、最低限押さえるべきポイントがあります。</p>
+
+            <p>まず「基準値範囲」を確認しましょう。多くの検査項目には正常範囲が記載されています。自分の数値がその範囲内か、外れているかをチェック。範囲外の項目があれば、それが「要注意」マークです。</p>
+
+            <p>次に「前年度との比較」。数値が改善しているか悪化しているか、トレンドを把握します。たとえ基準値内でも、年々上昇傾向なら要警戒。逆に基準値を少し超えていても、改善傾向なら努力の成果が出ている証拠です。</p>
+
+            <p>そして「複数項目の組み合わせ」。血糖値、血圧、コレステロール、中性脂肪のうち、複数が基準値を超えていたらメタボリックシンドロームの可能性が高まります。一つひとつは軽度の異常でも、組み合わさることで心血管疾患のリスクが飛躍的に高まるのです。</p>
+
+            <p>医師の所見欄も見逃せません。「経過観察」「要精密検査」「要治療」など、専門家の判断が記載されています。特に「要精密検査」以上の判定が出たら、必ず医療機関を受診しましょう。</p>
+
+            <div class="diagram">
+                <img src="diagrams/subtitle_4_数値を読み解く実践スキル.png" alt="数値を読み解く実践スキル">
+            </div>
+
+            <h2>第5章: 異常値発見後のアクションプラン</h2>
+            <p>異常値が見つかったとき、多くの人は「まあ、来年の検診まで様子を見よう」と先延ばしにしてしまいます。しかし、それは最も危険な選択です。</p>
+
+            <p>軽度の異常なら、生活習慣の改善で正常化できる可能性が高いのです。血糖値が高めなら、食事の順番を変えてみましょう。野菜→タンパク質→炭水化物の順に食べることで、血糖値の急上昇を防げます。また、食後の軽い運動も効果的。15分程度の散歩で血糖値の上昇が抑えられます。</p>
+
+            <p>LDLコレステロールが高いなら、週3回の有酸素運動を習慣化しましょう。ウォーキング、ジョギング、水泳など、20～30分の運動でHDLが増加し、LH比が改善します。食事では、トランス脂肪酸を含むマーガリンやショートニングを避け、オメガ3脂肪酸が豊富な青魚やナッツ類を積極的に摂りましょう。</p>
+
+            <p>血圧が高めなら、減塩が第一。1日の塩分摂取量を6g未満に抑えることで、多くの人が正常値に戻ります。カリウムを多く含む野菜や果物も血圧降下に役立ちます。</p>
+
+            <p>重要なのは、「すぐに始めること」そして「継続すること」。3ヶ月続ければ、数値に明確な変化が現れます。</p>
+
+            <div class="diagram">
+                <img src="diagrams/subtitle_5_異常値発見後のアクションプラン.png" alt="異常値発見後のアクションプラン">
+            </div>
+
+            <h2>第6章: 数値トレンドで見る健康の軌跡</h2>
+            <p>健康診断は年に1回のスナップショットではありません。毎年の結果を保存し、数値の変化を追跡することで、あなたの健康の「物語」が見えてきます。</p>
+
+            <p>たとえば、5年前から徐々にHbA1cが上昇しているなら、糖代謝機能が低下している兆候です。まだ正常範囲内でも、このトレンドが続けば数年後には糖尿病に至る可能性があります。今のうちに生活習慣を見直せば、病気への進行を食い止められるのです。</p>
+
+            <p>逆に、3年前は肥満気味でLDLコレステロールも高かったのに、運動習慣を始めてから年々改善しているなら、それはあなたの努力の証。数値の改善は、目に見えない健康への投資が確実に実を結んでいることを示しています。</p>
+
+            <p>健康診断の結果をExcelやスプレッドシートに入力し、グラフ化してみましょう。数値の推移が視覚化されることで、モチベーションが高まります。改善傾向が続いているグラフを見れば、「この調子で頑張ろう」と思えますし、悪化傾向が見えれば「このままではまずい」と危機感を持てます。</p>
+
+            <p>数値は単なる数字ではありません。あなたの生活習慣が体に与えている影響を、客観的に示すバロメーターなのです。数値を正しく読み解き、適切な行動につなげることで、健康寿命を延ばし、質の高い人生を送ることができるのです。</p>
+
+            <div class="diagram">
+                <img src="diagrams/subtitle_6_数値トレンドで見る健康の軌跡.png" alt="数値トレンドで見る健康の軌跡">
+            </div>
+        </div>
+
+        <div class="manga-section">
+            <a href="../../index.html" class="back-button">
+                ← トップページに戻る
+            </a>
+        </div>
+    </div>
+</body>
+</html>

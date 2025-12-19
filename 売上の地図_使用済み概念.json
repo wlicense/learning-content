@@ -1,0 +1,426 @@
+{
+  "pdf_name": "売上の地図 _ 3万人を指導したマーケティングの人気講師が教える｢売上｣を左右する20のヒント",
+  "last_updated": "2025-12-18",
+  "total_concepts": 52,
+  "used_concepts": [
+    {
+      "concept": "メンタルアベイラビリティ",
+      "category": "認知・想起",
+      "used_in_theme": "売上を左右する商品力と売り場戦略",
+      "source_chapters": "第1章・第2章",
+      "generation": 1
+    },
+    {
+      "concept": "フィジカルアベイラビリティ",
+      "category": "流通・配荷",
+      "used_in_theme": "売上を左右する商品力と売り場戦略",
+      "source_chapters": "第1章・第2章",
+      "generation": 1
+    },
+    {
+      "concept": "4象限マトリクス（コンセプトカ×パフォーマンスカ）",
+      "category": "商品戦略",
+      "used_in_theme": "売上を左右する商品力と売り場戦略",
+      "source_chapters": "第1章",
+      "generation": 1
+    },
+    {
+      "concept": "プリマーケティング vs ポストマーケティング",
+      "category": "時間軸戦略",
+      "used_in_theme": "売上を左右する商品力と売り場戦略",
+      "source_chapters": "第1章",
+      "generation": 1
+    },
+    {
+      "concept": "超高度成熟化市場",
+      "category": "市場環境",
+      "used_in_theme": "売上を左右する商品力と売り場戦略",
+      "source_chapters": "第1章",
+      "generation": 1
+    },
+    {
+      "concept": "コモディティ化と価格競争",
+      "category": "競争環境",
+      "used_in_theme": "売上を左右する商品力と売り場戦略",
+      "source_chapters": "第1章",
+      "generation": 1
+    },
+    {
+      "concept": "正解のコモディティ化",
+      "category": "戦略立案",
+      "used_in_theme": "売上を左右する商品力と売り場戦略",
+      "source_chapters": "第1章",
+      "generation": 1
+    },
+    {
+      "concept": "配荷・ストアカバレッジ",
+      "category": "流通戦略",
+      "used_in_theme": "売上を左右する商品力と売り場戦略",
+      "source_chapters": "第2章",
+      "generation": 1
+    },
+    {
+      "concept": "シェルフシェア（棚占有率）",
+      "category": "売り場戦略",
+      "used_in_theme": "売上を左右する商品力と売り場戦略",
+      "source_chapters": "第2章",
+      "generation": 1
+    },
+    {
+      "concept": "SKU戦略",
+      "category": "商品展開",
+      "used_in_theme": "売上を左右する商品力と売り場戦略",
+      "source_chapters": "第2章",
+      "generation": 1
+    },
+    {
+      "concept": "インストアマーチャンダイジング（ISM）",
+      "category": "店頭戦略",
+      "used_in_theme": "売上を左右する商品力と売り場戦略",
+      "source_chapters": "第2章",
+      "generation": 1
+    },
+    {
+      "concept": "第一想起ポジション",
+      "category": "ブランド想起",
+      "used_in_theme": "ブランド想起と感情的アプローチの法則",
+      "source_chapters": "第3章・第4章",
+      "generation": 2
+    },
+    {
+      "concept": "ブランドエクイティ（5つの要素）",
+      "category": "ブランド資産",
+      "used_in_theme": "ブランド想起と感情的アプローチの法則",
+      "source_chapters": "第3章・第4章",
+      "generation": 2
+    },
+    {
+      "concept": "支配想起率",
+      "category": "ブランド独占度",
+      "used_in_theme": "ブランド想起と感情的アプローチの法則",
+      "source_chapters": "第3章・第4章",
+      "generation": 2
+    },
+    {
+      "concept": "想起集合（Evoked Set）",
+      "category": "購買候補",
+      "used_in_theme": "ブランド想起と感情的アプローチの法則",
+      "source_chapters": "第3章・第4章",
+      "generation": 2
+    },
+    {
+      "concept": "利用可能性ヒューリスティック",
+      "category": "消費者心理",
+      "used_in_theme": "ブランド想起と感情的アプローチの法則",
+      "source_chapters": "第3章・第4章",
+      "generation": 2
+    },
+    {
+      "concept": "ZMOT（Zero Moment of Truth）",
+      "category": "購買決定タイミング",
+      "used_in_theme": "ブランド想起と感情的アプローチの法則",
+      "source_chapters": "第3章・第4章",
+      "generation": 2
+    },
+    {
+      "concept": "FMOT（First Moment of Truth）",
+      "category": "購買決定タイミング",
+      "used_in_theme": "ブランド想起と感情的アプローチの法則",
+      "source_chapters": "第3章・第4章",
+      "generation": 2
+    },
+    {
+      "concept": "SMOT（Second Moment of Truth）",
+      "category": "購買決定タイミング",
+      "used_in_theme": "ブランド想起と感情的アプローチの法則",
+      "source_chapters": "第3章・第4章",
+      "generation": 2
+    },
+    {
+      "concept": "認知的態度 vs 感情的態度",
+      "category": "消費者態度",
+      "used_in_theme": "ブランド想起と感情的アプローチの法則",
+      "source_chapters": "第3章・第4章",
+      "generation": 2
+    },
+    {
+      "concept": "感情が基礎理論",
+      "category": "購買動機",
+      "used_in_theme": "ブランド想起と感情的アプローチの法則",
+      "source_chapters": "第3章・第4章",
+      "generation": 2
+    },
+    {
+      "concept": "自分ゴト化の壁",
+      "category": "マーケティング障壁",
+      "used_in_theme": "ブランド想起と感情的アプローチの法則",
+      "source_chapters": "第3章・第4章",
+      "generation": 2
+    },
+    {
+      "concept": "クチコミの影響力方程式",
+      "category": "影響力構造",
+      "used_in_theme": "売上を伸ばすマーケティングの法則",
+      "source_chapters": "第5章・第6章",
+      "generation": 3
+    },
+    {
+      "concept": "クチコミの4段階分類",
+      "category": "クチコミタイプ",
+      "used_in_theme": "売上を伸ばすマーケティングの法則",
+      "source_chapters": "第5章・第6章",
+      "generation": 3
+    },
+    {
+      "concept": "ソーシャルグラフ vs インタレストグラフ",
+      "category": "ネットワーク構造",
+      "used_in_theme": "売上を伸ばすマーケティングの法則",
+      "source_chapters": "第5章・第6章",
+      "generation": 3
+    },
+    {
+      "concept": "レビューとバズの本質的違い",
+      "category": "拡散メカニズム",
+      "used_in_theme": "売上を伸ばすマーケティングの法則",
+      "source_chapters": "第5章・第6章",
+      "generation": 3
+    },
+    {
+      "concept": "レビュー経済圏の相互補完モデル",
+      "category": "プラットフォーム構造",
+      "used_in_theme": "売上を伸ばすマーケティングの法則",
+      "source_chapters": "第5章・第6章",
+      "generation": 3
+    },
+    {
+      "concept": "WHO力（発信者パワー）",
+      "category": "影響力源泉",
+      "used_in_theme": "売上を伸ばすマーケティングの法則",
+      "source_chapters": "第5章・第6章",
+      "generation": 3
+    },
+    {
+      "concept": "「タグる」から「タブる」への進化",
+      "category": "検索行動変化",
+      "used_in_theme": "売上を伸ばすマーケティングの法則",
+      "source_chapters": "第5章・第6章",
+      "generation": 3
+    },
+    {
+      "concept": "ソーシャル広告の市場規模",
+      "category": "広告トレンド",
+      "used_in_theme": "売上を伸ばすマーケティングの法則",
+      "source_chapters": "第5章・第6章",
+      "generation": 3
+    },
+    {
+      "concept": "ソーシャル化の本質",
+      "category": "価値変容",
+      "used_in_theme": "売上を伸ばすマーケティングの法則",
+      "source_chapters": "第5章・第6章",
+      "generation": 3
+    },
+    {
+      "concept": "UGC（ユーザー生成コンテンツ）の戦略的活用",
+      "category": "コンテンツ戦略",
+      "used_in_theme": "売上を伸ばすマーケティングの法則",
+      "source_chapters": "第5章・第6章",
+      "generation": 3
+    },
+    {
+      "concept": "エンゲージメントが売上につながるメカニズム",
+      "category": "因果構造",
+      "used_in_theme": "ソーシャルメディア時代のマーケティング戦略",
+      "source_chapters": "第7章",
+      "generation": 4
+    },
+    {
+      "concept": "JAL Instagram戦略（売り込まない戦略）",
+      "category": "SNS戦略",
+      "used_in_theme": "ソーシャルメディア時代のマーケティング戦略",
+      "source_chapters": "第7章",
+      "generation": 4
+    },
+    {
+      "concept": "オウンドメディアの集客力低下",
+      "category": "環境変化",
+      "used_in_theme": "ソーシャルメディア時代のマーケティング戦略",
+      "source_chapters": "第7章",
+      "generation": 4
+    },
+    {
+      "concept": "分散型メディアの台頭",
+      "category": "メディア環境",
+      "used_in_theme": "ソーシャルメディア時代のマーケティング戦略",
+      "source_chapters": "第7章",
+      "generation": 4
+    },
+    {
+      "concept": "オウンドメディアのフルファネル対応",
+      "category": "戦略フレームワーク",
+      "used_in_theme": "ソーシャルメディア時代のマーケティング戦略",
+      "source_chapters": "第7章",
+      "generation": 4
+    },
+    {
+      "concept": "オウンドメディアのソーシャル化",
+      "category": "戦略転換",
+      "used_in_theme": "ソーシャルメディア時代のマーケティング戦略",
+      "source_chapters": "第7章",
+      "generation": 4
+    },
+    {
+      "concept": "ソニー損保の透明性戦略（不満の声公開）",
+      "category": "信頼構築",
+      "used_in_theme": "ソーシャルメディア時代のマーケティング戦略",
+      "source_chapters": "第7章",
+      "generation": 4
+    },
+    {
+      "concept": "消費者のマルチプラットフォーム検索行動",
+      "category": "消費者行動",
+      "used_in_theme": "ソーシャルメディア時代のマーケティング戦略",
+      "source_chapters": "第7章",
+      "generation": 4
+    },
+    {
+      "concept": "マーケティングのソーシャル化（不可逆的潮流）",
+      "category": "パラダイムシフト",
+      "used_in_theme": "ソーシャルメディア時代のマーケティング戦略",
+      "source_chapters": "第7章",
+      "generation": 4
+    },
+    {
+      "concept": "情報収集コストの増大",
+      "category": "消費者負担",
+      "used_in_theme": "ソーシャルメディア時代のマーケティング戦略",
+      "source_chapters": "第7章",
+      "generation": 4
+    },
+    {
+      "concept": "プラットフォーム別影響領域（認知〜推奨）",
+      "category": "メディア特性",
+      "used_in_theme": "インフルエンサーマーケティングの効果的活用",
+      "source_chapters": "第8章",
+      "generation": 5
+    },
+    {
+      "concept": "商品カテゴリーとメディアの相性",
+      "category": "メディア選択",
+      "used_in_theme": "インフルエンサーマーケティングの効果的活用",
+      "source_chapters": "第8章",
+      "generation": 5
+    },
+    {
+      "concept": "インフルエンサーの3タイプ分類（トップ・カテゴリー・ブランド）",
+      "category": "インフルエンサー類型",
+      "used_in_theme": "インフルエンサーマーケティングの効果的活用",
+      "source_chapters": "第8章",
+      "generation": 5
+    },
+    {
+      "concept": "コンテクスト（文脈）重視のキャスティング",
+      "category": "戦略立案",
+      "used_in_theme": "インフルエンサーマーケティングの効果的活用",
+      "source_chapters": "第8章",
+      "generation": 5
+    },
+    {
+      "concept": "インフルエンサーの信頼性の源泉（Earned + Shared Media）",
+      "category": "影響力構造",
+      "used_in_theme": "インフルエンサーマーケティングの効果的活用",
+      "source_chapters": "第8章",
+      "generation": 5
+    },
+    {
+      "concept": "メディア影響力の構造変化（Paid優位 → Earned/Shared優位）",
+      "category": "環境変化",
+      "used_in_theme": "インフルエンサーマーケティングの効果的活用",
+      "source_chapters": "第8章",
+      "generation": 5
+    },
+    {
+      "concept": "信頼資本の換金とそのリスク",
+      "category": "倫理・リスク管理",
+      "used_in_theme": "インフルエンサーマーケティングの効果的活用",
+      "source_chapters": "第8章",
+      "generation": 5
+    },
+    {
+      "concept": "#PRタグの認知度問題と消費者の誤認",
+      "category": "透明性・開示",
+      "used_in_theme": "インフルエンサーマーケティングの効果的活用",
+      "source_chapters": "第8章",
+      "generation": 5
+    },
+    {
+      "concept": "WHO力（誰が言うか）とWHAT力（何を言うか）のバランス",
+      "category": "影響力構造",
+      "used_in_theme": "インフルエンサーマーケティングの効果的活用",
+      "source_chapters": "第8章",
+      "generation": 5
+    },
+    {
+      "concept": "インフルエンサーリレーションズ（対等なパートナーシップ）",
+      "category": "関係構築戦略",
+      "used_in_theme": "インフルエンサーマーケティングの効果的活用",
+      "source_chapters": "第8章",
+      "generation": 5
+    }
+  ],
+  "next_recommendation": {
+    "chapters": "第9章「売上とロイヤルカスタマー」、第10章以降",
+    "themes": [
+      "ロイヤルカスタマーと熱狂的ファンの育成",
+      "顧客生涯価値（LTV）の最大化戦略"
+    ]
+  },
+  "generation_history": [
+    {
+      "generation": 1,
+      "date": "2025-12-17",
+      "theme": "売上を左右する商品力と売り場戦略",
+      "chapters": "第1章・第2章",
+      "concepts_count": 11
+    },
+    {
+      "generation": 2,
+      "date": "2025-12-17",
+      "theme": "ブランド想起と感情的アプローチの法則",
+      "chapters": "第3章・第4章",
+      "concepts_count": 11
+    },
+    {
+      "generation": 3,
+      "date": "2025-12-18",
+      "theme": "売上を伸ばすマーケティングの法則",
+      "chapters": "第5章・第6章",
+      "concepts_count": 10
+    },
+    {
+      "generation": 4,
+      "date": "2025-12-18",
+      "theme": "ソーシャルメディア時代のマーケティング戦略",
+      "chapters": "第7章",
+      "concepts_count": 10
+    },
+    {
+      "generation": 5,
+      "date": "2025-12-18",
+      "theme": "インフルエンサーマーケティングの効果的活用",
+      "chapters": "第8章",
+      "concepts_count": 10
+    }
+  ],
+  "notes": [
+    "✅ 第1章～第8章の主要概念をカバー済み",
+    "⚠️ 次回は第9章以降を対象とし、上記概念は使用しない",
+    "📌 概念抽出はアイデアレベルであり、元の表現には依拠していない",
+    "📌 生成物は完全に独自の表現で構成されている",
+    "📊 合計52個の概念を使用（重複なし）",
+    "🎯 Generation 3（2025-12-18）: クチコミと広告の戦略的活用をテーマに10概念を追加",
+    "🎯 Generation 4（2025-12-18）: ソーシャルメディア時代のマーケティング戦略をテーマに10概念を追加",
+    "🎯 Generation 5（2025-12-18）: インフルエンサーマーケティングの効果的活用をテーマに10概念を追加",
+    "📝 Generation 4以降: 解説文を1500-2000文字に増量、サブタイトル図解を5-6枚に拡充"
+  ]
+}

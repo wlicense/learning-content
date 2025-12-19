@@ -1,0 +1,164 @@
+{
+  "project_info": {
+    "project_name": "まん2000プロジェクト",
+    "book_name": "ヒグスNanobanana.txt",
+    "theme_name": "AI画像合成によるECサイト向けビジュアル制作技術",
+    "creation_date": "2025-12-19",
+    "total_characters": 2800,
+    "subtitle_count": 6,
+    "diagram_count": 6,
+    "manga_count": 1
+  },
+  "tags": {
+    "tools": [
+      "Flux Pro",
+      "Flux Context",
+      "Nanobanana",
+      "Higgs Field Animate",
+      "Google Gemini 3 Pro Image",
+      "AI画像生成ツール"
+    ],
+    "technologies": [
+      "AI画像生成",
+      "画像合成",
+      "段階的合成",
+      "モデル一貫性維持",
+      "プロンプトエンジニアリング",
+      "動画化",
+      "アニメーション生成",
+      "コンテキスト保持技術"
+    ],
+    "use_cases": [
+      "ECサイト",
+      "アパレル事業",
+      "ファッションビジネス",
+      "ビジュアル制作",
+      "商品撮影代替",
+      "マーケティングコンテンツ",
+      "SNS広告",
+      "Instagram Reels"
+    ],
+    "keywords": [
+      "モデル写真生成",
+      "商品合成",
+      "白背景スタジオ",
+      "コスト削減",
+      "撮影費用削減",
+      "高解像度",
+      "透過背景",
+      "平置き撮影",
+      "バッチサイズ",
+      "クレジット管理"
+    ],
+    "concepts": [
+      "段階的合成の重要性",
+      "複数パターン事前生成",
+      "商品写真品質3条件",
+      "Multi-Defense精度課題",
+      "アジア人顔生成の課題",
+      "プロンプト最適化",
+      "ワークフロー4フェーズ"
+    ],
+    "business_impact": [
+      "50万円から6000円へコスト削減",
+      "撮影時間の大幅短縮",
+      "モデル不要",
+      "スタジオ不要",
+      "デジタルマーケティング競争優位性"
+    ]
+  },
+  "search_index": {
+    "primary_keywords": [
+      "AI画像合成",
+      "ECサイト",
+      "Nanobanana",
+      "Flux",
+      "画像生成",
+      "商品撮影",
+      "コスト削減"
+    ],
+    "secondary_keywords": [
+      "モデル写真",
+      "段階的合成",
+      "ビジュアル制作",
+      "アパレル",
+      "Instagram",
+      "動画化",
+      "プロンプト"
+    ],
+    "related_themes": [
+      "AIビジュアル制作",
+      "デジタルマーケティング",
+      "EC運営効率化",
+      "画像編集自動化",
+      "生成AI活用"
+    ]
+  },
+  "content_structure": {
+    "subtitles": [
+      {
+        "order": 1,
+        "title": "AI画像生成の基礎技術",
+        "diagram_file": "subtitle_1_AI画像生成の基礎技術.png",
+        "diagram_type": "flowchart",
+        "key_concepts": ["Flux Pro", "Mid Journey", "プロンプトエンジニアリング", "著作権配慮"]
+      },
+      {
+        "order": 2,
+        "title": "モデル一貫性の維持技術",
+        "diagram_file": "subtitle_2_モデル一貫性の維持技術.png",
+        "diagram_type": "flowchart",
+        "key_concepts": ["Flux Context", "同一キャラクター生成", "複数角度", "コスト効率"]
+      },
+      {
+        "order": 3,
+        "title": "Nanobanana高精度画像合成",
+        "diagram_file": "subtitle_3_Nanobanana高精度画像合成.png",
+        "diagram_type": "flowchart",
+        "key_concepts": ["段階的合成", "商品写真品質", "高解像度", "透過背景", "平置き撮影"]
+      },
+      {
+        "order": 4,
+        "title": "ECサイト向けビジュアル制作ワークフロー",
+        "diagram_file": "subtitle_4_ECサイト向けビジュアル制作ワークフロー.png",
+        "diagram_type": "timeline",
+        "key_concepts": ["4フェーズワークフロー", "モデル生成", "商品合成", "動画化"]
+      },
+      {
+        "order": 5,
+        "title": "動画化・アニメーション技術",
+        "diagram_file": "subtitle_5_動画化アニメーション技術.png",
+        "diagram_type": "comparison_matrix",
+        "key_concepts": ["Higgs Field Animate", "スタイルプリセット", "Instagram Reels", "クレジット管理"]
+      },
+      {
+        "order": 6,
+        "title": "実務での成功ポイント",
+        "diagram_file": "subtitle_6_実務での成功ポイント.png",
+        "diagram_type": "matrix",
+        "key_concepts": ["ベストプラクティス", "失敗パターン", "品質管理"]
+      }
+    ],
+    "manga": {
+      "file": "manga_4koma.png",
+      "layout": "american_4panel",
+      "story_structure": "起承転結",
+      "key_message": "従来50万円のモデル撮影を6000円で実現"
+    }
+  },
+  "target_audience": "ビジネスパーソン",
+  "learning_objectives": [
+    "AI画像生成ツールの選択と活用方法",
+    "モデル一貫性を保つ技術の習得",
+    "Nanobananaによる高精度画像合成のワークフロー",
+    "ECサイト向けビジュアル制作の4フェーズプロセス",
+    "動画化による付加価値創出",
+    "実務での失敗回避とコスト最適化"
+  ],
+  "practical_outcomes": [
+    "撮影コストを従来の1%に削減",
+    "モデル・スタジオ不要での商品ビジュアル制作",
+    "静止画から動画コンテンツへの展開",
+    "Instagram ReelsなどSNS広告への即活用"
+  ]
+}

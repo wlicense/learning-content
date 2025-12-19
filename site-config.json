@@ -1,0 +1,43 @@
+{
+  "site_info": {
+    "site_name": "Learning Content Library",
+    "site_description": "AI生成による学習コンテンツライブラリ",
+    "base_url": "https://yoursite.com",
+    "author": "Hajime",
+    "version": "1.0.0",
+    "last_updated": "2025-12-19"
+  },
+  "design_system": {
+    "primary_color": "#667eea",
+    "secondary_color": "#764ba2",
+    "accent_color": "#ff6b6b",
+    "background_gradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+    "font_family": "'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', sans-serif",
+    "border_radius": "15px",
+    "shadow": "0 10px 30px rgba(0,0,0,0.15)"
+  },
+  "repository": {
+    "git_enabled": true,
+    "auto_deploy": true,
+    "remote_url": "https://github.com/wlicense/learning-content.git",
+    "branch": "main",
+    "commit_message_template": "Add new content: {book_name} - {theme}"
+  },
+  "content_structure": {
+    "root_dir": "/Users/hajime/Desktop/learning-content",
+    "books": []
+  },
+  "generation_settings": {
+    "image_tool": "Nanobanana PRO",
+    "diagram_layout": "single_panel",
+    "manga_layout": "american_4panel",
+    "style": "shounen",
+    "explanation_min_chars": 2000
+  },
+  "search_config": {
+    "enable_search": true,
+    "enable_tag_filter": true,
+    "enable_book_filter": true,
+    "items_per_page": 20
+  }
+}

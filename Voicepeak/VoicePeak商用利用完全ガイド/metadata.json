@@ -1,0 +1,188 @@
+{
+  "project_info": {
+    "project_name": "まん2000プロジェクト",
+    "book_name": "Voicepeak",
+    "theme_name": "VoicePeak商用利用完全ガイド",
+    "creation_date": "2025-12-19",
+    "total_characters": 3500,
+    "subtitle_count": 4,
+    "diagram_count": 4,
+    "manga_count": 1,
+    "source_type": "transcript",
+    "source_file": "まさVoicepeak.txt"
+  },
+  "tags": {
+    "tools": [
+      "VoicePeak",
+      "Nanobanana PRO",
+      "Google Gemini 3 Pro Image",
+      "AI音声合成"
+    ],
+    "technologies": [
+      "音声合成",
+      "テキスト読み上げ",
+      "イントネーション調整",
+      "感情表現制御",
+      "日本語音声処理"
+    ],
+    "use_cases": [
+      "YouTube動画制作",
+      "企業研修動画",
+      "広告コンテンツ",
+      "eラーニング",
+      "製品プロモーション",
+      "ナレーション制作"
+    ],
+    "keywords": [
+      "商用利用",
+      "買い切り型ライセンス",
+      "日本語特化",
+      "感情パラメータ",
+      "セリフ分割保存",
+      "コスト削減",
+      "プロフェッショナル音声"
+    ],
+    "concepts": [
+      "買い切り型の経済性",
+      "日本語音声品質優位性",
+      "1文字単位の調整精度",
+      "海外ツールとの差別化",
+      "効率的なワークフロー"
+    ],
+    "business_impact": [
+      "継続コスト削減",
+      "制作時間短縮",
+      "品質向上",
+      "権利関係クリア",
+      "動画制作の民主化"
+    ]
+  },
+  "search_index": {
+    "primary_keywords": [
+      "VoicePeak",
+      "商用利用",
+      "日本語AI音声",
+      "動画ナレーション",
+      "買い切り型",
+      "イントネーション調整",
+      "YouTube制作"
+    ],
+    "secondary_keywords": [
+      "ElevenLabs比較",
+      "感情表現",
+      "研修動画",
+      "広告音声",
+      "eラーニング教材",
+      "セリフ分割",
+      "コスト効率"
+    ],
+    "related_themes": [
+      "AI音声ツール比較",
+      "動画制作効率化",
+      "YouTube運用最適化",
+      "企業研修デジタル化",
+      "マーケティング動画制作"
+    ]
+  },
+  "content_structure": {
+    "subtitles": [
+      {
+        "order": 1,
+        "title": "VoicePeakの基本特徴と商用利用の利点",
+        "diagram_file": "subtitle_1_VoicePeakの基本特徴と商用利用の利点.png",
+        "diagram_type": "comparison",
+        "key_concepts": [
+          "買い切り型ライセンス（29,000円）",
+          "永続的商用利用可能",
+          "月額課金との比較優位性",
+          "幅広いビジネスシーン対応"
+        ]
+      },
+      {
+        "order": 2,
+        "title": "日本語音声合成における圧倒的な品質優位性",
+        "diagram_file": "subtitle_2_日本語音声合成における圧倒的な品質優位性.png",
+        "diagram_type": "comparison",
+        "key_concepts": [
+          "海外ツールの日本語課題",
+          "自然なイントネーション実現",
+          "日本語特化の調整機能",
+          "人間らしい音声品質"
+        ]
+      },
+      {
+        "order": 3,
+        "title": "実践的な調整機能：完璧な音声を作り込む",
+        "diagram_file": "subtitle_3_実践的な調整機能.png",
+        "diagram_type": "concept_map",
+        "key_concepts": [
+          "感情パラメータ（喜怒哀楽）",
+          "1文字単位のイントネーション編集",
+          "音声パラメータ調整",
+          "セリフごとの分割保存"
+        ]
+      },
+      {
+        "order": 4,
+        "title": "実践活用シーン：ビジネスでの具体的な使い方",
+        "diagram_file": "subtitle_4_実践活用シーン.png",
+        "diagram_type": "matrix",
+        "key_concepts": [
+          "YouTube動画制作",
+          "企業研修・教育コンテンツ",
+          "広告動画活用",
+          "効率的なワークフロー構築"
+        ]
+      }
+    ],
+    "manga": {
+      "file": "manga_4koma.png",
+      "layout": "american_4panel",
+      "story_structure": "起承転結",
+      "key_message": "VoicePeakで日本語動画制作を加速させる",
+      "panels": [
+        {
+          "panel": 1,
+          "type": "起",
+          "description": "ナレーション音声の課題（コスト、品質）"
+        },
+        {
+          "panel": 2,
+          "type": "承",
+          "description": "VoicePeak発見（買い切り、日本語特化）"
+        },
+        {
+          "panel": 3,
+          "type": "転",
+          "description": "調整機能の実践（感情、イントネーション）"
+        },
+        {
+          "panel": 4,
+          "type": "結",
+          "description": "成功と活用（YouTube、広告、研修）"
+        }
+      ]
+    }
+  },
+  "target_audience": "動画クリエイター、マーケター、ビジネスパーソン、企業研修担当者",
+  "learning_objectives": [
+    "VoicePeakの商用利用可能な特徴を理解する",
+    "日本語音声合成における品質優位性を把握する",
+    "実践的な調整機能の使い方を学ぶ",
+    "ビジネスシーンでの活用方法を理解する",
+    "コスト効率の良い動画制作手法を習得する"
+  ],
+  "practical_outcomes": [
+    "買い切り型ライセンスによる長期的コスト削減",
+    "高品質な日本語ナレーション動画の制作",
+    "YouTube、広告、研修動画への即座の適用",
+    "制作時間の大幅短縮",
+    "権利関係をクリアにした商用コンテンツ制作"
+  ],
+  "copyright_compliance": {
+    "source_handling": "著作権法遵守",
+    "extraction_method": "アイデア・概念のみ抽出",
+    "originality": "完全に独自の言葉で再構成",
+    "legal_status": "オリジナル著作物として作成"
+  }
+}

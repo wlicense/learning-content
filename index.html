@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Content Library - AI生成学習コンテンツライブラリ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #667eea;
+            --secondary-color: #764ba2;
+            --accent-color: #ff6b6b;
+            --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --shadow: 0 10px 30px rgba(0,0,0,0.15);
+            --font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', sans-serif;
+        }
+
+        body {
+            font-family: var(--font-family);
+            background: var(--bg-gradient);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        /* ヘッダー */
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 50px;
+            animation: fadeInDown 0.8s ease;
+        }
+
+        .logo {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            text-shadow: 0 2px 20px rgba(0,0,0,0.3);
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.95;
+            margin-bottom: 10px;
+        }
+
+        .stats {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .stat-item {
+            background: rgba(255,255,255,0.2);
+            padding: 10px 25px;
+            border-radius: 50px;
+            backdrop-filter: blur(10px);
+            font-size: 0.95rem;
+        }
+
+        .stat-number {
+            font-weight: 700;
+            font-size: 1.3rem;
+            margin-right: 5px;
+        }
+
+        /* 検索・フィルターエリア */
+        .controls {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: var(--shadow);
+            margin-bottom: 40px;
+            animation: fadeIn 1s ease;
+        }
+
+        .search-box {
+            position: relative;
+            margin-bottom: 25px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 18px 60px 18px 25px;
+            font-size: 1.1rem;
+            border: 2px solid #e9ecef;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            font-family: var(--font-family);
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .search-icon {
+            position: absolute;
+            right: 25px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.5rem;
+            color: var(--primary-color);
+        }
+
+        .filters {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .filter-label {
+            font-weight: 600;
+            color: #495057;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .filter-select {
+            padding: 10px 20px;
+            border: 2px solid #e9ecef;
+            border-radius: 50px;
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: white;
+            font-family: var(--font-family);
+        }
+
+        .filter-select:hover {
+            border-color: var(--primary-color);
+        }
+
+        .clear-filters {
+            padding: 10px 25px;
+            background: var(--accent-color);
+            color: white;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-left: auto;
+        }
+
+        .clear-filters:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+        }
+
+        /* コンテンツグリッド */
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+
+        .content-card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            animation: fadeInUp 0.6s ease;
+        }
+
+        .content-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+        }
+
+        .card-thumbnail {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            background: var(--bg-gradient);
+        }
+
+        .card-body {
+            padding: 25px;
+        }
+
+        .card-book {
+            display: inline-block;
+            background: var(--bg-gradient);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+
+        .card-title {
+            font-size: 1.3rem;
+            color: #212529;
+            margin-bottom: 12px;
+            font-weight: 700;
+            line-height: 1.4;
+        }
+
+        .card-meta {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 15px;
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+
+        .card-meta-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .card-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .card-tag {
+            background: #f8f9fa;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.85rem;
+            color: #495057;
+        }
+
+        /* ページネーション */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 50px 0;
+        }
+
+        .page-btn {
+            padding: 12px 20px;
+            background: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            color: var(--primary-color);
+        }
+
+        .page-btn:hover {
+            background: var(--primary-color);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .page-btn.active {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        .page-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* 空の状態 */
+        .empty-state {
+            text-align: center;
+            padding: 80px 20px;
+            color: white;
+        }
+
+        .empty-state-icon {
+            font-size: 5rem;
+            margin-bottom: 20px;
+        }
+
+        .empty-state-title {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .empty-state-text {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* フッター */
+        .footer {
+            text-align: center;
+            color: white;
+            padding: 40px 20px;
+            opacity: 0.9;
+        }
+
+        /* アニメーション */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* レスポンシブ */
+        @media (max-width: 768px) {
+            .logo {
+                font-size: 2rem;
+            }
+
+            .stats {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .controls {
+                padding: 20px;
+            }
+
+            .filters {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .filter-select, .clear-filters {
+                width: 100%;
+            }
+
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .clear-filters {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- ヘッダー -->
+        <div class="header">
+            <div class="logo">📚 Learning Content Library</div>
+            <p class="tagline">AI生成による学習コンテンツライブラリ</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-number" id="totalCount">0</span>
+                    <span>テーマ</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="totalBooks">0</span>
+                    <span>書籍</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="lastUpdated">--</span>
+                    <span>最終更新</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 検索・フィルターエリア -->
+        <div class="controls">
+            <div class="search-box">
+                <input
+                    type="text"
+                    id="searchInput"
+                    class="search-input"
+                    placeholder="キーワード、タグ、書籍名で検索..."
+                >
+                <span class="search-icon">🔍</span>
+            </div>
+            <div class="filters">
+                <span class="filter-label">📖 書籍</span>
+                <select id="bookFilter" class="filter-select">
+                    <option value="">すべて</option>
+                </select>
+
+                <span class="filter-label">🏷️ タグ</span>
+                <select id="tagFilter" class="filter-select">
+                    <option value="">すべて</option>
+                </select>
+
+                <span class="filter-label">📊 難易度</span>
+                <select id="difficultyFilter" class="filter-select">
+                    <option value="">すべて</option>
+                    <option value="初級">初級</option>
+                    <option value="中級">中級</option>
+                    <option value="上級">上級</option>
+                </select>
+
+                <span class="filter-label">🗓️ 並び順</span>
+                <select id="sortFilter" class="filter-select">
+                    <option value="newest">新しい順</option>
+                    <option value="oldest">古い順</option>
+                    <option value="title">タイトル順</option>
+                </select>
+
+                <button class="clear-filters" id="clearFilters">🔄 クリア</button>
+            </div>
+        </div>
+
+        <!-- コンテンツグリッド -->
+        <div class="content-grid" id="contentGrid">
+            <!-- カードがJavaScriptで動的に追加されます -->
+        </div>
+
+        <!-- 空の状態 -->
+        <div class="empty-state" id="emptyState" style="display: none;">
+            <div class="empty-state-icon">🔍</div>
+            <h2 class="empty-state-title">コンテンツが見つかりませんでした</h2>
+            <p class="empty-state-text">検索条件を変更してお試しください</p>
+        </div>
+
+        <!-- ページネーション -->
+        <div class="pagination" id="pagination"></div>
+
+        <!-- フッター -->
+        <div class="footer">
+            <p>Powered by Nanobanana PRO | まん2000プロジェクト</p>
+            <p style="margin-top: 10px; font-size: 0.9rem;">
+                最終更新: <span id="footerLastUpdated">--</span>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // データ読み込み
+        let allContent = { total_count: 0, books: [], last_updated: '--' };
+        let filteredContent = [];
+        let currentPage = 1;
+        const itemsPerPage = 20;
+
+        // 初期化
+        async function init() {
+            try {
+                const response = await fetch('data/all-content.json');
+                if (response.ok) {
+                    allContent = await response.json();
+                    updateStats();
+                    populateFilters();
+                    filterContent();
+                } else {
+                    showEmptyState();
+                }
+            } catch (error) {
+                console.log('データファイルが見つかりません。コンテンツを生成してください。');
+                showEmptyState();
+            }
+        }
+
+        // 統計情報更新
+        function updateStats() {
+            document.getElementById('totalCount').textContent = allContent.total_count || 0;
+            document.getElementById('totalBooks').textContent = allContent.books?.length || 0;
+            document.getElementById('lastUpdated').textContent = allContent.last_updated || '--';
+            document.getElementById('footerLastUpdated').textContent = allContent.last_updated || '--';
+        }
+
+        // フィルター選択肢を生成
+        function populateFilters() {
+            const bookFilter = document.getElementById('bookFilter');
+            const tagFilter = document.getElementById('tagFilter');
+
+            // 書籍フィルター
+            const books = [...new Set(allContent.books?.map(b => b.book_name) || [])];
+            books.forEach(book => {
+                const option = document.createElement('option');
+                option.value = book;
+                option.textContent = book;
+                bookFilter.appendChild(option);
+            });
+
+            // タグフィルター（全テーマから収集）
+            const allTags = new Set();
+            allContent.books?.forEach(book => {
+                book.themes?.forEach(theme => {
+                    Object.values(theme.tags || {}).forEach(tagArray => {
+                        if (Array.isArray(tagArray)) {
+                            tagArray.forEach(tag => allTags.add(tag));
+                        }
+                    });
+                });
+            });
+
+            [...allTags].sort().forEach(tag => {
+                const option = document.createElement('option');
+                option.value = tag;
+                option.textContent = tag;
+                tagFilter.appendChild(option);
+            });
+        }
+
+        // コンテンツをフィルタリング
+        function filterContent() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const bookFilter = document.getElementById('bookFilter').value;
+            const tagFilter = document.getElementById('tagFilter').value;
+            const difficultyFilter = document.getElementById('difficultyFilter').value;
+            const sortFilter = document.getElementById('sortFilter').value;
+
+            filteredContent = [];
+
+            allContent.books?.forEach(book => {
+                book.themes?.forEach(theme => {
+                    // フィルタリング条件
+                    if (bookFilter && book.book_name !== bookFilter) return;
+                    if (difficultyFilter && theme.tags?.difficulty !== difficultyFilter) return;
+
+                    // タグフィルター
+                    if (tagFilter) {
+                        let hasTag = false;
+                        Object.values(theme.tags || {}).forEach(tagArray => {
+                            if (Array.isArray(tagArray) && tagArray.includes(tagFilter)) {
+                                hasTag = true;
+                            }
+                        });
+                        if (!hasTag) return;
+                    }
+
+                    // 検索フィルター
+                    if (searchTerm) {
+                        const searchableText = [
+                            theme.theme,
+                            book.book_name,
+                            JSON.stringify(theme.tags || {})
+                        ].join(' ').toLowerCase();
+                        if (!searchableText.includes(searchTerm)) return;
+                    }
+
+                    filteredContent.push({
+                        ...theme,
+                        book_name: book.book_name
+                    });
+                });
+            });
+
+            // ソート
+            if (sortFilter === 'newest') {
+                filteredContent.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+            } else if (sortFilter === 'oldest') {
+                filteredContent.sort((a, b) => new Date(a.created_at) - new Date(b.created_at));
+            } else if (sortFilter === 'title') {
+                filteredContent.sort((a, b) => a.theme.localeCompare(b.theme));
+            }
+
+            currentPage = 1;
+            renderContent();
+        }
+
+        // コンテンツを表示
+        function renderContent() {
+            const grid = document.getElementById('contentGrid');
+            const emptyState = document.getElementById('emptyState');
+
+            if (filteredContent.length === 0) {
+                grid.innerHTML = '';
+                emptyState.style.display = 'block';
+                document.getElementById('pagination').innerHTML = '';
+                return;
+            }
+
+            emptyState.style.display = 'none';
+
+            const startIndex = (currentPage - 1) * itemsPerPage;
+            const endIndex = startIndex + itemsPerPage;
+            const pageContent = filteredContent.slice(startIndex, endIndex);
+
+            grid.innerHTML = pageContent.map((item, index) => {
+                const tags = [];
+                if (item.tags?.tools) tags.push(...item.tags.tools.slice(0, 3));
+                if (item.tags?.technologies) tags.push(...item.tags.technologies.slice(0, 2));
+
+                return `
+                    <div class="content-card" onclick="window.location.href='${item.url}'" style="animation-delay: ${index * 0.05}s">
+                        <img src="${item.thumbnail}" alt="${item.theme}" class="card-thumbnail" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22200%22><rect width=%22400%22 height=%22200%22 fill=%22%23667eea%22/><text x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22white%22 font-size=%2224%22>📚</text></svg>'">
+                        <div class="card-body">
+                            <span class="card-book">${item.book_name}</span>
+                            <h3 class="card-title">${item.theme}</h3>
+                            <div class="card-meta">
+                                <div class="card-meta-item">
+                                    <span>📅</span>
+                                    <span>${item.created_at}</span>
+                                </div>
+                                ${item.tags?.difficulty ? `
+                                <div class="card-meta-item">
+                                    <span>📊</span>
+                                    <span>${item.tags.difficulty}</span>
+                                </div>
+                                ` : ''}
+                            </div>
+                            <div class="card-tags">
+                                ${tags.slice(0, 5).map(tag => `<span class="card-tag">${tag}</span>`).join('')}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            renderPagination();
+        }
+
+        // ページネーション表示
+        function renderPagination() {
+            const pagination = document.getElementById('pagination');
+            const totalPages = Math.ceil(filteredContent.length / itemsPerPage);
+
+            if (totalPages <= 1) {
+                pagination.innerHTML = '';
+                return;
+            }
+
+            let html = `
+                <button class="page-btn" onclick="changePage(${currentPage - 1})" ${currentPage === 1 ? 'disabled' : ''}>
+                    ← 前へ
+                </button>
+            `;
+
+            for (let i = 1; i <= totalPages; i++) {
+                if (i === 1 || i === totalPages || (i >= currentPage - 2 && i <= currentPage + 2)) {
+                    html += `
+                        <button class="page-btn ${i === currentPage ? 'active' : ''}" onclick="changePage(${i})">
+                            ${i}
+                        </button>
+                    `;
+                } else if (i === currentPage - 3 || i === currentPage + 3) {
+                    html += '<span style="color: white; padding: 12px;">...</span>';
+                }
+            }
+
+            html += `
+                <button class="page-btn" onclick="changePage(${currentPage + 1})" ${currentPage === totalPages ? 'disabled' : ''}>
+                    次へ →
+                </button>
+            `;
+
+            pagination.innerHTML = html;
+        }
+
+        // ページ変更
+        function changePage(page) {
+            const totalPages = Math.ceil(filteredContent.length / itemsPerPage);
+            if (page < 1 || page > totalPages) return;
+            currentPage = page;
+            renderContent();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // 空の状態を表示
+        function showEmptyState() {
+            document.getElementById('contentGrid').innerHTML = '';
+            document.getElementById('emptyState').style.display = 'block';
+            document.getElementById('totalCount').textContent = '0';
+            document.getElementById('totalBooks').textContent = '0';
+        }
+
+        // イベントリスナー
+        document.getElementById('searchInput').addEventListener('input', filterContent);
+        document.getElementById('bookFilter').addEventListener('change', filterContent);
+        document.getElementById('tagFilter').addEventListener('change', filterContent);
+        document.getElementById('difficultyFilter').addEventListener('change', filterContent);
+        document.getElementById('sortFilter').addEventListener('change', filterContent);
+
+        document.getElementById('clearFilters').addEventListener('click', () => {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('bookFilter').value = '';
+            document.getElementById('tagFilter').value = '';
+            document.getElementById('difficultyFilter').value = '';
+            document.getElementById('sortFilter').value = 'newest';
+            filterContent();
+        });
+
+        // 初期化実行
+        init();
+    </script>
+</body>
+</html>

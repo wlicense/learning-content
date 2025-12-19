@@ -1,0 +1,184 @@
+{
+  "project_info": {
+    "project_name": "まん2000プロジェクト",
+    "book_name": "AI画像生成ツール解説",
+    "theme_name": "Flux_次世代画像生成AIの実践活用",
+    "creation_date": "2025-12-19",
+    "total_characters": 2047,
+    "subtitle_count": 6,
+    "diagram_count": 6,
+    "manga_count": 1
+  },
+  "tags": {
+    "tools": [
+      "Flux",
+      "Flux Pro",
+      "Midjourney",
+      "Replicate.com",
+      "Fal.ai",
+      "Black Forest Labs",
+      "Stable Diffusion"
+    ],
+    "technologies": [
+      "AI画像生成",
+      "画像生成AI",
+      "商業利用AI",
+      "動画生成",
+      "写実的画像生成",
+      "プロンプト最適化"
+    ],
+    "use_cases": [
+      "商業コンテンツ制作",
+      "SNS投稿",
+      "マーケティング",
+      "デザイン制作",
+      "クリエイティブ制作",
+      "広告制作"
+    ],
+    "keywords": [
+      "写実的人物",
+      "正確な手の描写",
+      "商品テキスト描写",
+      "プラットフォーム選択",
+      "モデル選択",
+      "コスト最適化",
+      "ノーコード操作"
+    ],
+    "concepts": [
+      "用途別ツール選択",
+      "MidjourneyとFluxの補完関係",
+      "プラットフォームの使い分け",
+      "商業利用とSNS利用の違い",
+      "クオリティ重視vs手軽さ重視",
+      "従量課金制の活用"
+    ],
+    "business_impact": [
+      "商業レベルの画像生成",
+      "コスト削減（従量課金）",
+      "制作時間短縮",
+      "高品質コンテンツ制作",
+      "柔軟な運用"
+    ]
+  },
+  "search_index": {
+    "primary_keywords": [
+      "Flux",
+      "画像生成AI",
+      "商業利用",
+      "Replicate",
+      "Fal.ai",
+      "Midjourney比較",
+      "プラットフォーム選択"
+    ],
+    "secondary_keywords": [
+      "Black Forest Labs",
+      "Flux Pro",
+      "写実的画像",
+      "動画生成",
+      "ノーコード",
+      "従量課金",
+      "SNS投稿",
+      "クリエイティブ制作"
+    ],
+    "related_themes": [
+      "Midjourney実践活用",
+      "AI画像生成ツール比較",
+      "商業利用AI選定",
+      "クリエイティブツール活用",
+      "コスト最適化戦略"
+    ]
+  },
+  "content_structure": {
+    "subtitles": [
+      {
+        "order": 1,
+        "title": "Fluxの誕生背景と開発哲学",
+        "diagram_file": "subtitle_1_Fluxの誕生背景と開発哲学.png",
+        "diagram_type": "flowchart",
+        "key_concepts": [
+          "Black Forest Labs設立",
+          "元Stability AI開発者",
+          "商業利用重視の開発方針"
+        ]
+      },
+      {
+        "order": 2,
+        "title": "Midjourneyとの明確な使い分け",
+        "diagram_file": "subtitle_2_Midjourneyとの明確な使い分け.png",
+        "diagram_type": "comparison",
+        "key_concepts": [
+          "アート表現 vs 写実表現",
+          "補完関係",
+          "用途別選択"
+        ]
+      },
+      {
+        "order": 3,
+        "title": "Fluxを使うための2つのプラットフォーム",
+        "diagram_file": "subtitle_3_Fluxを使うための2つのプラットフォーム.png",
+        "diagram_type": "comparison",
+        "key_concepts": [
+          "Replicate.com",
+          "Fal.ai",
+          "プラットフォーム選択基準"
+        ]
+      },
+      {
+        "order": 4,
+        "title": "Replicate.com - 開発者向けプラットフォーム",
+        "diagram_file": "subtitle_4_Replicate.com開発者向けプラットフォーム.png",
+        "diagram_type": "concept_map",
+        "key_concepts": [
+          "数百万種類のモデル",
+          "Flux Pro対応",
+          "従量課金制",
+          "商業利用"
+        ]
+      },
+      {
+        "order": 5,
+        "title": "Fal.ai - 一般ユーザー向けプラットフォーム",
+        "diagram_file": "subtitle_5_Fal.ai一般ユーザー向けプラットフォーム.png",
+        "diagram_type": "concept_map",
+        "key_concepts": [
+          "ノーコード操作",
+          "高速出力",
+          "SNS向け",
+          "低コスト"
+        ]
+      },
+      {
+        "order": 6,
+        "title": "Flux Proモデル - 商業利用のベストチョイス",
+        "diagram_file": "subtitle_6_Flux_Pro選択基準とまとめ.png",
+        "diagram_type": "flowchart",
+        "key_concepts": [
+          "選択フローチャート",
+          "商用 vs SNS",
+          "最適化された運用"
+        ]
+      }
+    ],
+    "manga": {
+      "file": "manga_4koma.png",
+      "layout": "american_4panel",
+      "story_structure": "起承転結",
+      "key_message": "用途に応じてFluxとMidjourney、Replicate.comとFal.aiを使い分けることで最高の結果を得られる"
+    }
+  },
+  "target_audience": "ビジネスパーソン、クリエイター、AI画像生成ツールの実務活用を検討している方",
+  "learning_objectives": [
+    "Fluxの特徴と開発背景を理解する",
+    "MidjourneyとFluxの使い分け基準を習得する",
+    "Replicate.comとFal.aiの違いを把握する",
+    "商業利用とSNS利用で最適なプラットフォームを選択できる",
+    "Flux Proモデルの活用方法を理解する"
+  ],
+  "practical_outcomes": [
+    "商業レベルの画像生成が可能になる",
+    "用途に応じた最適なツール選択ができる",
+    "コストを最適化した運用が実現できる",
+    "写実的で高品質な画像を生成できる",
+    "プロジェクトに応じた柔軟な対応が可能になる"
+  ]
+}
