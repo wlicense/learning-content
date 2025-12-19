@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>画像ギャラリー - 糖尿病予防のための血糖コントロール実践法</title>
+    <link rel="stylesheet" href="../../assets/css/global.css">
+    <style>
+        body {
+            background: var(--gray-100);
+            padding: var(--space-8);
+        }
+
+        .gallery-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: var(--space-8);
+        }
+
+        .header h1 {
+            font-size: var(--font-size-3xl);
+            color: var(--primary-color);
+            margin-bottom: var(--space-2);
+        }
+
+        .header p {
+            color: var(--gray-600);
+            font-size: var(--font-size-lg);
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: var(--space-6);
+            margin-bottom: var(--space-8);
+        }
+
+        .gallery-item {
+            background: var(--white);
+            border-radius: var(--border-radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            transition: all var(--transition-base);
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-xl);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .gallery-item-title {
+            padding: var(--space-4);
+            font-weight: 600;
+            color: var(--gray-800);
+            font-size: var(--font-size-md);
+        }
+
+        .manga-section {
+            background: var(--white);
+            border-radius: var(--border-radius-xl);
+            padding: var(--space-8);
+            text-align: center;
+            box-shadow: var(--shadow-lg);
+            margin-bottom: var(--space-8);
+        }
+
+        .manga-section h2 {
+            font-size: var(--font-size-2xl);
+            color: var(--accent-color);
+            margin-bottom: var(--space-6);
+        }
+
+        .manga-section img {
+            max-width: 600px;
+            width: 100%;
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow-md);
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: var(--space-4);
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: var(--space-4) var(--space-8);
+            border-radius: var(--border-radius-full);
+            font-size: var(--font-size-lg);
+            font-weight: 600;
+            text-decoration: none;
+            transition: all var(--transition-base);
+        }
+
+        .btn-primary {
+            background: var(--gradient-primary);
+            color: var(--white);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-secondary {
+            background: var(--white);
+            color: var(--primary-color);
+            border: 2px solid var(--primary-color);
+        }
+
+        .btn-secondary:hover {
+            background: var(--primary-color);
+            color: var(--white);
+        }
+
+        @media (max-width: 768px) {
+            .gallery-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery-container">
+        <div class="header">
+            <h1>🩺 糖尿病予防のための血糖コントロール実践法</h1>
+            <p>画像ギャラリー - 全6図解 + 4コマ漫画</p>
+        </div>
+
+        <div class="manga-section">
+            <h2>📖 4コマ漫画</h2>
+            <img src="manga_4koma.png" alt="4コマ漫画">
+        </div>
+
+        <h2 style="text-align: center; color: var(--primary-color); margin-bottom: var(--space-6);">📐 図解一覧</h2>
+
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="diagrams/subtitle_1_血糖値スパイクがもたらす健康リスク.png" alt="第1章">
+                <div class="gallery-item-title">第1章: 血糖値スパイクがもたらす健康リスク</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="diagrams/subtitle_2_食事順序で変わる血糖値コントロール.png" alt="第2章">
+                <div class="gallery-item-title">第2章: 食事順序で変わる血糖値コントロール</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="diagrams/subtitle_3_GI値を活用した賢い食品選択.png" alt="第3章">
+                <div class="gallery-item-title">第3章: GI値を活用した賢い食品選択</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="diagrams/subtitle_4_食後運動の最適タイミングと方法.png" alt="第4章">
+                <div class="gallery-item-title">第4章: 食後運動の最適タイミングと方法</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="diagrams/subtitle_5_HbA1cで見る長期血糖管理の重要性.png" alt="第5章">
+                <div class="gallery-item-title">第5章: HbA1cで見る長期血糖管理の重要性</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="diagrams/subtitle_6_インスリン抵抗性改善の実践戦略.png" alt="第6章">
+                <div class="gallery-item-title">第6章: インスリン抵抗性改善の実践戦略</div>
+            </div>
+        </div>
+
+        <div style="text-align: center;">
+            <div class="action-buttons">
+                <a href="reading.html" class="btn btn-primary">📖 読書ページを開く</a>
+                <a href="../../index.html" class="btn btn-secondary">← トップページに戻る</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
