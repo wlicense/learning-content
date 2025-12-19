@@ -2,7 +2,7 @@
   "site_info": {
     "site_name": "Learning Content Library",
     "site_description": "AI生成による学習コンテンツライブラリ",
-    "base_url": "https://yoursite.com",
+    "base_url": "https://gregarious-tiramisu-baad37.netlify.app",
     "author": "Hajime",
     "version": "1.0.0",
     "last_updated": "2025-12-19"
