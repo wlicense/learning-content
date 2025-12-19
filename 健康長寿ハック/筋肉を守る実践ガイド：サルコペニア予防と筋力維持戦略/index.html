@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>筋肉を守る実践ガイド：サルコペニア予防と筋力維持戦略 - 健康長寿ハック</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', Meiryo, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        .category {
+            font-size: 0.9em;
+            opacity: 0.9;
+            margin-bottom: 15px;
+            letter-spacing: 2px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            font-weight: 700;
+            line-height: 1.4;
+        }
+
+        .description {
+            font-size: 1.1em;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto;
+            opacity: 0.95;
+        }
+
+        .meta-info {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.95em;
+        }
+
+        .content {
+            padding: 60px 40px;
+        }
+
+        .diagrams-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+
+        .diagram-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .diagram-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        .diagram-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .diagram-title {
+            padding: 20px;
+            font-weight: 600;
+            font-size: 1.1em;
+            color: #667eea;
+            text-align: center;
+        }
+
+        .manga-section {
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 60px;
+            text-align: center;
+        }
+
+        .manga-section h2 {
+            color: #d63031;
+            font-size: 2em;
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+
+        .manga-image {
+            max-width: 800px;
+            margin: 0 auto;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .manga-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 10px;
+        }
+
+        .cta-section {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            border-radius: 20px;
+            margin-top: 40px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 18px 50px;
+            background: white;
+            color: #f5576c;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.2em;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            margin: 10px;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 25px rgba(0,0,0,0.3);
+        }
+
+        .back-link {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .back-link a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+
+        .back-link a:hover {
+            color: #764ba2;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .header {
+                padding: 40px 20px;
+            }
+
+            .content {
+                padding: 40px 20px;
+            }
+
+            .diagrams-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="category">📚 健康長寿ハック - テーマ6</div>
+            <h1>筋肉を守る実践ガイド：<br>サルコペニア予防と筋力維持戦略</h1>
+            <div class="description">
+                加齢による筋肉減少（サルコペニア）のメカニズムを解説し、何歳からでも筋肉を増やせる科学的根拠に基づいた実践プログラムを提供。自己評価法、最適なタンパク質戦略、効果的な運動プログラム、生活習慣の改善まで総合的にカバー。
+            </div>
+            <div class="meta-info">
+                <div class="meta-item">⏱️ 読了時間: 15分</div>
+                <div class="meta-item">📊 図解: 6枚</div>
+                <div class="meta-item">🎨 漫画: あり</div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="manga-section">
+                <h2>🎨 4コマ漫画で学ぶ</h2>
+                <div class="manga-image">
+                    <img src="manga.png" alt="筋肉が教えてくれたこと">
+                </div>
+            </div>
+
+            <h2 style="text-align: center; color: #667eea; font-size: 2.2em; margin-bottom: 40px; font-weight: 700;">📊 6つの重要ポイント</h2>
+
+            <div class="diagrams-grid">
+                <div class="diagram-card">
+                    <img src="diagrams/subtitle_1_サルコペニアの脅威と筋肉減少のメカニズム.png" alt="サルコペニアの脅威と筋肉減少のメカニズム">
+                    <div class="diagram-title">1. サルコペニアの脅威と筋肉減少のメカニズム</div>
+                </div>
+
+                <div class="diagram-card">
+                    <img src="diagrams/subtitle_2_筋肉量・筋力の自己評価法.png" alt="筋肉量・筋力の自己評価法">
+                    <div class="diagram-title">2. 筋肉量・筋力の自己評価法</div>
+                </div>
+
+                <div class="diagram-card">
+                    <img src="diagrams/subtitle_3_筋肉を作る最適なタンパク質戦略.png" alt="筋肉を作る最適なタンパク質戦略">
+                    <div class="diagram-title">3. 筋肉を作る最適なタンパク質戦略</div>
+                </div>
+
+                <div class="diagram-card">
+                    <img src="diagrams/subtitle_4_筋力を維持する最強の運動プログラム.png" alt="筋力を維持する最強の運動プログラム">
+                    <div class="diagram-title">4. 筋力を維持する最強の運動プログラム</div>
+                </div>
+
+                <div class="diagram-card">
+                    <img src="diagrams/subtitle_5_筋肉を守る生活習慣と避けるべき落とし穴.png" alt="筋肉を守る生活習慣と避けるべき落とし穴">
+                    <div class="diagram-title">5. 筋肉を守る生活習慣と避けるべき落とし穴</div>
+                </div>
+
+                <div class="diagram-card">
+                    <img src="diagrams/subtitle_6_サルコペニア予防の総合チェックリスト.png" alt="サルコペニア予防の総合チェックリスト">
+                    <div class="diagram-title">6. サルコペニア予防の総合チェックリスト</div>
+                </div>
+            </div>
+
+            <div class="cta-section">
+                <h2 style="color: white; margin-bottom: 20px; font-size: 1.8em;">もっと詳しく学びたい方へ</h2>
+                <a href="reading.html" class="cta-button">📖 詳細な解説を読む</a>
+            </div>
+        </div>
+
+        <div class="back-link">
+            <a href="../index.html">← 健康長寿ハックトップへ戻る</a>
+        </div>
+    </div>
+</body>
+</html>
