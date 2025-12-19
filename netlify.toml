@@ -1,0 +1,15 @@
+[build]
+  # ビルドコマンドは不要（静的HTMLサイト）
+  command = "echo 'No build command needed'"
+
+  # ルートディレクトリをそのままpublish
+  publish = "."
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false
+
+[build.environment]
+  NODE_VERSION = "18"
