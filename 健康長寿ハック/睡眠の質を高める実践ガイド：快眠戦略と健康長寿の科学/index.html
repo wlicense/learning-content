@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>睡眠の質を高める実践ガイド - 図解ギャラリー | 健康長寿ハック</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1rem;
+            opacity: 0.95;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .intro {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+
+        .intro h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            border-left: 4px solid #667eea;
+            padding-left: 1rem;
+        }
+
+        .intro p {
+            color: #555;
+            line-height: 1.8;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .gallery-item {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            cursor: pointer;
+        }
+
+        .gallery-item .caption {
+            padding: 1.5rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .gallery-item .caption h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .gallery-item .caption p {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        .navigation {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 1rem 2rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+            display: inline-block;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-secondary {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            box-shadow: 0 4px 12px rgba(245, 87, 108, 0.3);
+        }
+
+        .btn-secondary:hover {
+            box-shadow: 0 6px 20px rgba(245, 87, 108, 0.4);
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: #666;
+            background: white;
+            margin-top: 3rem;
+            box-shadow: 0 -4px 12px rgba(0,0,0,0.05);
+        }
+
+        .footer p {
+            margin: 0.5rem 0;
+        }
+
+        /* Modal for image zoom */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.9);
+            cursor: pointer;
+        }
+
+        .modal-content {
+            margin: auto;
+            display: block;
+            max-width: 95%;
+            max-height: 95%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .close {
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.5rem;
+            }
+
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+
+            .navigation {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📊 睡眠の質を高める実践ガイド</h1>
+        <p>快眠戦略と健康長寿の科学 - 図解ギャラリー</p>
+    </div>
+
+    <div class="container">
+        <div class="intro">
+            <h2>🎨 コンテンツギャラリー</h2>
+            <p>
+                このページでは、睡眠の質を高めるための実践的なガイドを視覚的にわかりやすく解説した図解とマンガをご覧いただけます。
+                睡眠不足が引き起こす健康リスクから、快眠のための生活習慣、食事戦略、睡眠障害への対処法まで、
+                科学的根拠に基づいた情報を7枚のビジュアルコンテンツにまとめました。
+            </p>
+            <p style="margin-top: 1rem; color: #667eea; font-weight: bold;">
+                💡 画像をクリックすると拡大表示されます
+            </p>
+        </div>
+
+        <div class="gallery">
+            <!-- 4コマ漫画 -->
+            <div class="gallery-item">
+                <img src="manga_4koma.png" alt="快眠への道のり - 4コマ漫画" onclick="openModal(this.src)">
+                <div class="caption">
+                    <h3>📖 4コマ漫画</h3>
+                    <p>佐藤さんの快眠チャレンジ - 睡眠の質を高めるための実践ストーリー</p>
+                </div>
+            </div>
+
+            <!-- 図解1 -->
+            <div class="gallery-item">
+                <img src="diagrams/subtitle_1_睡眠不足が引き起こす健康リスクの科学.png" alt="睡眠不足が引き起こす健康リスクの科学" onclick="openModal(this.src)">
+                <div class="caption">
+                    <h3>⚠️ 第1章 図解</h3>
+                    <p>睡眠不足が引き起こす健康リスクの科学</p>
+                </div>
+            </div>
+
+            <!-- 図解2 -->
+            <div class="gallery-item">
+                <img src="diagrams/subtitle_2_睡眠の質を自己評価する方法.png" alt="睡眠の質を自己評価する方法" onclick="openModal(this.src)">
+                <div class="caption">
+                    <h3>📊 第2章 図解</h3>
+                    <p>睡眠の質を自己評価する方法</p>
+                </div>
+            </div>
+
+            <!-- 図解3 -->
+            <div class="gallery-item">
+                <img src="diagrams/subtitle_3_快眠のための生活習慣と睡眠環境の整備.png" alt="快眠のための生活習慣と睡眠環境の整備" onclick="openModal(this.src)">
+                <div class="caption">
+                    <h3>🏠 第3章 図解</h3>
+                    <p>快眠のための生活習慣と睡眠環境の整備</p>
+                </div>
+            </div>
+
+            <!-- 図解4 -->
+            <div class="gallery-item">
+                <img src="diagrams/subtitle_4_睡眠の質を高める食事と栄養戦略.png" alt="睡眠の質を高める食事と栄養戦略" onclick="openModal(this.src)">
+                <div class="caption">
+                    <h3>🍽️ 第4章 図解</h3>
+                    <p>睡眠の質を高める食事と栄養戦略</p>
+                </div>
+            </div>
+
+            <!-- 図解5 -->
+            <div class="gallery-item">
+                <img src="diagrams/subtitle_5_睡眠障害のタイプと対処法.png" alt="睡眠障害のタイプと対処法" onclick="openModal(this.src)">
+                <div class="caption">
+                    <h3>🩺 第5章 図解</h3>
+                    <p>睡眠障害のタイプと対処法</p>
+                </div>
+            </div>
+
+            <!-- 図解6 -->
+            <div class="gallery-item">
+                <img src="diagrams/subtitle_6_快眠チェックリストと実践プラン.png" alt="快眠チェックリストと実践プラン" onclick="openModal(this.src)">
+                <div class="caption">
+                    <h3>✅ 第6章 図解</h3>
+                    <p>快眠チェックリストと実践プラン</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <a href="reading.html" class="btn">📚 詳細記事を読む</a>
+            <a href="../../index.html" class="btn btn-secondary">🏠 トップページへ</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p><strong>健康長寿ハック</strong> - 科学的根拠に基づく健康情報をわかりやすく</p>
+        <p>© 2025 まん2000プロジェクト v2.0 | Powered by Gemini 3 Pro Image (Nanobanana PRO)</p>
+    </div>
+
+    <!-- Modal for image zoom -->
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script>
+        function openModal(src) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            modal.style.display = 'block';
+            modalImg.src = src;
+        }
+
+        function closeModal() {
+            document.getElementById('imageModal').style.display = 'none';
+        }
+
+        // Close modal with ESC key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeModal();
+            }
+        });
+    </script>
+</body>
+</html>

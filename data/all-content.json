@@ -1,6 +1,6 @@
 {
-  "total_count": 11,
-  "last_updated": "2025-12-19",
+  "total_count": 14,
+  "last_updated": "2025-12-20",
   "books": [
     {
       "book_name": "AI画像生成ツール解説",
@@ -9,7 +9,7 @@
         {
           "book_name": "AI画像生成ツール解説",
           "theme": "Flux_次世代画像生成AIの実践活用",
-          "created_at": "2025-12-19",
+          "created_at": "2025-12-20",
           "tags": {
             "tools": [
               "Flux",
@@ -461,7 +461,7 @@
         {
           "book_name": "Voicepeak",
           "theme": "VoicePeak商用利用完全ガイド",
-          "created_at": "2025-12-19",
+          "created_at": "2025-12-20",
           "tags": {
             "tools": [
               "VoicePeak",
@@ -708,7 +708,7 @@
         {
           "book_name": "ヒグスNanobanana.txt",
           "theme": "AI画像合成によるECサイト向けビジュアル制作技術",
-          "created_at": "2025-12-19",
+          "created_at": "2025-12-20",
           "tags": {
             "tools": [
               "Flux Pro",
@@ -968,12 +968,12 @@
     },
     {
       "book_name": "健康長寿ハック",
-      "themes_count": 7,
+      "themes_count": 10,
       "themes": [
         {
           "book_name": "健康長寿ハック",
           "theme": "40歳からの内臓脂肪対策とメタボ解消戦略",
-          "created_at": "2025-12-19",
+          "created_at": "2025-12-20",
           "tags": [
             "内臓脂肪",
             "メタボリックシンドローム",
@@ -1084,6 +1084,104 @@
               "糖尿病予防",
               "生活習慣病対策"
             ]
+          }
+        },
+        {
+          "book_name": "健康長寿ハック",
+          "theme": "睡眠の質を高める実践ガイド：快眠戦略と健康長寿の科学",
+          "created_at": "2025-12-19",
+          "tags": {
+            "category": [
+              "健康",
+              "予防医学",
+              "睡眠科学"
+            ],
+            "target_audience": [
+              "40代以上",
+              "睡眠の悩みがある方",
+              "健康意識の高い方"
+            ],
+            "difficulty": "中級",
+            "reading_time": "16分",
+            "keywords": [
+              "睡眠",
+              "不眠症",
+              "睡眠時無呼吸症候群",
+              "体内時計",
+              "メラトニン",
+              "快眠"
+            ]
+          },
+          "url": "/健康長寿ハック/睡眠の質を高める実践ガイド：快眠戦略と健康長寿の科学/reading.html",
+          "thumbnail": "/健康長寿ハック/睡眠の質を高める実践ガイド：快眠戦略と健康長寿の科学/manga_4koma.png",
+          "metadata": {
+            "book_name": "健康長寿ハック",
+            "theme": "睡眠の質を高める実践ガイド：快眠戦略と健康長寿の科学",
+            "created_at": "2025-12-19",
+            "tags": {
+              "category": [
+                "健康",
+                "予防医学",
+                "睡眠科学"
+              ],
+              "target_audience": [
+                "40代以上",
+                "睡眠の悩みがある方",
+                "健康意識の高い方"
+              ],
+              "difficulty": "中級",
+              "reading_time": "16分",
+              "keywords": [
+                "睡眠",
+                "不眠症",
+                "睡眠時無呼吸症候群",
+                "体内時計",
+                "メラトニン",
+                "快眠"
+              ]
+            },
+            "content_structure": {
+              "total_chapters": 6,
+              "total_words": 13500,
+              "diagrams_count": 6,
+              "manga_panels": 4
+            },
+            "learning_objectives": [
+              "睡眠不足が引き起こす健康リスクを理解する",
+              "睡眠の質を自己評価する方法を習得する",
+              "快眠のための生活習慣と睡眠環境の整備方法を実践できる",
+              "睡眠の質を高める食事と栄養戦略を取り入れられる",
+              "睡眠障害のタイプと対処法を理解する",
+              "快眠チェックリストで自己管理できる"
+            ],
+            "key_takeaways": [
+              "睡眠時間6時間未満は心筋梗塞リスク48%増、糖尿病リスク2.5倍",
+              "起床後1時間以内に太陽光15〜30分で体内時計を調整",
+              "週150分以上の有酸素運動で睡眠の質が65%向上",
+              "就寝90〜120分前に38〜40℃のぬるめのお風呂で入浴",
+              "トリプトファン、マグネシウム、グリシンが快眠に効果的"
+            ],
+            "related_topics": [
+              "認知症予防",
+              "心血管疾患予防",
+              "糖尿病予防",
+              "メンタルヘルス",
+              "ストレス管理"
+            ],
+            "file_paths": {
+              "explanation": "explanation.md",
+              "manga": "manga_4koma.png",
+              "diagrams": [
+                "diagrams/subtitle_1_睡眠不足が引き起こす健康リスクの科学.png",
+                "diagrams/subtitle_2_睡眠の質を自己評価する方法.png",
+                "diagrams/subtitle_3_快眠のための生活習慣と睡眠環境の整備.png",
+                "diagrams/subtitle_4_睡眠の質を高める食事と栄養戦略.png",
+                "diagrams/subtitle_5_睡眠障害のタイプと対処法.png",
+                "diagrams/subtitle_6_快眠チェックリストと実践プラン.png"
+              ],
+              "reading_page": "reading.html",
+              "gallery_page": "index.html"
+            }
           }
         },
         {
@@ -1340,6 +1438,111 @@
         },
         {
           "book_name": "健康長寿ハック",
+          "theme": "腸内環境と免疫力強化：腸活で健康長寿を実現する実践ガイド",
+          "created_at": "2025-12-19",
+          "tags": {
+            "category": [
+              "健康",
+              "予防医学",
+              "腸活",
+              "免疫学"
+            ],
+            "target_audience": [
+              "40代以上",
+              "免疫力を高めたい方",
+              "腸の悩みがある方",
+              "健康意識の高い方"
+            ],
+            "difficulty": "中級",
+            "reading_time": "18分",
+            "keywords": [
+              "腸内フローラ",
+              "善玉菌",
+              "プロバイオティクス",
+              "プレバイオティクス",
+              "免疫力",
+              "腸脳相関",
+              "発酵食品"
+            ]
+          },
+          "url": "/健康長寿ハック/腸内環境と免疫力強化：腸活で健康長寿を実現する実践ガイド/reading.html",
+          "thumbnail": "/健康長寿ハック/腸内環境と免疫力強化：腸活で健康長寿を実現する実践ガイド/manga_4koma.png",
+          "metadata": {
+            "book_name": "健康長寿ハック",
+            "theme": "腸内環境と免疫力強化：腸活で健康長寿を実現する実践ガイド",
+            "created_at": "2025-12-19",
+            "tags": {
+              "category": [
+                "健康",
+                "予防医学",
+                "腸活",
+                "免疫学"
+              ],
+              "target_audience": [
+                "40代以上",
+                "免疫力を高めたい方",
+                "腸の悩みがある方",
+                "健康意識の高い方"
+              ],
+              "difficulty": "中級",
+              "reading_time": "18分",
+              "keywords": [
+                "腸内フローラ",
+                "善玉菌",
+                "プロバイオティクス",
+                "プレバイオティクス",
+                "免疫力",
+                "腸脳相関",
+                "発酵食品"
+              ]
+            },
+            "content_structure": {
+              "total_chapters": 6,
+              "total_words": 14800,
+              "diagrams_count": 6,
+              "manga_panels": 4
+            },
+            "learning_objectives": [
+              "腸内環境が全身の健康に与える影響を理解する",
+              "腸内フローラの状態を自己評価する方法を習得する",
+              "善玉菌を増やす食事戦略を実践できる",
+              "腸活のための生活習慣を取り入れられる",
+              "サプリメントと発酵食品を効果的に活用できる",
+              "腸活チェックリストで継続的に自己管理できる"
+            ],
+            "key_takeaways": [
+              "免疫の70%が腸に集中、腸管は体内最大の免疫器官",
+              "理想的な腸内フローラ：善玉菌2：日和見菌7：悪玉菌1",
+              "腸脳相関：セロトニン95%、ドーパミン50%が腸で産生",
+              "発酵食品＋食物繊維のシンバイオティクスで善玉菌増殖",
+              "週150分以上の運動で腸内細菌の多様性30%向上"
+            ],
+            "related_topics": [
+              "免疫力向上",
+              "便秘・下痢改善",
+              "メタボリックシンドローム予防",
+              "メンタルヘルス",
+              "大腸がん予防",
+              "アレルギー改善"
+            ],
+            "file_paths": {
+              "explanation": "explanation.md",
+              "manga": "manga_4koma.png",
+              "diagrams": [
+                "diagrams/subtitle_1_腸内環境が全身の健康を左右する科学.png",
+                "diagrams/subtitle_2_腸内フローラの状態を自己評価する方法.png",
+                "diagrams/subtitle_3_善玉菌を増やす食事戦略.png",
+                "diagrams/subtitle_4_腸活のための生活習慣.png",
+                "diagrams/subtitle_5_腸内環境改善のサプリメントと発酵食品.png",
+                "diagrams/subtitle_6_腸活チェックリストと実践プラン.png"
+              ],
+              "reading_page": "reading.html",
+              "gallery_page": "index.html"
+            }
+          }
+        },
+        {
+          "book_name": "健康長寿ハック",
           "theme": "血圧130未満の真実と実践管理術",
           "created_at": "2025-12-19",
           "tags": {
@@ -1411,6 +1614,106 @@
               "脳卒中予防",
               "心筋梗塞予防"
             ]
+          }
+        },
+        {
+          "book_name": "健康長寿ハック",
+          "theme": "認知症予防と脳の健康維持戦略：記憶力を守る実践ガイド",
+          "created_at": "2025-12-19",
+          "tags": {
+            "category": [
+              "健康",
+              "予防医学",
+              "脳科学"
+            ],
+            "target_audience": [
+              "40代以上",
+              "中高年",
+              "認知症予防に関心がある方"
+            ],
+            "difficulty": "中級",
+            "reading_time": "16分",
+            "keywords": [
+              "認知症",
+              "アルツハイマー",
+              "脳の健康",
+              "地中海食",
+              "MIND食",
+              "運動",
+              "知的活動"
+            ]
+          },
+          "url": "/健康長寿ハック/認知症予防と脳の健康維持戦略：記憶力を守る実践ガイド/reading.html",
+          "thumbnail": "/健康長寿ハック/認知症予防と脳の健康維持戦略：記憶力を守る実践ガイド/manga_4koma.png",
+          "metadata": {
+            "book_name": "健康長寿ハック",
+            "theme": "認知症予防と脳の健康維持戦略：記憶力を守る実践ガイド",
+            "created_at": "2025-12-19",
+            "tags": {
+              "category": [
+                "健康",
+                "予防医学",
+                "脳科学"
+              ],
+              "target_audience": [
+                "40代以上",
+                "中高年",
+                "認知症予防に関心がある方"
+              ],
+              "difficulty": "中級",
+              "reading_time": "16分",
+              "keywords": [
+                "認知症",
+                "アルツハイマー",
+                "脳の健康",
+                "地中海食",
+                "MIND食",
+                "運動",
+                "知的活動"
+              ]
+            },
+            "content_structure": {
+              "total_chapters": 6,
+              "total_words": 13500,
+              "diagrams_count": 6,
+              "manga_panels": 4
+            },
+            "learning_objectives": [
+              "認知症の現状と脳の老化メカニズムを理解する",
+              "認知症リスクの自己評価法と早期発見のサインを習得する",
+              "脳を守る地中海式食事法とMIND食を実践できる",
+              "脳を活性化する運動プログラムを開始できる",
+              "認知機能を高める知的活動と社会参加の重要性を理解する",
+              "認知症予防の総合チェックリストで自己管理できる"
+            ],
+            "key_takeaways": [
+              "日本では65歳以上の7人に1人が認知症。2040年には900万人に達する見込み",
+              "地中海食は認知症リスクを35%、MIND食は厳格遵守で53%低下させる",
+              "週150分以上の有酸素運動で海馬の容積が2%増加し、認知機能が向上",
+              "デュアルタスク運動（運動+認知活動）で認知症リスク38%低下",
+              "知的活動・社会参加・新しい挑戦の組み合わせで認知症リスク最大60%低下"
+            ],
+            "related_topics": [
+              "骨粗鬆症予防",
+              "サルコペニア予防",
+              "メタボリックシンドローム対策",
+              "睡眠の質改善",
+              "ストレス管理"
+            ],
+            "file_paths": {
+              "explanation": "explanation.md",
+              "manga": "manga_4koma.png",
+              "diagrams": [
+                "diagrams/subtitle_1_認知症の現状と脳の老化メカニズム.png",
+                "diagrams/subtitle_2_認知症リスクの自己評価と早期発見.png",
+                "diagrams/subtitle_3_脳を守る食事戦略：地中海式食事法とMIND食.png",
+                "diagrams/subtitle_4_脳を活性化する運動プログラム.png",
+                "diagrams/subtitle_5_認知機能を高める知的活動と社会参加.png",
+                "diagrams/subtitle_6_認知症予防の総合チェックリスト.png"
+              ],
+              "reading_page": "reading.html",
+              "gallery_page": "index.html"
+            }
           }
         },
         {

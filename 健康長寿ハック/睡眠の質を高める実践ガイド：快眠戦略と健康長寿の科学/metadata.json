@@ -1,0 +1,54 @@
+{
+  "book_name": "健康長寿ハック",
+  "theme": "睡眠の質を高める実践ガイド：快眠戦略と健康長寿の科学",
+  "created_at": "2025-12-19",
+  "tags": {
+    "category": ["健康", "予防医学", "睡眠科学"],
+    "target_audience": ["40代以上", "睡眠の悩みがある方", "健康意識の高い方"],
+    "difficulty": "中級",
+    "reading_time": "16分",
+    "keywords": ["睡眠", "不眠症", "睡眠時無呼吸症候群", "体内時計", "メラトニン", "快眠"]
+  },
+  "content_structure": {
+    "total_chapters": 6,
+    "total_words": 13500,
+    "diagrams_count": 6,
+    "manga_panels": 4
+  },
+  "learning_objectives": [
+    "睡眠不足が引き起こす健康リスクを理解する",
+    "睡眠の質を自己評価する方法を習得する",
+    "快眠のための生活習慣と睡眠環境の整備方法を実践できる",
+    "睡眠の質を高める食事と栄養戦略を取り入れられる",
+    "睡眠障害のタイプと対処法を理解する",
+    "快眠チェックリストで自己管理できる"
+  ],
+  "key_takeaways": [
+    "睡眠時間6時間未満は心筋梗塞リスク48%増、糖尿病リスク2.5倍",
+    "起床後1時間以内に太陽光15〜30分で体内時計を調整",
+    "週150分以上の有酸素運動で睡眠の質が65%向上",
+    "就寝90〜120分前に38〜40℃のぬるめのお風呂で入浴",
+    "トリプトファン、マグネシウム、グリシンが快眠に効果的"
+  ],
+  "related_topics": [
+    "認知症予防",
+    "心血管疾患予防",
+    "糖尿病予防",
+    "メンタルヘルス",
+    "ストレス管理"
+  ],
+  "file_paths": {
+    "explanation": "explanation.md",
+    "manga": "manga_4koma.png",
+    "diagrams": [
+      "diagrams/subtitle_1_睡眠不足が引き起こす健康リスクの科学.png",
+      "diagrams/subtitle_2_睡眠の質を自己評価する方法.png",
+      "diagrams/subtitle_3_快眠のための生活習慣と睡眠環境の整備.png",
+      "diagrams/subtitle_4_睡眠の質を高める食事と栄養戦略.png",
+      "diagrams/subtitle_5_睡眠障害のタイプと対処法.png",
+      "diagrams/subtitle_6_快眠チェックリストと実践プラン.png"
+    ],
+    "reading_page": "reading.html",
+    "gallery_page": "index.html"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "book_name": "健康長寿ハック",
+  "theme": "認知症予防と脳の健康維持戦略：記憶力を守る実践ガイド",
+  "created_at": "2025-12-19",
+  "tags": {
+    "category": ["健康", "予防医学", "脳科学"],
+    "target_audience": ["40代以上", "中高年", "認知症予防に関心がある方"],
+    "difficulty": "中級",
+    "reading_time": "16分",
+    "keywords": ["認知症", "アルツハイマー", "脳の健康", "地中海食", "MIND食", "運動", "知的活動"]
+  },
+  "content_structure": {
+    "total_chapters": 6,
+    "total_words": 13500,
+    "diagrams_count": 6,
+    "manga_panels": 4
+  },
+  "learning_objectives": [
+    "認知症の現状と脳の老化メカニズムを理解する",
+    "認知症リスクの自己評価法と早期発見のサインを習得する",
+    "脳を守る地中海式食事法とMIND食を実践できる",
+    "脳を活性化する運動プログラムを開始できる",
+    "認知機能を高める知的活動と社会参加の重要性を理解する",
+    "認知症予防の総合チェックリストで自己管理できる"
+  ],
+  "key_takeaways": [
+    "日本では65歳以上の7人に1人が認知症。2040年には900万人に達する見込み",
+    "地中海食は認知症リスクを35%、MIND食は厳格遵守で53%低下させる",
+    "週150分以上の有酸素運動で海馬の容積が2%増加し、認知機能が向上",
+    "デュアルタスク運動（運動+認知活動）で認知症リスク38%低下",
+    "知的活動・社会参加・新しい挑戦の組み合わせで認知症リスク最大60%低下"
+  ],
+  "related_topics": [
+    "骨粗鬆症予防",
+    "サルコペニア予防",
+    "メタボリックシンドローム対策",
+    "睡眠の質改善",
+    "ストレス管理"
+  ],
+  "file_paths": {
+    "explanation": "explanation.md",
+    "manga": "manga_4koma.png",
+    "diagrams": [
+      "diagrams/subtitle_1_認知症の現状と脳の老化メカニズム.png",
+      "diagrams/subtitle_2_認知症リスクの自己評価と早期発見.png",
+      "diagrams/subtitle_3_脳を守る食事戦略：地中海式食事法とMIND食.png",
+      "diagrams/subtitle_4_脳を活性化する運動プログラム.png",
+      "diagrams/subtitle_5_認知機能を高める知的活動と社会参加.png",
+      "diagrams/subtitle_6_認知症予防の総合チェックリスト.png"
+    ],
+    "reading_page": "reading.html",
+    "gallery_page": "index.html"
+  }
+}

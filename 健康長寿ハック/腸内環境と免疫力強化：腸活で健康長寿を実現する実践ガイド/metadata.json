@@ -1,0 +1,55 @@
+{
+  "book_name": "健康長寿ハック",
+  "theme": "腸内環境と免疫力強化：腸活で健康長寿を実現する実践ガイド",
+  "created_at": "2025-12-19",
+  "tags": {
+    "category": ["健康", "予防医学", "腸活", "免疫学"],
+    "target_audience": ["40代以上", "免疫力を高めたい方", "腸の悩みがある方", "健康意識の高い方"],
+    "difficulty": "中級",
+    "reading_time": "18分",
+    "keywords": ["腸内フローラ", "善玉菌", "プロバイオティクス", "プレバイオティクス", "免疫力", "腸脳相関", "発酵食品"]
+  },
+  "content_structure": {
+    "total_chapters": 6,
+    "total_words": 14800,
+    "diagrams_count": 6,
+    "manga_panels": 4
+  },
+  "learning_objectives": [
+    "腸内環境が全身の健康に与える影響を理解する",
+    "腸内フローラの状態を自己評価する方法を習得する",
+    "善玉菌を増やす食事戦略を実践できる",
+    "腸活のための生活習慣を取り入れられる",
+    "サプリメントと発酵食品を効果的に活用できる",
+    "腸活チェックリストで継続的に自己管理できる"
+  ],
+  "key_takeaways": [
+    "免疫の70%が腸に集中、腸管は体内最大の免疫器官",
+    "理想的な腸内フローラ：善玉菌2：日和見菌7：悪玉菌1",
+    "腸脳相関：セロトニン95%、ドーパミン50%が腸で産生",
+    "発酵食品＋食物繊維のシンバイオティクスで善玉菌増殖",
+    "週150分以上の運動で腸内細菌の多様性30%向上"
+  ],
+  "related_topics": [
+    "免疫力向上",
+    "便秘・下痢改善",
+    "メタボリックシンドローム予防",
+    "メンタルヘルス",
+    "大腸がん予防",
+    "アレルギー改善"
+  ],
+  "file_paths": {
+    "explanation": "explanation.md",
+    "manga": "manga_4koma.png",
+    "diagrams": [
+      "diagrams/subtitle_1_腸内環境が全身の健康を左右する科学.png",
+      "diagrams/subtitle_2_腸内フローラの状態を自己評価する方法.png",
+      "diagrams/subtitle_3_善玉菌を増やす食事戦略.png",
+      "diagrams/subtitle_4_腸活のための生活習慣.png",
+      "diagrams/subtitle_5_腸内環境改善のサプリメントと発酵食品.png",
+      "diagrams/subtitle_6_腸活チェックリストと実践プラン.png"
+    ],
+    "reading_page": "reading.html",
+    "gallery_page": "index.html"
+  }
+}
