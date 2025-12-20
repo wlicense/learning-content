@@ -49,7 +49,7 @@ function findAllMetadata(dir, bookName = null) {
 
                             // URLとサムネイルのパスを生成
                             const relativePath = path.relative(ROOT_DIR, fullPath);
-                            const urlPath = '/' + relativePath.split(path.sep).join('/');
+                            const urlPath = relativePath.split(path.sep).join('/');
 
                             results.push({
                                 book_name: bookName,
