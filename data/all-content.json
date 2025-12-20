@@ -1,7 +1,109 @@
 {
-  "total_count": 14,
+  "total_count": 16,
   "last_updated": "2025-12-20",
   "books": [
+    {
+      "book_name": "AI画像生成実践ガイド",
+      "themes_count": 1,
+      "themes": [
+        {
+          "book_name": "AI画像生成実践ガイド",
+          "theme": "GPT Image vs Gemini ナノバナナPro徹底比較",
+          "created_at": "2025-12-20",
+          "tags": {
+            "tools": [
+              "ChatGPT",
+              "GPT Image",
+              "Gemini",
+              "ナノバナナPro",
+              "AI画像生成"
+            ],
+            "technology": [
+              "生成AI",
+              "画像生成",
+              "自然言語処理",
+              "マルチモーダルAI"
+            ],
+            "use_cases": [
+              "広告制作",
+              "Eコマース",
+              "SNSマーケティング",
+              "プレゼンテーション",
+              "コンテンツ制作"
+            ],
+            "skills": [
+              "AI活用",
+              "ツール選定",
+              "ビジネス効率化",
+              "デザイン自動化"
+            ]
+          },
+          "url": "/AI画像生成実践ガイド/GPT_Image_vs_Gemini比較/reading.html",
+          "thumbnail": "/AI画像生成実践ガイド/GPT_Image_vs_Gemini比較/manga_4koma.png",
+          "metadata": {
+            "book_name": "AI画像生成実践ガイド",
+            "theme": "GPT Image vs Gemini ナノバナナPro徹底比較",
+            "created_at": "2025-12-20",
+            "tags": {
+              "tools": [
+                "ChatGPT",
+                "GPT Image",
+                "Gemini",
+                "ナノバナナPro",
+                "AI画像生成"
+              ],
+              "technology": [
+                "生成AI",
+                "画像生成",
+                "自然言語処理",
+                "マルチモーダルAI"
+              ],
+              "use_cases": [
+                "広告制作",
+                "Eコマース",
+                "SNSマーケティング",
+                "プレゼンテーション",
+                "コンテンツ制作"
+              ],
+              "skills": [
+                "AI活用",
+                "ツール選定",
+                "ビジネス効率化",
+                "デザイン自動化"
+              ]
+            },
+            "learning_objectives": [
+              "GPT Imageの3つの革新的機能を理解する",
+              "ナノバナナProとの性能差を把握する",
+              "実務での使い分け基準を身につける",
+              "ビジネス活用の具体的なシーンをイメージできる"
+            ],
+            "difficulty": "中級",
+            "target_audience": "ビジネスパーソン、マーケター、クリエイター、AI活用に興味がある人",
+            "reading_time_minutes": 10,
+            "content_stats": {
+              "explanation_chars": 2550,
+              "chapters": 6,
+              "diagrams": 6,
+              "manga_panels": 4
+            },
+            "key_takeaways": [
+              "GPT Imageは一貫性を保った編集と高度な合成が強み",
+              "ナノバナナProは生成速度が圧倒的に速い（30秒 vs 1分半）",
+              "クオリティ重視ならGPT Image、スピード重視ならナノバナナPro",
+              "両ツールとも無料版で利用可能なので、実際に試して選ぶべき"
+            ],
+            "related_topics": [
+              "Stable Diffusion",
+              "Midjourney",
+              "DALL-E",
+              "画像編集AI",
+              "マーケティングオートメーション"
+            ]
+          }
+        }
+      ]
+    },
     {
       "book_name": "FLUX",
       "themes_count": 1,
@@ -961,6 +1063,113 @@
               "モデル・スタジオ不要での商品ビジュアル制作",
               "静止画から動画コンテンツへの展開",
               "Instagram ReelsなどSNS広告への即活用"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "book_name": "ビジネス資料作成実践ガイド",
+      "themes_count": 1,
+      "themes": [
+        {
+          "book_name": "ビジネス資料作成実践ガイド",
+          "theme": "Googleスライド×ナノバナナProによる次世代資料作成ワークフロー",
+          "created_at": "2025-12-20",
+          "tags": {
+            "tools": [
+              "Googleスライド",
+              "Gemini",
+              "ナノバナナPro",
+              "Google Workspace",
+              "生成AI"
+            ],
+            "technology": [
+              "生成AI",
+              "画像生成",
+              "自動化",
+              "ワークフロー最適化",
+              "ビジネスAI"
+            ],
+            "use_cases": [
+              "プレゼンテーション",
+              "営業提案書",
+              "社内研修資料",
+              "顧客向けレポート",
+              "資料作成自動化"
+            ],
+            "skills": [
+              "AI活用",
+              "業務効率化",
+              "プロンプト設計",
+              "ビジュアル作成",
+              "時間管理"
+            ]
+          },
+          "url": "/ビジネス資料作成実践ガイド/Googleスライド×ナノバナナPro/reading.html",
+          "thumbnail": "/ビジネス資料作成実践ガイド/Googleスライド×ナノバナナPro/manga_4koma.png",
+          "metadata": {
+            "book_name": "ビジネス資料作成実践ガイド",
+            "theme": "Googleスライド×ナノバナナProによる次世代資料作成ワークフロー",
+            "created_at": "2025-12-20",
+            "tags": {
+              "tools": [
+                "Googleスライド",
+                "Gemini",
+                "ナノバナナPro",
+                "Google Workspace",
+                "生成AI"
+              ],
+              "technology": [
+                "生成AI",
+                "画像生成",
+                "自動化",
+                "ワークフロー最適化",
+                "ビジネスAI"
+              ],
+              "use_cases": [
+                "プレゼンテーション",
+                "営業提案書",
+                "社内研修資料",
+                "顧客向けレポート",
+                "資料作成自動化"
+              ],
+              "skills": [
+                "AI活用",
+                "業務効率化",
+                "プロンプト設計",
+                "ビジュアル作成",
+                "時間管理"
+              ]
+            },
+            "learning_objectives": [
+              "資料作成自動化ワークフロー（調査→叩き台→デザイン→完成）を理解する",
+              "ナノバナナProの4つの主要機能（図解、4コマ漫画、インフォグラフィック、アイキャッチ）を使い分ける",
+              "よくある失敗パターンとその回避策を学ぶ",
+              "トーン&マナーに合わせたプロンプト設計ができるようになる"
+            ],
+            "difficulty": "初級〜中級",
+            "target_audience": "ビジネスパーソン、営業担当者、マーケター、研修担当者、資料作成業務に携わる全ての人",
+            "reading_time_minutes": 10,
+            "content_stats": {
+              "explanation_chars": 2600,
+              "chapters": 6,
+              "diagrams": 6,
+              "manga_panels": 4
+            },
+            "key_takeaways": [
+              "Googleスライド×ナノバナナProで資料作成時間を10分の1に短縮できる",
+              "4ステップワークフロー（調査→叩き台→デザイン→完成）で効率化",
+              "80点の叩き台を素早く作り、人間が20点分を磨くという割り切りが重要",
+              "営業提案書は3時間→30分、研修資料は5時間→1時間に短縮可能"
+            ],
+            "related_topics": [
+              "ChatGPT",
+              "Microsoft PowerPoint",
+              "Canva",
+              "業務自動化",
+              "プレゼンテーションデザイン",
+              "インフォグラフィック作成"
             ]
           }
         }

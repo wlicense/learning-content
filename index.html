@@ -457,7 +457,7 @@
         // 初期化
         async function init() {
             try {
-                const response = await fetch('data/all-content.json');
+                const response = await fetch(`data/all-content.json?v=${Date.now()}`);
                 if (response.ok) {
                     allContent = await response.json();
                     updateStats();
