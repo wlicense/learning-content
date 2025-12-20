@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アイデア検証と顧客フィードバック活用法 - ギャラリー | 新規事業開発マニュアル</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); min-height: 100vh; padding: 40px 20px; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .header { text-align: center; color: white; margin-bottom: 50px; }
+        .header h1 { font-size: 3em; margin-bottom: 15px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        .header p { font-size: 1.3em; opacity: 0.95; }
+        .btn-read { display: inline-block; background: white; color: #f5576c; padding: 15px 40px; border-radius: 50px; text-decoration: none; font-weight: bold; margin: 20px 0; transition: transform 0.3s; box-shadow: 0 5px 15px rgba(0,0,0,0.2); }
+        .btn-read:hover { transform: translateY(-3px); }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 30px; margin-top: 40px; }
+        .card { background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.3); transition: transform 0.3s; }
+        .card:hover { transform: translateY(-10px); }
+        .card img { width: 100%; height: auto; display: block; }
+        .card-body { padding: 25px; }
+        .card-title { font-size: 1.3em; color: #f5576c; margin-bottom: 10px; font-weight: bold; }
+        .card-desc { color: #666; line-height: 1.6; }
+        .manga-section { background: white; border-radius: 20px; padding: 40px; margin-top: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); text-align: center; }
+        .manga-section h2 { color: #f5576c; font-size: 2em; margin-bottom: 30px; }
+        .manga-section img { max-width: 100%; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
+        .footer { text-align: center; color: white; margin-top: 60px; padding: 30px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>💡 アイデア検証と顧客フィードバック活用法</h1>
+            <p>新規事業開発マニュアル - ビジュアルギャラリー</p>
+            <a href="reading.html" class="btn-read">📖 学習ページを読む</a>
+        </div>
+
+        <div class="gallery">
+            <div class="card">
+                <img src="diagrams/subtitle_1_アイデアは仮説に過ぎない.png" alt="アイデアは仮説">
+                <div class="card-body">
+                    <h3 class="card-title">第1章：アイデアは仮説</h3>
+                    <p class="card-desc">思いつきと検証済み仮説の違い。仮説検証の3ステップ（明文化、検証設計、学習）と失敗要因（確証バイアス、顧客不在、完璧主義）を図解。</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="diagrams/subtitle_2_顧客インタビューの技術.png" alt="顧客インタビュー">
+                <div class="card-body">
+                    <h3 class="card-title">第2章：インタビュー技術</h3>
+                    <p class="card-desc">本音を引き出す質問の作り方。良い質問と悪い質問の比較、5つのなぜで真因に迫る手法を視覚化。Airbnbの初期インタビュー事例。</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="diagrams/subtitle_3_プロトタイプで素早く検証する.png" alt="プロトタイプ">
+                <div class="card-body">
+                    <h3 class="card-title">第3章：プロトタイプ検証</h3>
+                    <p class="card-desc">ペーパープロトタイプからMVPまでの段階的検証。最小限の機能で最大の学びを得るMVPの原則。Zapposの在庫なし検証事例。</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="diagrams/subtitle_4_フィードバックを分類し優先順位をつける.png" alt="フィードバック分類">
+                <div class="card-body">
+                    <h3 class="card-title">第4章：フィードバック分類</h3>
+                    <p class="card-desc">Must/Should/Nice to Haveの3段階ピラミッド。声の大きさではなく頻度で判断する原則。Slackの絵文字リアクション進化事例。</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="diagrams/subtitle_5_データで仮説を裏付ける.png" alt="データ分析">
+                <div class="card-body">
+                    <h3 class="card-title">第5章：データ活用</h3>
+                    <p class="card-desc">定性データと定量データの使い分け。使用ログから本音を読み解く手法、A/Bテストで最適解を見つける方法。Netflixのデータ駆動文化。</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="diagrams/subtitle_6_継続的なフィードバックループを構築する.png" alt="フィードバックループ">
+                <div class="card-body">
+                    <h3 class="card-title">第6章：継続的改善</h3>
+                    <p class="card-desc">収集→分析→改善→検証の4ステップサイクル。ユーザーコミュニティを育てる手法。Figmaのベータプログラム事例。</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="manga-section">
+            <h2>📚 4コマ漫画で理解する</h2>
+            <img src="manga_4koma.png" alt="アイデア検証の4コマ漫画">
+            <p style="margin-top: 20px; color: #666; line-height: 1.8;">自信満々だったアイデアが顧客インタビューで否定され、方向転換。顧客が本当に困っていることを解決するプロトタイプを作り、再度検証して成功するストーリー。顧客の声が最強の羅針盤となりました。</p>
+        </div>
+
+        <div class="footer">
+            <p style="font-size: 1.1em; margin-bottom: 15px;">すべてのコンテンツは学習目的で作成されています</p>
+            <a href="reading.html" class="btn-read">📖 詳しく学ぶ</a>
+            <p style="margin-top: 30px; opacity: 0.8;">&copy; 2025 新規事業開発マニュアル</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プロトタイプ開発とMVP戦略 - ギャラリー | プロダクト開発実践ガイド</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif; background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); min-height: 100vh; padding: 40px 20px; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .header { text-align: center; color: white; margin-bottom: 50px; }
+        .header h1 { font-size: 3em; margin-bottom: 15px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        .header p { font-size: 1.3em; opacity: 0.95; }
+        .btn-read { display: inline-block; background: white; color: #38f9d7; padding: 15px 40px; border-radius: 50px; text-decoration: none; font-weight: bold; margin: 20px 0; transition: transform 0.3s; box-shadow: 0 5px 15px rgba(0,0,0,0.2); }
+        .btn-read:hover { transform: translateY(-3px); }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 30px; margin-top: 40px; }
+        .card { background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.3); transition: transform 0.3s; }
+        .card:hover { transform: translateY(-10px); }
+        .card img { width: 100%; height: auto; display: block; }
+        .card-body { padding: 25px; }
+        .card-title { font-size: 1.3em; color: #38f9d7; margin-bottom: 10px; font-weight: bold; }
+        .card-desc { color: #666; line-height: 1.6; }
+        .manga-section { background: white; border-radius: 20px; padding: 40px; margin-top: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); text-align: center; }
+        .manga-section h2 { color: #38f9d7; font-size: 2em; margin-bottom: 30px; }
+        .manga-section img { max-width: 100%; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
+        .footer { text-align: center; color: white; margin-top: 60px; padding: 30px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>⚡ プロトタイプ開発とMVP戦略</h1>
+            <p>プロダクト開発実践ガイド - ビジュアルギャラリー</p>
+            <a href="reading.html" class="btn-read">📖 学習ページを読む</a>
+        </div>
+
+        <div class="gallery">
+            <div class="card">
+                <img src="diagrams/subtitle_1_プロトタイプの段階的進化.png" alt="プロトタイプの段階">
+                <div class="card-body">
+                    <h3 class="card-title">第1章：段階的進化</h3>
+                    <p class="card-desc">ローファイからハイファイまでの4段階プロトタイプ。各段階のコストと学び、検証すべき問いを視覚化。Instagramの原点Burbnから写真特化への転換事例。</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="diagrams/subtitle_2_MVPの本質—何を残し、何を削るか.png" alt="MVPの本質">
+                <div class="card-body">
+                    <h3 class="card-title">第2章：MVPの本質</h3>
+                    <p class="card-desc">最小限の機能で高品質を実現するMVP。Kanoモデルによる機能分類（当たり前・一元的・魅力的品質）。Twitterの138文字MVP事例。</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="diagrams/subtitle_3_Build-Measure-Learn ループ.png" alt="BMLループ">
+                <div class="card-body">
+                    <h3 class="card-title">第3章：BMLループ</h3>
+                    <p class="card-desc">リーンスタートアップの核心サイクル。学習速度が競争優位を生む仕組み。3種類のピボット判断基準。Slackのゲーム開発からの転換事例。</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="diagrams/subtitle_4_プロトタイピングツールの選び方.png" alt="ツール選択">
+                <div class="card-body">
+                    <h3 class="card-title">第4章：ツール選択</h3>
+                    <p class="card-desc">UIデザイン・インタラクション・機能検証の3カテゴリ別ツール選択。ノーコードツールでの検証方法。Airbnbの手描きスケッチ事例。</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="diagrams/subtitle_5_ユーザビリティテストの実践.png" alt="ユーザビリティテスト">
+                <div class="card-body">
+                    <h3 class="card-title">第5章：ユーザビリティテスト</h3>
+                    <p class="card-desc">5ステップの効果的なテスト手法。5人で85%の問題発見。発話思考法と観察技術。Googleの5秒テスト事例。</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="diagrams/subtitle_6_MVP後のスケーリング戦略.png" alt="スケーリング">
+                <div class="card-body">
+                    <h3 class="card-title">第6章：スケーリング戦略</h3>
+                    <p class="card-desc">PMF確認→機能拡張→インフラ強化の3段階スケーリング。リテンション率・NPS・有機的成長の判断指標。Facebookの段階的拡大事例。</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="manga-section">
+            <h2>📚 4コマ漫画で理解する</h2>
+            <img src="manga_4koma.png" alt="プロトタイプとMVPの4コマ漫画">
+            <p style="margin-top: 20px; color: #666; line-height: 1.8;">完璧な製品を2年かけて作ったが失敗した企業と、紙のプロトタイプから始めてBuild-Measure-Learnループを高速で回し、3ヶ月で成功した企業の対比。速く失敗し、速く学ぶことが成功への道でした。</p>
+        </div>
+
+        <div class="footer">
+            <p style="font-size: 1.1em; margin-bottom: 15px;">すべてのコンテンツは学習目的で作成されています</p>
+            <a href="reading.html" class="btn-read">📖 詳しく学ぶ</a>
+            <p style="margin-top: 30px; opacity: 0.8;">&copy; 2025 プロダクト開発実践ガイド</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+{
+  "book_name": "プロダクト開発実践ガイド",
+  "theme": "プロトタイプ開発とMVP戦略",
+  "creation_date": "2025-12-20",
+  "content_stats": {
+    "explanation_chars": 3487,
+    "chapters": 6,
+    "diagrams": 6,
+    "manga_panels": 4
+  },
+  "tags": [
+    "プロトタイプ",
+    "MVP",
+    "リーンスタートアップ",
+    "Build-Measure-Learn",
+    "ユーザビリティテスト",
+    "PMF",
+    "段階的進化",
+    "Kanoモデル",
+    "ピボット",
+    "スケーリング"
+  ],
+  "learning_objectives": [
+    "プロトタイプの4段階（ローファイ〜機能プロトタイプ）を理解する",
+    "MVPの本質（最小限の機能で高品質）を学ぶ",
+    "Build-Measure-Learnループを高速で回す方法を習得する",
+    "目的に応じた適切なプロトタイピングツールを選択できる",
+    "効果的なユーザビリティテストを実践できる",
+    "MVP後の段階的スケーリング戦略を理解する"
+  ],
+  "target_audience": "プロダクトマネージャー、スタートアップ創業者、開発チーム、UIUXデザイナー",
+  "key_concepts": [
+    "ローファイ・ミドルファイ・ハイファイプロトタイプ",
+    "MVP（Minimum Viable Product）",
+    "Kanoモデル（当たり前品質・一元的品質・魅力的品質）",
+    "Build-Measure-Learnループ",
+    "ピボット（顧客セグメント・価値提案・チャネル）",
+    "ノーコードツール",
+    "ユーザビリティテスト",
+    "発話思考法",
+    "PMF（Product-Market Fit）",
+    "リテンション率・NPS"
+  ],
+  "practical_examples": [
+    "Instagramの原点（Burbnから写真特化へピボット）",
+    "Twitterの138文字（SMSの140文字制限を活用したMVP）",
+    "Slackのピボット（ゲーム開発からチャットツールへ転換）",
+    "Airbnbの手描きスケッチ（紙とペンから始まった成功）",
+    "Googleの5秒テスト（最も重要な要素が目立つか検証）",
+    "Facebookの段階的拡大（ハーバード限定→他大学→一般）"
+  ]
+}

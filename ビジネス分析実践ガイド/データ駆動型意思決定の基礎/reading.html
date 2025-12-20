@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>データ駆動型意思決定の基礎 - ビジネス分析実践ガイド</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.8;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        .book-name {
+            font-size: 1.1em;
+            opacity: 0.9;
+            margin-bottom: 15px;
+            letter-spacing: 2px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            line-height: 1.3;
+        }
+
+        .meta-info {
+            font-size: 0.95em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 50px 40px;
+        }
+
+        .manga-section {
+            margin-bottom: 60px;
+            text-align: center;
+        }
+
+        .manga-section h2 {
+            font-size: 1.8em;
+            margin-bottom: 30px;
+            color: #667eea;
+        }
+
+        .manga-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .chapter {
+            margin-bottom: 70px;
+        }
+
+        .chapter h3 {
+            font-size: 1.6em;
+            margin-bottom: 25px;
+            color: #764ba2;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .chapter-diagram {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .chapter-diagram img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .chapter-text {
+            font-size: 1.05em;
+            line-height: 2;
+            color: #444;
+            margin-top: 25px;
+        }
+
+        .key-takeaways {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+            padding: 40px;
+            border-radius: 15px;
+            margin-top: 60px;
+        }
+
+        .key-takeaways h3 {
+            font-size: 1.8em;
+            margin-bottom: 25px;
+            color: #667eea;
+        }
+
+        .key-takeaways ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .key-takeaways li {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            padding-left: 35px;
+            position: relative;
+            color: #555;
+        }
+
+        .key-takeaways li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+
+        footer {
+            background: #f8f9fa;
+            padding: 30px;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .content {
+                padding: 30px 20px;
+            }
+
+            header {
+                padding: 40px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="book-name">ビジネス分析実践ガイド</div>
+            <h1>データ駆動型意思決定の基礎</h1>
+            <div class="meta-info">読了時間：約13分 | 難易度：初級〜中級</div>
+        </header>
+
+        <div class="content">
+            <section class="manga-section">
+                <h2>📚 学習漫画で理解する</h2>
+                <img src="manga_4koma.png" alt="データ駆動型意思決定を描いた4コマ漫画">
+            </section>
+
+            <section class="chapter">
+                <h3>第1章：なぜ「勘」ではなく「データ」なのか</h3>
+                <div class="chapter-diagram">
+                    <img src="diagrams/subtitle_1_なぜ「勘」ではなく「データ」なのか.png" alt="勘とデータの比較図解">
+                </div>
+                <div class="chapter-text">
+                    <p>人間の脳は、過去の成功体験や印象的な事例に引きずられます。これを「認知バイアス」と呼びます。</p>
+                    <p>データが提供する3つの価値は、客観性（個人の主観を排除し、事実に基づいた判断）、再現性（成功パターンを数値で特定し再現可能）、予測力（過去のデータから未来のトレンドを予測）です。</p>
+                    <p>あるアパレル企業では、「SNS広告は効果がない」という経営陣の直感がありました。しかし、データを分析すると、25〜34歳の女性層では購買転換率が12%と高いことが判明。ターゲットを絞った結果、ROIが3倍に改善しました。</p>
+                </div>
+            </section>
+
+            <section class="chapter">
+                <h3>第2章：測定すべきKPIの選び方</h3>
+                <div class="chapter-diagram">
+                    <img src="diagrams/subtitle_2_測定すべきKPIの選び方.png" alt="SMART原則の図解">
+                </div>
+                <div class="chapter-text">
+                    <p>KPI（重要業績評価指標）は、目標達成度を測る具体的な数値です。しかし、「何でも測ればいい」わけではありません。</p>
+                    <p>SMART原則で設計します。Specific（具体的）、Measurable（測定可能）、Achievable（達成可能）、Relevant（関連性）、Time-bound（期限付き）の5つの要素です。</p>
+                    <p>先行指標（未来の結果を予測する指標）と遅行指標（結果を示す指標）を組み合わせることで、問題を事前に察知できます。</p>
+                    <p>あるクラウドサービス企業では、売上だけを追っていましたが、KPIに「アクティブユーザー率」を追加したところ、30%未満のユーザーは90日以内に解約する傾向が判明。早期アラートで解約を30%削減しました。</p>
+                </div>
+            </section>
+
+            <section class="chapter">
+                <h3>第3章：データ収集の実践テクニック</h3>
+                <div class="chapter-diagram">
+                    <img src="diagrams/subtitle_3_データ収集の実践テクニック.png" alt="データ収集の4つの方法図解">
+                </div>
+                <div class="chapter-text">
+                    <p>データ収集には定量データ（数値で表せるデータ）、定性データ（言葉や感情で表されるデータ）、一次データ（自分で直接収集）、二次データ（既存の情報源から取得）の4つの方法があります。</p>
+                    <p>データ収集の3つの落とし穴に注意が必要です。サンプル数不足、選択バイアス（既存顧客だけに聞いても離脱した顧客の声は拾えない）、質問の誘導を避けましょう。</p>
+                    <p>あるECサイトでは、Googleアナリティクスで離脱率が高いページを特定し、ヒートマップツールでユーザー行動を可視化。さらに「送料が高い」というレビューも収集し、定量・定性両面から施策を導出しました。</p>
+                </div>
+            </section>
+
+            <section class="chapter">
+                <h3>第4章：データ分析の基本フレームワーク</h3>
+                <div class="chapter-diagram">
+                    <img src="diagrams/subtitle_4_データ分析の基本フレームワーク.png" alt="データ分析の3つの手法図解">
+                </div>
+                <div class="chapter-text">
+                    <p>記述統計でデータを要約します。平均値（全体の中心傾向）、中央値（外れ値の影響を受けにくい）、標準偏差（データのばらつき）を使います。</p>
+                    <p>相関分析で2つの変数の関係を調べます。ただし、「相関≠因果」です。アイスの売上と熱中症には相関がありますが、アイスが熱中症を引き起こすわけではありません。</p>
+                    <p>セグメント分析で顧客を年代・地域・購買履歴などでグループ化します。セグメント特有のパターンが見えてきます。</p>
+                    <p>あるレストランチェーンでは、店舗を「駅前」「住宅地」「オフィス街」にセグメント化したところ、駅前店だけが前年比20%増だと判明。駅前店の成功要因を他店舗に展開し、全体売上が15%向上しました。</p>
+                </div>
+            </section>
+
+            <section class="chapter">
+                <h3>第5章：データ可視化の技術</h3>
+                <div class="chapter-diagram">
+                    <img src="diagrams/subtitle_5_データ可視化の技術.png" alt="4つのグラフタイプ図解">
+                </div>
+                <div class="chapter-text">
+                    <p>人間は数字の羅列より、グラフや図の方が直感的に理解できます。適切な可視化は、複雑なデータを一瞬で伝えます。</p>
+                    <p>折れ線グラフは時系列の変化、棒グラフはカテゴリ間の比較、円グラフは全体に対する割合、散布図は2変数の相関を見るのに適しています。</p>
+                    <p>色使いの3原則：強調色で重要なデータだけを目立たせる、コントラストを十分にとる、色覚多様性への配慮（赤緑の組み合わせを避ける）。</p>
+                    <p>あるスタートアップでは、30ページのExcelレポートをダッシュボードで「売上」「顧客数」「解約率」の3つのKPIだけを大きく表示する1ページに変更。意思決定スピードが2倍になりました。</p>
+                </div>
+            </section>
+
+            <section class="chapter">
+                <h3>第6章：データから洞察を引き出す思考法</h3>
+                <div class="chapter-diagram">
+                    <img src="diagrams/subtitle_6_データから洞察を引き出す思考法.png" alt="仮説検証サイクル図解">
+                </div>
+                <div class="chapter-text">
+                    <p>データは「何が起きているか」を教えてくれますが、「なぜ起きているか」は人間が考える必要があります。</p>
+                    <p>トレンド発見、異常値検出、セグメント差、季節性、相関からの仮説といった5つの洞察発見パターンがあります。</p>
+                    <p>仮説検証のサイクルを回します。データから気づきを得る→仮説を立てる→追加データで検証する→施策を実行する→結果を測定する、という流れです。</p>
+                    <p>あるサブスクサービスでは、解約理由が「価格が高い」だったため価格を下げましたが効果なし。さらに分析すると「最終ログインから30日経過したユーザー」の90%が解約していることが判明。14日ログインがないユーザーに自動メールを送る施策を導入し、解約率を15%から10%に削減しました。</p>
+                </div>
+            </section>
+
+            <section class="key-takeaways">
+                <h3>💡 重要ポイント</h3>
+                <ul>
+                    <li>勘ではなくデータで意思決定することで客観性・再現性・予測力を得る</li>
+                    <li>KPIはSMART原則で設計し、先行指標で早期に問題を察知する</li>
+                    <li>データ収集ではサンプル数不足・選択バイアス・質問誘導を避ける</li>
+                    <li>データ分析→仮説→検証→施策のサイクルを回して改善する</li>
+                </ul>
+            </section>
+        </div>
+
+        <footer>
+            <p>© 2025 ビジネス分析実践ガイド | Generated with AI-powered Learning Content System</p>
+            <p style="margin-top: 10px;">データ駆動型意思決定の基礎</p>
+        </footer>
+    </div>
+</body>
+</html>

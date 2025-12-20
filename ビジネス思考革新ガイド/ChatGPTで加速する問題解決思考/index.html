@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPTで加速する問題解決思考 - ビジュアルギャラリー</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #e0e0e0;
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            margin-bottom: 40px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #a8a8a8;
+            margin-bottom: 20px;
+        }
+
+        .btn-reading {
+            display: inline-block;
+            padding: 12px 30px;
+            margin-top: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .btn-reading:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .gallery-item {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(102, 126, 234, 0.3);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            cursor: pointer;
+        }
+
+        .gallery-item-title {
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+            color: #b8b8b8;
+        }
+
+        .manga-section {
+            grid-column: 1 / -1;
+        }
+
+        .manga-section .gallery-item-title {
+            font-size: 1.3em;
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.2) 100%);
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 40px;
+            color: #888;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 1000;
+            cursor: pointer;
+            padding: 20px;
+        }
+
+        .lightbox img {
+            max-width: 90%;
+            max-height: 90%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 10px;
+        }
+
+        .lightbox.active {
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="subtitle">ビジネス思考革新ガイド</div>
+            <h1>ChatGPTで加速する問題解決思考</h1>
+            <p style="margin-top: 20px; color: #a8a8a8;">すべてのビジュアルコンテンツ</p>
+            <a href="reading.html" class="btn-reading">📖 学習ページを読む</a>
+        </header>
+
+        <div class="gallery">
+            <!-- 漫画セクション -->
+            <div class="gallery-item manga-section">
+                <img src="manga_4koma.png" alt="4コマ漫画：ChatGPTで思考を加速する">
+                <div class="gallery-item-title">📚 学習漫画：ChatGPTで思考を加速する</div>
+            </div>
+
+            <!-- 図解セクション -->
+            <div class="gallery-item">
+                <img src="diagrams/subtitle_1_なぜ今「AIとの対話」が思考のブレイクスルーを生むのか.png" alt="第1章図解">
+                <div class="gallery-item-title">第1章：なぜ今「AIとの対話」が思考のブレイクスルーを生むのか</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="diagrams/subtitle_2_質問設計の3原則：AIから最高の答えを引き出す技術.png" alt="第2章図解">
+                <div class="gallery-item-title">第2章：質問設計の3原則：AIから最高の答えを引き出す技術</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="diagrams/subtitle_3_思考の3ステップ：発散→収束→検証のサイクル.png" alt="第3章図解">
+                <div class="gallery-item-title">第3章：思考の3ステップ：発散→収束→検証のサイクル</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="diagrams/subtitle_4_ロジカル思考を補完するAI活用法.png" alt="第4章図解">
+                <div class="gallery-item-title">第4章：ロジカル思考を補完するAI活用法</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="diagrams/subtitle_5_環境配慮×ビジネスの新しい発想法.png" alt="第5章図解">
+                <div class="gallery-item-title">第5章：環境配慮×ビジネスの新しい発想法</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="diagrams/subtitle_6_未来予測とバックキャスティング思考.png" alt="第6章図解">
+                <div class="gallery-item-title">第6章：未来予測とバックキャスティング思考</div>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2025 ビジネス思考革新ガイド | Generated with AI-powered Learning Content System</p>
+            <p style="margin-top: 10px; font-size: 0.9em;">全7点のビジュアルコンテンツ（漫画1点・図解6点）</p>
+        </footer>
+    </div>
+
+    <div class="lightbox" id="lightbox">
+        <img src="" alt="拡大表示" id="lightbox-img">
+    </div>
+
+    <script>
+        // 画像クリックでライトボックス表示
+        const galleryImages = document.querySelectorAll('.gallery-item img');
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+
+        galleryImages.forEach(img => {
+            img.addEventListener('click', () => {
+                lightboxImg.src = img.src;
+                lightbox.classList.add('active');
+            });
+        });
+
+        lightbox.addEventListener('click', () => {
+            lightbox.classList.remove('active');
+        });
+    </script>
+</body>
+</html>
