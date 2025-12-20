@@ -21,7 +21,8 @@
     "auto_deploy": true,
     "remote_url": "https://github.com/wlicense/learning-content.git",
     "branch": "main",
-    "commit_message_template": "Add new content: {book_name} - {theme}"
+    "commit_message_template": "Add new content: {book_name} - {theme}",
+    "netlify_build_hook": "https://api.netlify.com/build_hooks/6946120bd1020f85f57b69d7"
   },
   "content_structure": {
     "root_dir": "/Users/hajime/Desktop/learning-content",

@@ -134,7 +134,29 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-# Step 6: 完了
+# Step 6: Netlify Build Hookを呼び出し（オプション）
+if command -v jq &> /dev/null; then
+    BUILD_HOOK=$(jq -r '.repository.netlify_build_hook // ""' "$CONFIG_FILE")
+
+    if [ -n "$BUILD_HOOK" ] && [ "$BUILD_HOOK" != "null" ]; then
+        echo -e "\n${BLUE}🌐 Step 6: Netlifyデプロイをトリガー中...${NC}"
+
+        RESPONSE=$(curl -X POST -s -w "\n%{http_code}" "$BUILD_HOOK")
+        HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
+
+        if [ "$HTTP_CODE" = "200" ] || [ "$HTTP_CODE" = "201" ]; then
+            echo -e "${GREEN}✓ Netlifyデプロイが開始されました${NC}"
+            SITE_URL=$(jq -r '.site_info.base_url // "https://yoursite.com"' "$CONFIG_FILE")
+            echo -e "${BLUE}   サイトURL: $SITE_URL${NC}"
+            echo -e "${YELLOW}   ビルド状況: https://app.netlify.com/sites/gregarious-tiramisu-baad37/deploys${NC}"
+        else
+            echo -e "${YELLOW}⚠️ Netlify Build Hookの呼び出しに失敗しました (HTTP $HTTP_CODE)${NC}"
+            echo -e "${YELLOW}   手動でデプロイしてください${NC}"
+        fi
+    fi
+fi
+
+# Step 7: 完了
 echo -e "\n${GREEN}╔══════════════════════════════════════╗${NC}"
 echo -e "${GREEN}║     🎉 デプロイ完了！                ║${NC}"
 echo -e "${GREEN}╚══════════════════════════════════════╝${NC}"
@@ -143,5 +165,5 @@ echo -e "\n${BLUE}📊 デプロイ情報:${NC}"
 echo -e "   コミット: $(git rev-parse --short HEAD)"
 echo -e "   ブランチ: $BRANCH"
 echo -e "   リモート: $REMOTE_URL"
-echo -e "\n${YELLOW}ℹ️ Netlify/Vercelで自動ビルドが開始されます（1-2分）${NC}"
-echo -e "${YELLOW}   サイトURL: https://yoursite.com${NC}\n"
+echo -e "\n${GREEN}✅ Netlifyでビルドが進行中です（1-2分）${NC}"
+echo -e "${BLUE}   サイトURL: $(jq -r '.site_info.base_url // "https://yoursite.com"' "$CONFIG_FILE" 2>/dev/null || echo "https://yoursite.com")${NC}\n"
