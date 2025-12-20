@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>画像ギャラリー - GPT Image vs Gemini ナノバナナPro徹底比較</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+            background: #1a1a1a;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 2px solid #667eea;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        header .subtitle {
+            color: #999;
+            font-size: 16px;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .stat-card {
+            background: #2a2a2a;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid #667eea;
+        }
+
+        .stat-card h3 {
+            font-size: 14px;
+            color: #999;
+            margin-bottom: 10px;
+        }
+
+        .stat-card .value {
+            font-size: 28px;
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .section {
+            margin-bottom: 60px;
+        }
+
+        .section h2 {
+            font-size: 24px;
+            color: #667eea;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 30px;
+        }
+
+        .image-card {
+            background: #2a2a2a;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            transition: transform 0.3s;
+        }
+
+        .image-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .image-card img {
+            width: 100%;
+            display: block;
+        }
+
+        .image-info {
+            padding: 15px;
+        }
+
+        .image-info h3 {
+            font-size: 16px;
+            color: #fff;
+            margin-bottom: 8px;
+        }
+
+        .image-info .description {
+            font-size: 14px;
+            color: #999;
+            line-height: 1.6;
+        }
+
+        .manga-full {
+            background: #2a2a2a;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .manga-full img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            border-top: 2px solid #667eea;
+            margin-top: 60px;
+            color: #999;
+        }
+
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📸 画像ギャラリー</h1>
+            <div class="subtitle">AI画像生成実践ガイド | GPT Image vs Gemini ナノバナナPro徹底比較</div>
+        </header>
+
+        <div class="stats">
+            <div class="stat-card">
+                <h3>総文字数</h3>
+                <div class="value">2,550</div>
+            </div>
+            <div class="stat-card">
+                <h3>章構成</h3>
+                <div class="value">6章</div>
+            </div>
+            <div class="stat-card">
+                <h3>図解イラスト</h3>
+                <div class="value">6枚</div>
+            </div>
+            <div class="stat-card">
+                <h3>4コマ漫画</h3>
+                <div class="value">1枚</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🎨 4コマ漫画</h2>
+            <div class="manga-full">
+                <img src="manga_4koma.png" alt="4コマ漫画">
+                <div class="image-info">
+                    <h3>学習用4コマ漫画</h3>
+                    <div class="description">GPT ImageとナノバナナProの違いをストーリー形式で理解できます。ビジネスパーソンが実際に使い分けを学ぶ様子を描いています。</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📊 図解イラスト集</h2>
+            <div class="gallery">
+                <div class="image-card">
+                    <img src="diagrams/subtitle_1_AI画像生成ツールの進化背景.png" alt="図解1">
+                    <div class="image-info">
+                        <h3>図解1: AI画像生成ツールの進化背景</h3>
+                        <div class="description">2025年のAI画像生成競争と、従来ツールの3つの課題（一貫性の欠如、合成機能の弱さ、多言語対応の不足）を視覚化。</div>
+                    </div>
+                </div>
+
+                <div class="image-card">
+                    <img src="diagrams/subtitle_2_GPT_Imageの革新的な3つの特徴.png" alt="図解2">
+                    <div class="image-info">
+                        <h3>図解2: GPT Imageの革新的な3つの特徴</h3>
+                        <div class="description">一貫性を保った編集機能、高度な合成機能、多様な表現形式への対応という3つの革新的機能を図示。</div>
+                    </div>
+                </div>
+
+                <div class="image-card">
+                    <img src="diagrams/subtitle_3_ナノバナナProとの性能比較結果.png" alt="図解3">
+                    <div class="image-info">
+                        <h3>図解3: ナノバナナProとの性能比較結果</h3>
+                        <div class="description">生成速度、人物の再現性、広告デザインの完成度、4コマ漫画の読みやすさの4項目で比較表を作成。</div>
+                    </div>
+                </div>
+
+                <div class="image-card">
+                    <img src="diagrams/subtitle_4_実務での使い分けポイント.png" alt="図解4">
+                    <div class="image-info">
+                        <h3>図解4: 実務での使い分けポイント</h3>
+                        <div class="description">GPT ImageとナノバナナProのそれぞれが向いているユースケースを左右に分けて整理。</div>
+                    </div>
+                </div>
+
+                <div class="image-card">
+                    <img src="diagrams/subtitle_5_ビジネス活用の具体的なシーン.png" alt="図解5">
+                    <div class="image-info">
+                        <h3>図解5: ビジネス活用の具体的なシーン</h3>
+                        <div class="description">Eコマース、SNSマーケティング、プレゼンテーション、コンテンツ制作の4つの具体的な活用シーンを描画。</div>
+                    </div>
+                </div>
+
+                <div class="image-card">
+                    <img src="diagrams/subtitle_6_今後の展望と選択基準.png" alt="図解6">
+                    <div class="image-info">
+                        <h3>図解6: 今後の展望と選択基準</h3>
+                        <div class="description">2025年以降のAI画像生成の進化予測と、ツール選択の基準（クオリティ vs スピード）を明示。</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>🤖 Generated with Claude Code & まん2000プロジェクト</p>
+            <p>作成日: 2025-12-20</p>
+        </footer>
+    </div>
+</body>
+</html>

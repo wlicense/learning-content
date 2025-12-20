@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>画像ギャラリー - Googleスライド×ナノバナナProによる次世代資料作成ワークフロー</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+            background: #1a1a1a;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 2px solid #667eea;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        header .subtitle {
+            color: #999;
+            font-size: 16px;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .stat-card {
+            background: #2a2a2a;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid #667eea;
+        }
+
+        .stat-card h3 {
+            font-size: 14px;
+            color: #999;
+            margin-bottom: 10px;
+        }
+
+        .stat-card .value {
+            font-size: 28px;
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .section {
+            margin-bottom: 60px;
+        }
+
+        .section h2 {
+            font-size: 24px;
+            color: #667eea;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 30px;
+        }
+
+        .image-card {
+            background: #2a2a2a;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            transition: transform 0.3s;
+        }
+
+        .image-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .image-card img {
+            width: 100%;
+            display: block;
+        }
+
+        .image-info {
+            padding: 15px;
+        }
+
+        .image-info h3 {
+            font-size: 16px;
+            color: #fff;
+            margin-bottom: 8px;
+        }
+
+        .image-info .description {
+            font-size: 14px;
+            color: #999;
+            line-height: 1.6;
+        }
+
+        .manga-full {
+            background: #2a2a2a;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .manga-full img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            border-top: 2px solid #667eea;
+            margin-top: 60px;
+            color: #999;
+        }
+
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📸 画像ギャラリー</h1>
+            <div class="subtitle">ビジネス資料作成実践ガイド | Googleスライド×ナノバナナProによる次世代資料作成ワークフロー</div>
+        </header>
+
+        <div class="stats">
+            <div class="stat-card">
+                <h3>総文字数</h3>
+                <div class="value">2,600</div>
+            </div>
+            <div class="stat-card">
+                <h3>章構成</h3>
+                <div class="value">6章</div>
+            </div>
+            <div class="stat-card">
+                <h3>図解イラスト</h3>
+                <div class="value">6枚</div>
+            </div>
+            <div class="stat-card">
+                <h3>4コマ漫画</h3>
+                <div class="value">1枚</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🎨 4コマ漫画</h2>
+            <div class="manga-full">
+                <img src="manga_4koma.png" alt="4コマ漫画">
+                <div class="image-info">
+                    <h3>学習用4コマ漫画</h3>
+                    <div class="description">従来の手作業による資料作成から、Googleスライド×ナノバナナProを活用した新しいワークフローへの移行を描いています。深夜残業から解放され、本質的な業務に集中できるようになる様子をストーリー形式で表現。</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📊 図解イラスト集</h2>
+            <div class="gallery">
+                <div class="image-card">
+                    <img src="diagrams/subtitle_1_なぜ今「資料作成の自動化」が現実的になったのか.png" alt="図解1">
+                    <div class="image-info">
+                        <h3>図解1: なぜ今「資料作成の自動化」が現実的になったのか</h3>
+                        <div class="description">2025年のビジネス資料作成の革命。Gemini 3のナノバナナProが、プロンプトから直接高品質なビジュアル（図解、インフォグラフィック、4コマ漫画）を生成できるようになった背景を視覚化。</div>
+                    </div>
+                </div>
+
+                <div class="image-card">
+                    <img src="diagrams/subtitle_2_新ワークフロー全体像：調査→叩き台→デザイン→完成.png" alt="図解2">
+                    <div class="image-info">
+                        <h3>図解2: 新ワークフロー全体像：調査→叩き台→デザイン→完成</h3>
+                        <div class="description">4ステップワークフロー（Step 1: 情報収集、Step 2: 叩き台作成、Step 3: ビジュアル生成、Step 4: 最終調整）を矢印でつなぎ、作業時間が10分の1になる流れを図示。</div>
+                    </div>
+                </div>
+
+                <div class="image-card">
+                    <img src="diagrams/subtitle_3_ナノバナナProの4つの主要機能と使い分け.png" alt="図解3">
+                    <div class="image-info">
+                        <h3>図解3: ナノバナナProの4つの主要機能と使い分け</h3>
+                        <div class="description">2x2マトリックスで4つの機能を整理。図解生成、4コマ漫画生成、インフォグラフィック生成、アイキャッチ画像生成の各機能と用途を明示。</div>
+                    </div>
+                </div>
+
+                <div class="image-card">
+                    <img src="diagrams/subtitle_4_よくある失敗パターンと回避策.png" alt="図解4">
+                    <div class="image-info">
+                        <h3>図解4: よくある失敗パターンと回避策</h3>
+                        <div class="description">3つの失敗パターン（完璧主義、曖昧なプロンプト、そのまま使用）とそれぞれの回避策（80点の割り切り、具体的な指示、ブランド調整）をNG例とOK例で対比。</div>
+                    </div>
+                </div>
+
+                <div class="image-card">
+                    <img src="diagrams/subtitle_5_トーン&マナーに合わせたプロンプト設計.png" alt="図解5">
+                    <div class="image-info">
+                        <h3>図解5: トーン&マナーに合わせたプロンプト設計</h3>
+                        <div class="description">フォーマルな提案書、カジュアルな社内資料、技術資料の3カテゴリ別に、適切なキーワード、色使い、フォント、ビジュアルスタイルを提示。</div>
+                    </div>
+                </div>
+
+                <div class="image-card">
+                    <img src="diagrams/subtitle_6_実務での活用シーンと時短効果.png" alt="図解6">
+                    <div class="image-info">
+                        <h3>図解6: 実務での活用シーンと時短効果</h3>
+                        <div class="description">営業提案書（3時間→30分）、社内プレゼン（1時間）、研修資料（5時間→1時間）、顧客向けレポート（70%削減）の4シーンで具体的な時短効果を時計アイコンで視覚化。</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>🤖 Generated with Claude Code & まん2000プロジェクト</p>
+            <p>作成日: 2025-12-20</p>
+        </footer>
+    </div>
+</body>
+</html>
