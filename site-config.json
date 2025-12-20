@@ -2,10 +2,12 @@
   "site_info": {
     "site_name": "Learning Content Library",
     "site_description": "AI生成による学習コンテンツライブラリ",
-    "base_url": "https://gregarious-tiramisu-baad37.netlify.app",
+    "base_url": "https://learning-content-cx5zqin7b-wlicenses-projects.vercel.app",
+    "netlify_url": "https://gregarious-tiramisu-baad37.netlify.app",
+    "vercel_url": "https://learning-content-cx5zqin7b-wlicenses-projects.vercel.app",
     "author": "Hajime",
     "version": "1.0.0",
-    "last_updated": "2025-12-19"
+    "last_updated": "2025-12-20"
   },
   "design_system": {
     "primary_color": "#667eea",
