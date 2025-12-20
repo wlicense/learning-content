@@ -74,6 +74,49 @@
             margin-right: 5px;
         }
 
+        /* 7大側面ボタン */
+        .aspect-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin: 30px 0;
+            padding: 20px;
+        }
+
+        .aspect-btn {
+            background: rgba(255,255,255,0.25);
+            color: white;
+            border: 2px solid rgba(255,255,255,0.4);
+            padding: 12px 24px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .aspect-btn:hover {
+            background: rgba(255,255,255,0.4);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        .aspect-btn.active {
+            background: white;
+            color: #667eea;
+            border-color: white;
+            box-shadow: 0 8px 25px rgba(255,255,255,0.4);
+        }
+
+        .aspect-btn-icon {
+            font-size: 1.3rem;
+        }
+
         /* 検索・フィルターエリア */
         .controls {
             background: white;
@@ -387,6 +430,34 @@
             </div>
         </div>
 
+        <!-- 7大側面ボタン -->
+        <div class="aspect-buttons">
+            <button class="aspect-btn active" data-aspect="">
+                <span>🌟 すべて</span>
+            </button>
+            <button class="aspect-btn" data-aspect="spiritual">
+                <span>🧘 精神的側面</span>
+            </button>
+            <button class="aspect-btn" data-aspect="physical">
+                <span>💪 肉体的側面</span>
+            </button>
+            <button class="aspect-btn" data-aspect="economic">
+                <span>💰 経済的側面</span>
+            </button>
+            <button class="aspect-btn" data-aspect="intellectual">
+                <span>🧠 知的側面</span>
+            </button>
+            <button class="aspect-btn" data-aspect="social">
+                <span>🤝 社会的側面</span>
+            </button>
+            <button class="aspect-btn" data-aspect="emotional">
+                <span>❤️ 心理感情的側面</span>
+            </button>
+            <button class="aspect-btn" data-aspect="temporal">
+                <span>⏰ 時間的側面</span>
+            </button>
+        </div>
+
         <!-- 検索・フィルターエリア -->
         <div class="controls">
             <div class="search-box">
@@ -681,10 +752,33 @@
 
         // イベントリスナー
         document.getElementById('searchInput').addEventListener('input', filterContent);
-        document.getElementById('aspectFilter').addEventListener('change', filterContent);
+        document.getElementById('aspectFilter').addEventListener('change', function() {
+            // ドロップダウン変更時にボタンも同期
+            const selectedAspect = this.value;
+            document.querySelectorAll('.aspect-btn').forEach(b => b.classList.remove('active'));
+            document.querySelector(`.aspect-btn[data-aspect="${selectedAspect}"]`).classList.add('active');
+            filterContent();
+        });
         document.getElementById('tagFilter').addEventListener('change', filterContent);
         document.getElementById('difficultyFilter').addEventListener('change', filterContent);
         document.getElementById('sortFilter').addEventListener('change', filterContent);
+
+        // 側面ボタンのイベントハンドラー
+        document.querySelectorAll('.aspect-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const aspect = this.getAttribute('data-aspect');
+
+                // ボタンのアクティブ状態を更新
+                document.querySelectorAll('.aspect-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+
+                // ドロップダウンと同期
+                document.getElementById('aspectFilter').value = aspect;
+
+                // フィルター実行
+                filterContent();
+            });
+        });
 
         document.getElementById('clearFilters').addEventListener('click', () => {
             document.getElementById('searchInput').value = '';
@@ -692,6 +786,11 @@
             document.getElementById('tagFilter').value = '';
             document.getElementById('difficultyFilter').value = '';
             document.getElementById('sortFilter').value = 'newest';
+
+            // 側面ボタンを「すべて」にリセット
+            document.querySelectorAll('.aspect-btn').forEach(b => b.classList.remove('active'));
+            document.querySelector('.aspect-btn[data-aspect=""]').classList.add('active');
+
             filterContent();
         });
 
