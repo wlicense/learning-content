@@ -3,11 +3,11 @@
   "last_updated": "2025-12-20",
   "books": [
     {
-      "book_name": "FLUX",
+      "book_name": "AI画像生成ツール解説",
       "themes_count": 1,
       "themes": [
         {
-          "book_name": "FLUX",
+          "book_name": "AI画像生成ツール解説",
           "theme": "Flux_次世代画像生成AIの実践活用",
           "created_at": "2025-12-20",
           "tags": {
@@ -61,12 +61,12 @@
               "柔軟な運用"
             ]
           },
-          "url": "/FLUX/Flux_次世代画像生成AIの実践活用/reading.html",
-          "thumbnail": "/FLUX/Flux_次世代画像生成AIの実践活用/manga_4koma.png",
+          "url": "/AI画像生成ツール解説/Flux_次世代画像生成AIの実践活用/reading.html",
+          "thumbnail": "/AI画像生成ツール解説/Flux_次世代画像生成AIの実践活用/manga_4koma.png",
           "metadata": {
             "project_info": {
               "project_name": "まん2000プロジェクト",
-              "book_name": "FLUX",
+              "book_name": "AI画像生成ツール解説",
               "theme_name": "Flux_次世代画像生成AIの実践活用",
               "creation_date": "2025-12-19",
               "total_characters": 2047,
@@ -251,11 +251,11 @@
       ]
     },
     {
-      "book_name": "Hedra",
+      "book_name": "UTAGE",
       "themes_count": 1,
       "themes": [
         {
-          "book_name": "Hedra",
+          "book_name": "UTAGE",
           "theme": "Hedra_リップシンク動画の実践制作ワークフロー",
           "created_at": "2025-12-19",
           "tags": {
@@ -305,10 +305,10 @@
               "マーケター"
             ]
           },
-          "url": "/Hedra/Hedra_リップシンク動画の実践制作ワークフロー/reading.html",
-          "thumbnail": "/Hedra/Hedra_リップシンク動画の実践制作ワークフロー/manga_4koma.png",
+          "url": "/UTAGE/Hedra_リップシンク動画の実践制作ワークフロー/reading.html",
+          "thumbnail": "/UTAGE/Hedra_リップシンク動画の実践制作ワークフロー/manga_4koma.png",
           "metadata": {
-            "book_name": "Hedra",
+            "book_name": "UTAGE",
             "theme": "Hedra_リップシンク動画の実践制作ワークフロー",
             "created_at": "2025-12-19",
             "content_type": "学習コンテンツ（解説文・図解・4コマ漫画）",
@@ -702,11 +702,11 @@
       ]
     },
     {
-      "book_name": "ヒグス✖️ Nanobanana",
+      "book_name": "ヒグスNanobanana.txt",
       "themes_count": 1,
       "themes": [
         {
-          "book_name": "ヒグス✖️ Nanobanana",
+          "book_name": "ヒグスNanobanana.txt",
           "theme": "AI画像合成によるECサイト向けビジュアル制作技術",
           "created_at": "2025-12-20",
           "tags": {
@@ -767,12 +767,12 @@
               "デジタルマーケティング競争優位性"
             ]
           },
-          "url": "/ヒグス✖️ Nanobanana/AI画像合成によるECサイト向けビジュアル制作技術/reading.html",
-          "thumbnail": "/ヒグス✖️ Nanobanana/AI画像合成によるECサイト向けビジュアル制作技術/manga_4koma.png",
+          "url": "/ヒグスNanobanana.txt/AI画像合成によるECサイト向けビジュアル制作技術/reading.html",
+          "thumbnail": "/ヒグスNanobanana.txt/AI画像合成によるECサイト向けビジュアル制作技術/manga_4koma.png",
           "metadata": {
             "project_info": {
               "project_name": "まん2000プロジェクト",
-              "book_name": "ヒグス✖️ Nanobanana",
+              "book_name": "ヒグスNanobanana.txt",
               "theme_name": "AI画像合成によるECサイト向けビジュアル制作技術",
               "creation_date": "2025-12-19",
               "total_characters": 2800,
@@ -967,11 +967,11 @@
       ]
     },
     {
-      "book_name": "健康",
+      "book_name": "健康長寿ハック",
       "themes_count": 10,
       "themes": [
         {
-          "book_name": "健康",
+          "book_name": "健康長寿ハック",
           "theme": "40歳からの内臓脂肪対策とメタボ解消戦略",
           "created_at": "2025-12-20",
           "tags": [
@@ -983,8 +983,8 @@
             "睡眠",
             "習慣化"
           ],
-          "url": "/健康/40歳からの内臓脂肪対策とメタボ解消戦略/reading.html",
-          "thumbnail": "/健康/40歳からの内臓脂肪対策とメタボ解消戦略/manga_4koma.png",
+          "url": "/健康長寿ハック/40歳からの内臓脂肪対策とメタボ解消戦略/reading.html",
+          "thumbnail": "/健康長寿ハック/40歳からの内臓脂肪対策とメタボ解消戦略/manga_4koma.png",
           "metadata": {
             "title": "40歳からの内臓脂肪対策とメタボ解消戦略",
             "book": "健康長寿ハック",
@@ -1013,7 +1013,7 @@
           }
         },
         {
-          "book_name": "健康",
+          "book_name": "健康長寿ハック",
           "theme": "健康診断数値の読み解き実践ガイド",
           "created_at": "2025-12-19",
           "tags": {
@@ -1032,11 +1032,11 @@
               "予防医学"
             ]
           },
-          "url": "/健康/健康診断数値の読み解き実践ガイド/reading.html",
-          "thumbnail": "/健康/健康診断数値の読み解き実践ガイド/manga_4koma.png",
+          "url": "/健康長寿ハック/健康診断数値の読み解き実践ガイド/reading.html",
+          "thumbnail": "/健康長寿ハック/健康診断数値の読み解き実践ガイド/manga_4koma.png",
           "metadata": {
             "theme": "健康診断数値の読み解き実践ガイド",
-            "book_name": "健康",
+            "book_name": "健康長寿ハック",
             "created_at": "2025-12-19",
             "tags": {
               "category": "予防医学",
@@ -1087,7 +1087,7 @@
           }
         },
         {
-          "book_name": "健康",
+          "book_name": "健康長寿ハック",
           "theme": "睡眠の質を高める実践ガイド：快眠戦略と健康長寿の科学",
           "created_at": "2025-12-19",
           "tags": {
@@ -1112,10 +1112,10 @@
               "快眠"
             ]
           },
-          "url": "/健康/睡眠の質を高める実践ガイド：快眠戦略と健康長寿の科学/reading.html",
-          "thumbnail": "/健康/睡眠の質を高める実践ガイド：快眠戦略と健康長寿の科学/manga_4koma.png",
+          "url": "/健康長寿ハック/睡眠の質を高める実践ガイド：快眠戦略と健康長寿の科学/reading.html",
+          "thumbnail": "/健康長寿ハック/睡眠の質を高める実践ガイド：快眠戦略と健康長寿の科学/manga_4koma.png",
           "metadata": {
-            "book_name": "健康",
+            "book_name": "健康長寿ハック",
             "theme": "睡眠の質を高める実践ガイド：快眠戦略と健康長寿の科学",
             "created_at": "2025-12-19",
             "tags": {
@@ -1185,12 +1185,12 @@
           }
         },
         {
-          "book_name": "健康",
+          "book_name": "健康長寿ハック",
           "theme": "筋肉を守る実践ガイド：サルコペニア予防と筋力維持戦略",
           "created_at": "2025-12-19",
           "tags": {},
-          "url": "/健康/筋肉を守る実践ガイド：サルコペニア予防と筋力維持戦略/reading.html",
-          "thumbnail": "/健康/筋肉を守る実践ガイド：サルコペニア予防と筋力維持戦略/manga_4koma.png",
+          "url": "/健康長寿ハック/筋肉を守る実践ガイド：サルコペニア予防と筋力維持戦略/reading.html",
+          "thumbnail": "/健康長寿ハック/筋肉を守る実践ガイド：サルコペニア予防と筋力維持戦略/manga_4koma.png",
           "metadata": {
             "title": "筋肉を守る実践ガイド：サルコペニア予防と筋力維持戦略",
             "category": "健康長寿ハック",
@@ -1270,7 +1270,7 @@
           }
         },
         {
-          "book_name": "健康",
+          "book_name": "健康長寿ハック",
           "theme": "糖尿病予防のための血糖コントロール実践法",
           "created_at": "2025-12-19",
           "tags": {
@@ -1288,10 +1288,10 @@
             "target_audience": "40歳以上のビジネスパーソン",
             "learning_time": "15分"
           },
-          "url": "/健康/糖尿病予防のための血糖コントロール実践法/reading.html",
-          "thumbnail": "/健康/糖尿病予防のための血糖コントロール実践法/manga_4koma.png",
+          "url": "/健康長寿ハック/糖尿病予防のための血糖コントロール実践法/reading.html",
+          "thumbnail": "/健康長寿ハック/糖尿病予防のための血糖コントロール実践法/manga_4koma.png",
           "metadata": {
-            "book_name": "健康",
+            "book_name": "健康長寿ハック",
             "theme": "糖尿病予防のための血糖コントロール実践法",
             "created_at": "2025-12-19",
             "tags": {
@@ -1352,12 +1352,12 @@
           }
         },
         {
-          "book_name": "健康",
+          "book_name": "健康長寿ハック",
           "theme": "肝臓を守る実践ガイド：アルコールと脂肪肝対策",
           "created_at": "2025-12-19",
           "tags": {},
-          "url": "/健康/肝臓を守る実践ガイド：アルコールと脂肪肝対策/reading.html",
-          "thumbnail": "/健康/肝臓を守る実践ガイド：アルコールと脂肪肝対策/manga_4koma.png",
+          "url": "/健康長寿ハック/肝臓を守る実践ガイド：アルコールと脂肪肝対策/reading.html",
+          "thumbnail": "/健康長寿ハック/肝臓を守る実践ガイド：アルコールと脂肪肝対策/manga_4koma.png",
           "metadata": {
             "title": "肝臓を守る実践ガイド：アルコールと脂肪肝対策",
             "category": "健康長寿ハック",
@@ -1437,7 +1437,7 @@
           }
         },
         {
-          "book_name": "健康",
+          "book_name": "健康長寿ハック",
           "theme": "腸内環境と免疫力強化：腸活で健康長寿を実現する実践ガイド",
           "created_at": "2025-12-19",
           "tags": {
@@ -1465,10 +1465,10 @@
               "発酵食品"
             ]
           },
-          "url": "/健康/腸内環境と免疫力強化：腸活で健康長寿を実現する実践ガイド/reading.html",
-          "thumbnail": "/健康/腸内環境と免疫力強化：腸活で健康長寿を実現する実践ガイド/manga_4koma.png",
+          "url": "/健康長寿ハック/腸内環境と免疫力強化：腸活で健康長寿を実現する実践ガイド/reading.html",
+          "thumbnail": "/健康長寿ハック/腸内環境と免疫力強化：腸活で健康長寿を実現する実践ガイド/manga_4koma.png",
           "metadata": {
-            "book_name": "健康",
+            "book_name": "健康長寿ハック",
             "theme": "腸内環境と免疫力強化：腸活で健康長寿を実現する実践ガイド",
             "created_at": "2025-12-19",
             "tags": {
@@ -1542,7 +1542,7 @@
           }
         },
         {
-          "book_name": "健康",
+          "book_name": "健康長寿ハック",
           "theme": "血圧130未満の真実と実践管理術",
           "created_at": "2025-12-19",
           "tags": {
@@ -1561,11 +1561,11 @@
               "生活習慣病"
             ]
           },
-          "url": "/健康/血圧130未満の真実と実践管理術/reading.html",
-          "thumbnail": "/健康/血圧130未満の真実と実践管理術/manga_4koma.png",
+          "url": "/健康長寿ハック/血圧130未満の真実と実践管理術/reading.html",
+          "thumbnail": "/健康長寿ハック/血圧130未満の真実と実践管理術/manga_4koma.png",
           "metadata": {
             "theme": "血圧130未満の真実と実践管理術",
-            "book_name": "健康",
+            "book_name": "健康長寿ハック",
             "created_at": "2025-12-19",
             "tags": {
               "category": "予防医学",
@@ -1617,7 +1617,7 @@
           }
         },
         {
-          "book_name": "健康",
+          "book_name": "健康長寿ハック",
           "theme": "認知症予防と脳の健康維持戦略：記憶力を守る実践ガイド",
           "created_at": "2025-12-19",
           "tags": {
@@ -1643,10 +1643,10 @@
               "知的活動"
             ]
           },
-          "url": "/健康/認知症予防と脳の健康維持戦略：記憶力を守る実践ガイド/reading.html",
-          "thumbnail": "/健康/認知症予防と脳の健康維持戦略：記憶力を守る実践ガイド/manga_4koma.png",
+          "url": "/健康長寿ハック/認知症予防と脳の健康維持戦略：記憶力を守る実践ガイド/reading.html",
+          "thumbnail": "/健康長寿ハック/認知症予防と脳の健康維持戦略：記憶力を守る実践ガイド/manga_4koma.png",
           "metadata": {
-            "book_name": "健康",
+            "book_name": "健康長寿ハック",
             "theme": "認知症予防と脳の健康維持戦略：記憶力を守る実践ガイド",
             "created_at": "2025-12-19",
             "tags": {
@@ -1717,7 +1717,7 @@
           }
         },
         {
-          "book_name": "健康",
+          "book_name": "健康長寿ハック",
           "theme": "骨密度を高める実践ガイド：骨粗鬆症予防と骨強化戦略",
           "created_at": "2025-12-19",
           "tags": {
@@ -1742,10 +1742,10 @@
               "予防"
             ]
           },
-          "url": "/健康/骨密度を高める実践ガイド：骨粗鬆症予防と骨強化戦略/reading.html",
-          "thumbnail": "/健康/骨密度を高める実践ガイド：骨粗鬆症予防と骨強化戦略/manga_4koma.png",
+          "url": "/健康長寿ハック/骨密度を高める実践ガイド：骨粗鬆症予防と骨強化戦略/reading.html",
+          "thumbnail": "/健康長寿ハック/骨密度を高める実践ガイド：骨粗鬆症予防と骨強化戦略/manga_4koma.png",
           "metadata": {
-            "book_name": "健康",
+            "book_name": "健康長寿ハック",
             "theme": "骨密度を高める実践ガイド：骨粗鬆症予防と骨強化戦略",
             "created_at": "2025-12-19",
             "tags": {

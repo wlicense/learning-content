@@ -381,10 +381,6 @@
                     <span>テーマ</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-number" id="totalBooks">0</span>
-                    <span>書籍</span>
-                </div>
-                <div class="stat-item">
                     <span class="stat-number" id="lastUpdated">--</span>
                     <span>最終更新</span>
                 </div>
@@ -403,11 +399,6 @@
                 <span class="search-icon">🔍</span>
             </div>
             <div class="filters">
-                <span class="filter-label">📖 書籍</span>
-                <select id="bookFilter" class="filter-select">
-                    <option value="">すべて</option>
-                </select>
-
                 <span class="filter-label">🏷️ タグ</span>
                 <select id="tagFilter" class="filter-select">
                     <option value="">すべて</option>
@@ -484,24 +475,13 @@
         // 統計情報更新
         function updateStats() {
             document.getElementById('totalCount').textContent = allContent.total_count || 0;
-            document.getElementById('totalBooks').textContent = allContent.books?.length || 0;
             document.getElementById('lastUpdated').textContent = allContent.last_updated || '--';
             document.getElementById('footerLastUpdated').textContent = allContent.last_updated || '--';
         }
 
         // フィルター選択肢を生成
         function populateFilters() {
-            const bookFilter = document.getElementById('bookFilter');
             const tagFilter = document.getElementById('tagFilter');
-
-            // 書籍フィルター
-            const books = [...new Set(allContent.books?.map(b => b.book_name) || [])];
-            books.forEach(book => {
-                const option = document.createElement('option');
-                option.value = book;
-                option.textContent = book;
-                bookFilter.appendChild(option);
-            });
 
             // タグフィルター（全テーマから収集）
             const allTags = new Set();
@@ -526,7 +506,6 @@
         // コンテンツをフィルタリング
         function filterContent() {
             const searchTerm = document.getElementById('searchInput').value.toLowerCase();
-            const bookFilter = document.getElementById('bookFilter').value;
             const tagFilter = document.getElementById('tagFilter').value;
             const difficultyFilter = document.getElementById('difficultyFilter').value;
             const sortFilter = document.getElementById('sortFilter').value;
@@ -536,7 +515,6 @@
             allContent.books?.forEach(book => {
                 book.themes?.forEach(theme => {
                     // フィルタリング条件
-                    if (bookFilter && book.book_name !== bookFilter) return;
                     if (difficultyFilter && theme.tags?.difficulty !== difficultyFilter) return;
 
                     // タグフィルター
@@ -683,19 +661,16 @@
             document.getElementById('contentGrid').innerHTML = '';
             document.getElementById('emptyState').style.display = 'block';
             document.getElementById('totalCount').textContent = '0';
-            document.getElementById('totalBooks').textContent = '0';
         }
 
         // イベントリスナー
         document.getElementById('searchInput').addEventListener('input', filterContent);
-        document.getElementById('bookFilter').addEventListener('change', filterContent);
         document.getElementById('tagFilter').addEventListener('change', filterContent);
         document.getElementById('difficultyFilter').addEventListener('change', filterContent);
         document.getElementById('sortFilter').addEventListener('change', filterContent);
 
         document.getElementById('clearFilters').addEventListener('click', () => {
             document.getElementById('searchInput').value = '';
-            document.getElementById('bookFilter').value = '';
             document.getElementById('tagFilter').value = '';
             document.getElementById('difficultyFilter').value = '';
             document.getElementById('sortFilter').value = 'newest';
