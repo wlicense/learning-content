@@ -3,11 +3,26 @@
   "theme": "睡眠の質を高める実践ガイド：快眠戦略と健康長寿の科学",
   "created_at": "2025-12-19",
   "tags": {
-    "category": ["健康", "予防医学", "睡眠科学"],
-    "target_audience": ["40代以上", "睡眠の悩みがある方", "健康意識の高い方"],
+    "category": [
+      "健康",
+      "予防医学",
+      "睡眠科学"
+    ],
+    "target_audience": [
+      "40代以上",
+      "睡眠の悩みがある方",
+      "健康意識の高い方"
+    ],
     "difficulty": "中級",
     "reading_time": "16分",
-    "keywords": ["睡眠", "不眠症", "睡眠時無呼吸症候群", "体内時計", "メラトニン", "快眠"]
+    "keywords": [
+      "睡眠",
+      "不眠症",
+      "睡眠時無呼吸症候群",
+      "体内時計",
+      "メラトニン",
+      "快眠"
+    ]
   },
   "content_structure": {
     "total_chapters": 6,
@@ -50,5 +65,8 @@
     ],
     "reading_page": "reading.html",
     "gallery_page": "index.html"
-  }
+  },
+  "aspects": [
+    "physical"
+  ]
 }

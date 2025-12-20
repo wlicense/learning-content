@@ -3,8 +3,16 @@
   "theme": "糖尿病予防のための血糖コントロール実践法",
   "created_at": "2025-12-19",
   "tags": {
-    "category": ["予防医学", "生活習慣病", "健康管理"],
-    "tools": ["食事管理", "運動習慣", "血糖測定"],
+    "category": [
+      "予防医学",
+      "生活習慣病",
+      "健康管理"
+    ],
+    "tools": [
+      "食事管理",
+      "運動習慣",
+      "血糖測定"
+    ],
     "difficulty": "初級",
     "target_audience": "40歳以上のビジネスパーソン",
     "learning_time": "15分"
@@ -48,5 +56,8 @@
     "diagram_count": 6,
     "manga_count": 1,
     "chapter_count": 6
-  }
+  },
+  "aspects": [
+    "physical"
+  ]
 }

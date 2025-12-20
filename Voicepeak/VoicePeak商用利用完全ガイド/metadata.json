@@ -184,5 +184,9 @@
     "extraction_method": "アイデア・概念のみ抽出",
     "originality": "完全に独自の言葉で再構成",
     "legal_status": "オリジナル著作物として作成"
-  }
+  },
+  "aspects": [
+    "intellectual",
+    "economic"
+  ]
 }

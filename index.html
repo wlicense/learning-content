@@ -399,6 +399,18 @@
                 <span class="search-icon">🔍</span>
             </div>
             <div class="filters">
+                <span class="filter-label">🌟 側面</span>
+                <select id="aspectFilter" class="filter-select">
+                    <option value="">すべて</option>
+                    <option value="spiritual">🧘 精神的側面</option>
+                    <option value="physical">💪 肉体的側面</option>
+                    <option value="economic">💰 経済的側面</option>
+                    <option value="intellectual">🧠 知的側面</option>
+                    <option value="social">🤝 社会的側面</option>
+                    <option value="emotional">❤️ 心理感情的側面</option>
+                    <option value="temporal">⏰ 時間的側面</option>
+                </select>
+
                 <span class="filter-label">🏷️ タグ</span>
                 <select id="tagFilter" class="filter-select">
                     <option value="">すべて</option>
@@ -506,6 +518,7 @@
         // コンテンツをフィルタリング
         function filterContent() {
             const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const aspectFilter = document.getElementById('aspectFilter').value;
             const tagFilter = document.getElementById('tagFilter').value;
             const difficultyFilter = document.getElementById('difficultyFilter').value;
             const sortFilter = document.getElementById('sortFilter').value;
@@ -514,6 +527,9 @@
 
             allContent.books?.forEach(book => {
                 book.themes?.forEach(theme => {
+                    // 側面フィルター
+                    if (aspectFilter && (!theme.aspects || !theme.aspects.includes(aspectFilter))) return;
+
                     // フィルタリング条件
                     if (difficultyFilter && theme.tags?.difficulty !== difficultyFilter) return;
 
@@ -665,12 +681,14 @@
 
         // イベントリスナー
         document.getElementById('searchInput').addEventListener('input', filterContent);
+        document.getElementById('aspectFilter').addEventListener('change', filterContent);
         document.getElementById('tagFilter').addEventListener('change', filterContent);
         document.getElementById('difficultyFilter').addEventListener('change', filterContent);
         document.getElementById('sortFilter').addEventListener('change', filterContent);
 
         document.getElementById('clearFilters').addEventListener('click', () => {
             document.getElementById('searchInput').value = '';
+            document.getElementById('aspectFilter').value = '';
             document.getElementById('tagFilter').value = '';
             document.getElementById('difficultyFilter').value = '';
             document.getElementById('sortFilter').value = 'newest';

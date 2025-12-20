@@ -56,6 +56,7 @@ function findAllMetadata(dir, bookName = null) {
                                 theme: metadata.theme || item.name,
                                 created_at: metadata.created_at || new Date().toISOString().split('T')[0],
                                 tags: metadata.tags || {},
+                                aspects: metadata.aspects || [],
                                 url: urlPath + '/reading.html',
                                 thumbnail: urlPath + '/manga_4koma.png',
                                 metadata: metadata

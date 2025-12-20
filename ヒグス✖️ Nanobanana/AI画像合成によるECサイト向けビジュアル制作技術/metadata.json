@@ -101,42 +101,72 @@
         "title": "AI画像生成の基礎技術",
         "diagram_file": "subtitle_1_AI画像生成の基礎技術.png",
         "diagram_type": "flowchart",
-        "key_concepts": ["Flux Pro", "Mid Journey", "プロンプトエンジニアリング", "著作権配慮"]
+        "key_concepts": [
+          "Flux Pro",
+          "Mid Journey",
+          "プロンプトエンジニアリング",
+          "著作権配慮"
+        ]
       },
       {
         "order": 2,
         "title": "モデル一貫性の維持技術",
         "diagram_file": "subtitle_2_モデル一貫性の維持技術.png",
         "diagram_type": "flowchart",
-        "key_concepts": ["Flux Context", "同一キャラクター生成", "複数角度", "コスト効率"]
+        "key_concepts": [
+          "Flux Context",
+          "同一キャラクター生成",
+          "複数角度",
+          "コスト効率"
+        ]
       },
       {
         "order": 3,
         "title": "Nanobanana高精度画像合成",
         "diagram_file": "subtitle_3_Nanobanana高精度画像合成.png",
         "diagram_type": "flowchart",
-        "key_concepts": ["段階的合成", "商品写真品質", "高解像度", "透過背景", "平置き撮影"]
+        "key_concepts": [
+          "段階的合成",
+          "商品写真品質",
+          "高解像度",
+          "透過背景",
+          "平置き撮影"
+        ]
       },
       {
         "order": 4,
         "title": "ECサイト向けビジュアル制作ワークフロー",
         "diagram_file": "subtitle_4_ECサイト向けビジュアル制作ワークフロー.png",
         "diagram_type": "timeline",
-        "key_concepts": ["4フェーズワークフロー", "モデル生成", "商品合成", "動画化"]
+        "key_concepts": [
+          "4フェーズワークフロー",
+          "モデル生成",
+          "商品合成",
+          "動画化"
+        ]
       },
       {
         "order": 5,
         "title": "動画化・アニメーション技術",
         "diagram_file": "subtitle_5_動画化アニメーション技術.png",
         "diagram_type": "comparison_matrix",
-        "key_concepts": ["Higgs Field Animate", "スタイルプリセット", "Instagram Reels", "クレジット管理"]
+        "key_concepts": [
+          "Higgs Field Animate",
+          "スタイルプリセット",
+          "Instagram Reels",
+          "クレジット管理"
+        ]
       },
       {
         "order": 6,
         "title": "実務での成功ポイント",
         "diagram_file": "subtitle_6_実務での成功ポイント.png",
         "diagram_type": "matrix",
-        "key_concepts": ["ベストプラクティス", "失敗パターン", "品質管理"]
+        "key_concepts": [
+          "ベストプラクティス",
+          "失敗パターン",
+          "品質管理"
+        ]
       }
     ],
     "manga": {
@@ -160,5 +190,9 @@
     "モデル・スタジオ不要での商品ビジュアル制作",
     "静止画から動画コンテンツへの展開",
     "Instagram ReelsなどSNS広告への即活用"
+  ],
+  "aspects": [
+    "intellectual",
+    "economic"
   ]
 }

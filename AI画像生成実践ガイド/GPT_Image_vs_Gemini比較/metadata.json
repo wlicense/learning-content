@@ -3,10 +3,32 @@
   "theme": "GPT Image vs Gemini ナノバナナPro徹底比較",
   "created_at": "2025-12-20",
   "tags": {
-    "tools": ["ChatGPT", "GPT Image", "Gemini", "ナノバナナPro", "AI画像生成"],
-    "technology": ["生成AI", "画像生成", "自然言語処理", "マルチモーダルAI"],
-    "use_cases": ["広告制作", "Eコマース", "SNSマーケティング", "プレゼンテーション", "コンテンツ制作"],
-    "skills": ["AI活用", "ツール選定", "ビジネス効率化", "デザイン自動化"]
+    "tools": [
+      "ChatGPT",
+      "GPT Image",
+      "Gemini",
+      "ナノバナナPro",
+      "AI画像生成"
+    ],
+    "technology": [
+      "生成AI",
+      "画像生成",
+      "自然言語処理",
+      "マルチモーダルAI"
+    ],
+    "use_cases": [
+      "広告制作",
+      "Eコマース",
+      "SNSマーケティング",
+      "プレゼンテーション",
+      "コンテンツ制作"
+    ],
+    "skills": [
+      "AI活用",
+      "ツール選定",
+      "ビジネス効率化",
+      "デザイン自動化"
+    ]
   },
   "learning_objectives": [
     "GPT Imageの3つの革新的機能を理解する",
@@ -35,5 +57,9 @@
     "DALL-E",
     "画像編集AI",
     "マーケティングオートメーション"
+  ],
+  "aspects": [
+    "intellectual",
+    "economic"
   ]
 }
