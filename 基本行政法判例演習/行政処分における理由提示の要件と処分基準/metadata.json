@@ -1,0 +1,27 @@
+{
+  "book_name": "基本行政法判例演習",
+  "theme": "行政処分における理由提示の要件と処分基準",
+  "created_at": "2025-12-21",
+  "tags": {
+    "category": "行政法",
+    "subcategory": "行政手続",
+    "difficulty": "中級",
+    "keywords": ["理由提示", "処分基準", "行政手続法", "不利益処分", "最高裁判例"],
+    "case_name": "建築士免許取消処分事件",
+    "court": "最高裁判所",
+    "case_date": "平成23年6月7日",
+    "citation": "民集65巻4号2081頁"
+  },
+  "content_stats": {
+    "word_count": 5000,
+    "diagram_count": 6,
+    "overview_image_count": 1,
+    "estimated_reading_time": "15分"
+  },
+  "learning_objectives": [
+    "理由提示制度の目的と趣旨を理解する",
+    "理由提示の程度を決める考慮要素を学ぶ",
+    "処分基準の適用関係を示す必要性を理解する",
+    "理由提示不備の法的効果を把握する"
+  ]
+}

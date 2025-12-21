@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>行動優先の習慣形成法 | 科学的に証明されたすごい習慣大百科</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', sans-serif;
+            line-height: 1.8;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        .header .book-name {
+            font-size: 1.2rem;
+            color: #764ba2;
+            font-weight: bold;
+        }
+        .header .meta {
+            margin-top: 15px;
+            color: #666;
+            font-size: 0.95rem;
+        }
+        .summary {
+            background: #f0f4ff;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            border-left: 5px solid #667eea;
+        }
+        .summary h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+        .overview-section {
+            margin-bottom: 50px;
+        }
+        .overview-section h2 {
+            color: #764ba2;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #764ba2;
+        }
+        .overview-image {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        .diagrams-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        .diagram-card {
+            background: #f9f9f9;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .diagram-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+        .diagram-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .diagram-card h3 {
+            color: #667eea;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5);
+        }
+        .subtitles {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 25px;
+            margin: 30px 0;
+        }
+        .subtitles h3 {
+            color: #764ba2;
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+        }
+        .subtitles ol {
+            padding-left: 25px;
+        }
+        .subtitles li {
+            margin-bottom: 12px;
+            color: #555;
+            line-height: 1.6;
+        }
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .tag {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 25px;
+            background: #999;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: background 0.3s;
+        }
+        .back-link:hover {
+            background: #666;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            .header h1 {
+                font-size: 1.8rem;
+            }
+            .diagrams-grid {
+                grid-template-columns: 1fr;
+            }
+            .cta-buttons {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="book-name">科学的に証明されたすごい習慣大百科</div>
+            <h1>行動優先の習慣形成法</h1>
+            <div class="meta">
+                📚 読了時間: 約12分 | 📝 3,200文字 | 📅 2025年12月20日生成
+            </div>
+        </div>
+
+        <div class="summary">
+            <h2>📌 このテーマで学べること</h2>
+            <p>神経科学が証明する「やる気を待つのではなく、行動でやる気を作る」メカニズムを解説。5分ルール、最小行動設計、環境最適化、70%ルール、習慣スタッキングの5つの科学的戦略で、誰でも習慣を神経回路レベルで自動化できる実践プログラムを提供。</p>
+        </div>
+
+        <div class="tags">
+            <span class="tag">#習慣形成</span>
+            <span class="tag">#神経科学</span>
+            <span class="tag">#行動科学</span>
+            <span class="tag">#モチベーション</span>
+            <span class="tag">#環境設計</span>
+            <span class="tag">#認知心理学</span>
+        </div>
+
+        <div class="cta-buttons">
+            <a href="reading.html" class="cta-button">📖 詳細な解説を読む</a>
+        </div>
+
+        <div class="overview-section">
+            <h2>🎯 全体概要</h2>
+            <p>6つのサブタイトル全体を1枚で俯瞰できる概要図です。</p>
+            <img src="overview_image.png" alt="行動優先の習慣形成法 - 全体概要" class="overview-image">
+        </div>
+
+        <div class="subtitles">
+            <h3>📋 6つのサブタイトル</h3>
+            <ol>
+                <li>動機を待つ戦略が失敗する神経科学的理由</li>
+                <li>最初の5分間で脳に起こる劇的変化</li>
+                <li>認知負荷を最小化する行動設計の科学</li>
+                <li>空間配置が行動選択に与える決定的影響</li>
+                <li>完璧主義が習慣を破壊する神経科学的メカニズム</li>
+                <li>既存習慣への接続による自動化戦略</li>
+            </ol>
+        </div>
+
+        <div class="overview-section">
+            <h2>📊 各セクション詳細図解</h2>
+            <p>6つのサブタイトルそれぞれの詳細な図解です。</p>
+            <div class="diagrams-grid">
+                <div class="diagram-card">
+                    <img src="diagrams/diagram_01.png" alt="図解1">
+                    <h3>① 動機を待つ戦略が失敗する理由</h3>
+                </div>
+                <div class="diagram-card">
+                    <img src="diagrams/diagram_02.png" alt="図解2">
+                    <h3>② 5分間で脳に起こる劇的変化</h3>
+                </div>
+                <div class="diagram-card">
+                    <img src="diagrams/diagram_03.png" alt="図解3">
+                    <h3>③ 認知負荷最小化の行動設計</h3>
+                </div>
+                <div class="diagram-card">
+                    <img src="diagrams/diagram_04.png" alt="図解4">
+                    <h3>④ 空間配置が行動選択に与える影響</h3>
+                </div>
+                <div class="diagram-card">
+                    <img src="diagrams/diagram_05.png" alt="図解5">
+                    <h3>⑤ 完璧主義が習慣を破壊するメカニズム</h3>
+                </div>
+                <div class="diagram-card">
+                    <img src="diagrams/diagram_06.png" alt="図解6">
+                    <h3>⑥ 既存習慣への接続戦略</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta-buttons">
+            <a href="reading.html" class="cta-button">📖 今すぐ詳細を読む</a>
+        </div>
+
+        <div style="margin-top: 50px; padding-top: 30px; border-top: 2px solid #eee;">
+            <h3 style="color: #764ba2; margin-bottom: 15px;">🔬 主な研究ソース</h3>
+            <ul style="padding-left: 25px; color: #666;">
+                <li>行動活性化療法(Behavioral Activation)研究</li>
+                <li>カリフォルニア大学神経科学チーム</li>
+                <li>MIT行動経済学ラボ</li>
+                <li>オックスフォード大学行動科学研究所</li>
+                <li>スタンフォード大学習慣研究チーム</li>
+                <li>ハーバード公衆衛生大学院</li>
+            </ul>
+        </div>
+
+        <a href="../../index.html" class="back-link">← ライブラリトップに戻る</a>
+    </div>
+</body>
+</html>

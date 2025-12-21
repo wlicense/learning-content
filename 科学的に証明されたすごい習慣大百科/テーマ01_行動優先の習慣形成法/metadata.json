@@ -1,0 +1,56 @@
+{
+  "theme_id": "theme_01",
+  "theme_name": "行動優先の習慣形成法",
+  "book_name": "科学的に証明されたすごい習慣大百科",
+  "author": "Hajime (AI生成)",
+  "generated_date": "2025-12-20",
+  "word_count": 3200,
+  "reading_time_minutes": 12,
+  "subtitles": [
+    "動機を待つ戦略が失敗する神経科学的理由",
+    "最初の5分間で脳に起こる劇的変化",
+    "認知負荷を最小化する行動設計の科学",
+    "空間配置が行動選択に与える決定的影響",
+    "完璧主義が習慣を破壊する神経科学的メカニズム",
+    "既存習慣への接続による自動化戦略"
+  ],
+  "tags": [
+    "習慣形成",
+    "神経科学",
+    "行動科学",
+    "モチベーション",
+    "環境設計",
+    "認知心理学"
+  ],
+  "aspects": ["intellectual", "temporal"],
+  "difficulty": "medium",
+  "target_audience": "ビジネスパーソン、習慣化に悩む人、自己改善に興味がある人",
+  "key_concepts": [
+    "行動活性化",
+    "5分ルール",
+    "認知負荷理論",
+    "選択アーキテクチャ",
+    "70%ルール",
+    "習慣スタッキング"
+  ],
+  "research_sources": [
+    "行動活性化療法(Behavioral Activation)研究",
+    "カリフォルニア大学神経科学チーム",
+    "MIT行動経済学ラボ",
+    "オックスフォード大学行動科学研究所",
+    "スタンフォード大学習慣研究チーム",
+    "ハーバード公衆衛生大学院"
+  ],
+  "summary": "神経科学が証明する「やる気を待つのではなく、行動でやる気を作る」メカニズムを解説。5分ルール、最小行動設計、環境最適化、70%ルール、習慣スタッキングの5つの科学的戦略で、誰でも習慣を神経回路レベルで自動化できる実践プログラムを提供。",
+  "images": {
+    "overview": "overview_image.png",
+    "diagrams": [
+      "diagrams/diagram_01.png",
+      "diagrams/diagram_02.png",
+      "diagrams/diagram_03.png",
+      "diagrams/diagram_04.png",
+      "diagrams/diagram_05.png",
+      "diagrams/diagram_06.png"
+    ]
+  }
+}

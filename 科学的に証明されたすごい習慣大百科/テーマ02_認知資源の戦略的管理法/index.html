@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>認知資源の戦略的管理法 | 科学的に証明されたすごい習慣大百科</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', sans-serif;
+            line-height: 1.8;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        .header .book-name {
+            font-size: 1.2rem;
+            color: #764ba2;
+            font-weight: bold;
+        }
+        .header .meta {
+            margin-top: 15px;
+            color: #666;
+            font-size: 0.95rem;
+        }
+        .summary {
+            background: #f0f4ff;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            border-left: 5px solid #667eea;
+        }
+        .summary h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+        .overview-section {
+            margin-bottom: 50px;
+        }
+        .overview-section h2 {
+            color: #764ba2;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #764ba2;
+        }
+        .overview-image {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        .diagrams-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        .diagram-card {
+            background: #f9f9f9;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .diagram-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+        .diagram-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .diagram-card h3 {
+            color: #667eea;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5);
+        }
+        .subtitles {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 25px;
+            margin: 30px 0;
+        }
+        .subtitles h3 {
+            color: #764ba2;
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+        }
+        .subtitles ol {
+            padding-left: 25px;
+        }
+        .subtitles li {
+            margin-bottom: 12px;
+            color: #555;
+            line-height: 1.6;
+        }
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .tag {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 25px;
+            background: #999;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: background 0.3s;
+        }
+        .back-link:hover {
+            background: #666;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            .header h1 {
+                font-size: 1.8rem;
+            }
+            .diagrams-grid {
+                grid-template-columns: 1fr;
+            }
+            .cta-buttons {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="book-name">科学的に証明されたすごい習慣大百科</div>
+            <h1>認知資源の戦略的管理法</h1>
+            <div class="meta">
+                📚 読了時間: 約13分 | 📝 3,400文字 | 📅 2025年12月20日生成
+            </div>
+        </div>
+
+        <div class="summary">
+            <h2>📌 このテーマで学べること</h2>
+            <p>認知資源を科学的に管理することで、決断疲労を回避し、時間知覚の操作、戦略的昼寝、If-Then計画、体性感覚刺激、感情状態の最適化を組み合わせ、持続可能な高生産性を実現する6つの実践戦略を提供。</p>
+        </div>
+
+        <div class="tags">
+            <span class="tag">#認知資源管理</span>
+            <span class="tag">#決断疲労</span>
+            <span class="tag">#時間管理</span>
+            <span class="tag">#パワーナップ</span>
+            <span class="tag">#実装意図</span>
+            <span class="tag">#生産性向上</span>
+            <span class="tag">#神経科学</span>
+            <span class="tag">#自己制御</span>
+        </div>
+
+        <div class="cta-buttons">
+            <a href="reading.html" class="cta-button">📖 詳細な解説を読む</a>
+        </div>
+
+        <div class="overview-section">
+            <h2>🎯 全体概要</h2>
+            <p>6つのサブタイトル全体を1枚で俯瞰できる概要図です。</p>
+            <img src="overview_image.png" alt="認知資源の戦略的管理法 - 全体概要" class="overview-image">
+        </div>
+
+        <div class="subtitles">
+            <h3>📋 6つのサブタイトル</h3>
+            <ol>
+                <li>決断疲労の神経科学的メカニズムと時間戦略</li>
+                <li>時間知覚の操作が作業ペースに与える驚異的効果</li>
+                <li>戦略的昼寝による認知資源の選択的再充電</li>
+                <li>If-Then計画による意思決定の完全自動化</li>
+                <li>体性感覚刺激による覚醒水準の即時調整</li>
+                <li>感情状態の事前最適化による生産性の飛躍的向上</li>
+            </ol>
+        </div>
+
+        <div class="overview-section">
+            <h2>📊 各セクション詳細図解</h2>
+            <p>6つのサブタイトルそれぞれの詳細な図解です。</p>
+            <div class="diagrams-grid">
+                <div class="diagram-card">
+                    <img src="diagrams/diagram_01.png" alt="図解1">
+                    <h3>① 決断疲労のメカニズムと時間戦略</h3>
+                </div>
+                <div class="diagram-card">
+                    <img src="diagrams/diagram_02.png" alt="図解2">
+                    <h3>② 時間知覚操作の驚異的効果</h3>
+                </div>
+                <div class="diagram-card">
+                    <img src="diagrams/diagram_03.png" alt="図解3">
+                    <h3>③ 戦略的昼寝による再充電</h3>
+                </div>
+                <div class="diagram-card">
+                    <img src="diagrams/diagram_04.png" alt="図解4">
+                    <h3>④ If-Then計画の完全自動化</h3>
+                </div>
+                <div class="diagram-card">
+                    <img src="diagrams/diagram_05.png" alt="図解5">
+                    <h3>⑤ 体性感覚刺激による覚醒調整</h3>
+                </div>
+                <div class="diagram-card">
+                    <img src="diagrams/diagram_06.png" alt="図解6">
+                    <h3>⑥ 感情状態の事前最適化</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta-buttons">
+            <a href="reading.html" class="cta-button">📖 今すぐ詳細を読む</a>
+        </div>
+
+        <div style="margin-top: 50px; padding-top: 30px; border-top: 2px solid #eee;">
+            <h3 style="color: #764ba2; margin-bottom: 15px;">🔬 主な研究ソース</h3>
+            <ul style="padding-left: 25px; color: #666;">
+                <li>Frontiers in Neuroscience (2023) - 決断疲労研究</li>
+                <li>イスラエル刑務所研究 - 時間帯別判断質の変化</li>
+                <li>東京大学 - 時計運針速度と作業効率研究</li>
+                <li>NASA (1995) - パワーナップ研究</li>
+                <li>Flinders大学 - 最適昼寝時間研究</li>
+                <li>Peter Gollwitzer - 実装意図メタ分析</li>
+                <li>電力中央研究所 - 体性感覚刺激と覚醒研究</li>
+                <li>Warwick大学 - ポジティブ感情と生産性研究</li>
+                <li>広島大学 - 興味と主体的学習研究</li>
+            </ul>
+        </div>
+
+        <a href="../../index.html" class="back-link">← ライブラリトップに戻る</a>
+    </div>
+</body>
+</html>
