@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>画像ギャラリー - 裁量基準に従った処分の適法性(申請処分)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif;
+            background: #f0f2f5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+        }
+
+        .image-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .image-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+
+        .image-card img {
+            width: 100%;
+            display: block;
+        }
+
+        .image-caption {
+            padding: 15px;
+            font-size: 14px;
+            color: #666;
+            text-align: center;
+        }
+
+        .overview-section {
+            margin-bottom: 40px;
+        }
+
+        .overview-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+
+        .overview-card .image-caption {
+            color: white;
+            font-weight: bold;
+        }
+
+        .section-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 40px 0 20px;
+            color: #333;
+        }
+
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 画像ギャラリー</h1>
+            <div class="subtitle">裁量基準に従った処分の適法性(申請に対する処分の場合)</div>
+        </div>
+
+        <div class="overview-section">
+            <div class="section-title">🎯 全体概要</div>
+            <div class="image-card overview-card">
+                <img src="overview_image.png" alt="全体概要">
+                <div class="image-caption">テーマ全体の概要（裁量基準に従った処分の適法性）</div>
+            </div>
+        </div>
+
+        <div class="section-title">📚 各サブタイトルの図解</div>
+        <div class="gallery">
+            <div class="image-card">
+                <img src="diagrams/subtitle_1_裁量基準とは何か.png" alt="図解1">
+                <div class="image-caption">1. 裁量基準とは何か</div>
+            </div>
+
+            <div class="image-card">
+                <img src="diagrams/subtitle_2_申請に対する処分における裁量.png" alt="図解2">
+                <div class="image-caption">2. 申請に対する処分における裁量</div>
+            </div>
+
+            <div class="image-card">
+                <img src="diagrams/subtitle_3_適正原価適正利潤基準の意義.png" alt="図解3">
+                <div class="image-caption">3. 適正原価適正利潤基準の意義</div>
+            </div>
+
+            <div class="image-card">
+                <img src="diagrams/subtitle_4_裁量基準への適合性審査と裁量権.png" alt="図解4">
+                <div class="image-caption">4. 裁量基準への適合性審査と裁量権</div>
+            </div>
+
+            <div class="image-card">
+                <img src="diagrams/subtitle_5_資料提出義務と申請者の協力義務.png" alt="図解5">
+                <div class="image-caption">5. 資料提出義務と申請者の協力義務</div>
+            </div>
+
+            <div class="image-card">
+                <img src="diagrams/subtitle_6_本判決の意義と実務への影響.png" alt="図解6">
+                <div class="image-caption">6. 本判決の意義と実務への影響</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
