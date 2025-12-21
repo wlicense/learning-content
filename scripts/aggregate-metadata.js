@@ -51,6 +51,14 @@ function findAllMetadata(dir, bookName = null) {
                             const relativePath = path.relative(ROOT_DIR, fullPath);
                             const urlPath = relativePath.split(path.sep).join('/');
 
+                            // サムネイル画像を検索（優先順位: manga_4koma.png > overview_image.png）
+                            let thumbnailPath = urlPath + '/manga_4koma.png';
+                            if (!fs.existsSync(path.join(fullPath, 'manga_4koma.png'))) {
+                                if (fs.existsSync(path.join(fullPath, 'overview_image.png'))) {
+                                    thumbnailPath = urlPath + '/overview_image.png';
+                                }
+                            }
+
                             results.push({
                                 book_name: bookName,
                                 theme: metadata.theme || item.name,
@@ -58,7 +66,7 @@ function findAllMetadata(dir, bookName = null) {
                                 tags: metadata.tags || {},
                                 aspects: metadata.aspects || [],
                                 url: urlPath + '/reading.html',
-                                thumbnail: urlPath + '/manga_4koma.png',
+                                thumbnail: thumbnailPath,
                                 metadata: metadata
                             });
                         } catch (error) {
