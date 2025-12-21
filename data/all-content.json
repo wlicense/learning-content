@@ -1,5 +1,5 @@
 {
-  "total_count": 28,
+  "total_count": 29,
   "last_updated": "2025-12-21",
   "books": [
     {
@@ -2005,7 +2005,6 @@
           "url": "基本行政法判例演習/行政処分における理由提示の要件と処分基準/reading.html",
           "thumbnail": "基本行政法判例演習/行政処分における理由提示の要件と処分基準/manga_4koma.png",
           "metadata": {
-            "book_name": "基本行政法判例演習",
             "theme": "行政処分における理由提示の要件と処分基準",
             "created_at": "2025-12-21",
             "tags": {
@@ -2035,7 +2034,8 @@
               "理由提示の程度を決める考慮要素を学ぶ",
               "処分基準の適用関係を示す必要性を理解する",
               "理由提示不備の法的効果を把握する"
-            ]
+            ],
+            "source_note": "最高裁判例を基に独自に作成"
           }
         }
       ]
@@ -2946,6 +2946,72 @@
             "aspects": [
               "physical"
             ]
+          }
+        }
+      ]
+    },
+    {
+      "book_name": "行政裁量",
+      "themes_count": 1,
+      "themes": [
+        {
+          "book_name": "行政裁量",
+          "theme": "判断過程審査による裁量統制",
+          "created_at": "2025-12-21",
+          "tags": {
+            "category": "行政法",
+            "subcategory": "行政裁量",
+            "difficulty": "中級",
+            "keywords": [
+              "判断過程審査",
+              "裁量統制",
+              "学校施設使用許可",
+              "裁量権の逸脱・濫用",
+              "考慮要素",
+              "最高裁判例"
+            ],
+            "case_name": "呉市公立学校施設使用不許可事件",
+            "court": "最高裁判所",
+            "case_date": "平成18年2月7日",
+            "citation": "民集60巻2号401頁"
+          },
+          "aspects": [],
+          "url": "行政裁量/判断過程審査による裁量統制/reading.html",
+          "thumbnail": "行政裁量/判断過程審査による裁量統制/manga_4koma.png",
+          "metadata": {
+            "theme": "判断過程審査による裁量統制",
+            "created_at": "2025-12-21",
+            "tags": {
+              "category": "行政法",
+              "subcategory": "行政裁量",
+              "difficulty": "中級",
+              "keywords": [
+                "判断過程審査",
+                "裁量統制",
+                "学校施設使用許可",
+                "裁量権の逸脱・濫用",
+                "考慮要素",
+                "最高裁判例"
+              ],
+              "case_name": "呉市公立学校施設使用不許可事件",
+              "court": "最高裁判所",
+              "case_date": "平成18年2月7日",
+              "citation": "民集60巻2号401頁"
+            },
+            "content_stats": {
+              "word_count": 5500,
+              "diagram_count": 6,
+              "overview_image_count": 1,
+              "estimated_reading_time": "16分"
+            },
+            "learning_objectives": [
+              "判断過程審査の意義と手法を理解する",
+              "裁量処分の司法審査における困難性を学ぶ",
+              "考慮すべき事項と考慮すべきでない事項の区別を理解する",
+              "学校施設の目的外使用許可における裁量の所在を把握する",
+              "本判決が行政実務に与えた影響を理解する"
+            ],
+            "source_note": "最高裁判例を基に独自に作成"
           }
         }
       ]
